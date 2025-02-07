@@ -1,5 +1,5 @@
 ;;; Using functions: +, *, first
-(ns a.e3)
+(ns p1.e3)
 
 ;; return the sum of the values
 (defn -main []
