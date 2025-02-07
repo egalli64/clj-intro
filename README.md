@@ -22,3 +22,5 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e5. the equality operator =
     e6. or, and
     e7. def
+#### b. data structures
+    e1. numbers and strings
