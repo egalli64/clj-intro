@@ -3,7 +3,7 @@
 ;; they are actually _macro_ since it is expanded to code before execution
 ;; their nature of macro let them _not_ to evaluate all the arguments if that is not required
 
-(ns b.e6)
+(ns p2.ch3.a.e6)
 
 (defn -main []
     ;; _or_ the first truthy is returned

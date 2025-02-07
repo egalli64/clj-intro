@@ -1,6 +1,6 @@
 ;;; the equality operator _=_
 
-(ns b.e5)
+(ns p2.ch3.a.e5)
 
 (defn -main []
     ;; use = for comparison

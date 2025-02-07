@@ -1,7 +1,7 @@
 ;;; nil, true, false
 ;; the function nil? check if its argument is nil
 
-(ns b.e4)
+(ns p2.ch3.a.e4)
 
 (defn -main []
     ;; only nil is nil

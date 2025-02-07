@@ -1,9 +1,9 @@
 ;;; _def_ to bind a name to a value
 
-(ns b.e7)
+(ns p2.ch3.a.e7)
 
 ;; define _globally_! the name 'user' and bind it to the string 'Bob'
-;; it is possible to rebound a name to another value, but don't do that (if you can avoid to do it)
+;; it is possible to rebound a name to another value, but don't do that (if you can avoid it)
 (def user "Bob")
 
 (defn -main []

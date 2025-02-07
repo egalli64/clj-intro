@@ -4,7 +4,7 @@
 ;; The first form is evaluated if condition is truthy (not nil or false)
 ;; The second form is evaluated if condition is falsy (nil or false)
 
-(ns b.e2)
+(ns p2.ch3.a.e2)
 
 (defn -main [] 
     (println (if true "That's truthy" "That's falsey"))

@@ -3,7 +3,7 @@
 ;; an expression could be a _literal_ or an _operation_
 ;; a literal is a self-evaluating expression, as the number 42, or the string "hello"
 ;; an operation is something that involves computation or transformation, as a function call
-(ns b.e1)
+(ns p2.ch3.a.e1)
 
 
 (defn -main []

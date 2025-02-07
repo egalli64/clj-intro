@@ -1,7 +1,7 @@
 ;;; control flow: _if_ + _do_ expression, and the _when_ expression
 ;; since _if_ expects two forms, the "then" and "else", _do_ is required to group more forms
 
-(ns b.e3)
+(ns p2.ch3.a.e3)
 
 (defn -main []
     ;; print what _if_ returns
