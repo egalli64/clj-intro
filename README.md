@@ -30,3 +30,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e5. sets
 #### c. functions
     e1. call
+    e2. function, macro, special form
