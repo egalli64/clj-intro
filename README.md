@@ -28,3 +28,5 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e3. vector
     e4. list
     e5. sets
+#### c. functions
+    e1. call
