@@ -24,3 +24,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e7. def
 #### b. data structures
     e1. numbers and strings
+    e2. maps and keyword
