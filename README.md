@@ -25,3 +25,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### b. data structures
     e1. numbers and strings
     e2. maps and keyword
+    e3. vector
