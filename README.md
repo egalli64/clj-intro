@@ -26,3 +26,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e1. numbers and strings
     e2. maps and keyword
     e3. vector
+    e4. list
