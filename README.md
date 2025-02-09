@@ -33,4 +33,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e2. function, macro, special form
     e3. definition
     e4. arity overloading
-    
+    e5. variadic function
