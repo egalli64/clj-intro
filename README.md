@@ -31,3 +31,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### c. functions
     e1. call
     e2. function, macro, special form
+    e3. definition
