@@ -35,3 +35,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e4. arity overloading
     e5. variadic function
     e6. destructuring
+    e7. anonymous functions
