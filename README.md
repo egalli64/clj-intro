@@ -37,3 +37,5 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e6. destructuring
     e7. anonymous function
     e8. closure
+#### d. more
+    e1. let
