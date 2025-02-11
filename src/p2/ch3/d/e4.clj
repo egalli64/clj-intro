@@ -1,8 +1,7 @@
-;;; into (66)
+;;; function _into_ used to copy elements from a collection to another one
 ;;
-;; the function _into_ copies elements from a collection to another one
 ;; basic syntax: (into to-coll from-coll)
-;; overload with transducer: (into to-coll xform from-coll)
+;; overload with transducer: (into to-coll transducer from-coll)
 
 (ns p2.ch3.d.e4)
 
