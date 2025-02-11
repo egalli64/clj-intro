@@ -43,3 +43,7 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e3. regular expression
     e4. into
     e5. reduce
+
+### Chapter 4 - Core Functions
+#### a. programming to abstractions
+    e1. sequence and seqable
