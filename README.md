@@ -47,3 +47,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 ### Chapter 4 - Core Functions
 #### a. programming to abstractions
     e1. sequence and seqable
+    e2. map, first, rest, cons
