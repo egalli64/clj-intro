@@ -48,4 +48,6 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### a. programming to abstractions
     e1. sequence and seqable
     e2. map, first, rest, cons functions
-    e3. map and seq data structures
+    e3. from map (data structure) to seq
+#### b. seq functions
+    e1. more on using the map function
