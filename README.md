@@ -51,3 +51,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e3. from map (data structure) to seq
 #### b. seq functions
     e1. more on using the map function
+    e2. assoc
