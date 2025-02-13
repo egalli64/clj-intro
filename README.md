@@ -56,3 +56,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e4. reduce for filtering
     e5. take, drop, take-while, drop-while
     e6. filter, some
+    e7. sort, sort-by
