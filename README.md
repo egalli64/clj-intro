@@ -55,3 +55,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e3. reduce for mapping
     e4. reduce for filtering
     e5. take, drop, take-while, drop-while
+    e6. filter, some
