@@ -58,3 +58,5 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e6. filter, some
     e7. sort, sort-by
     e8. concat
+#### c. lazy seq
+    e1. range
