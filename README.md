@@ -52,3 +52,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### b. seq functions
     e1. more on using the map function
     e2. assoc
+    e3. reduce to map a map
