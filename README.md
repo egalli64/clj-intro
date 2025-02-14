@@ -60,3 +60,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e8. concat
 #### c. lazy seq
     e1. range
+    e2. repeat
