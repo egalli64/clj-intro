@@ -58,8 +58,10 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e6. filter, some
     e7. sort, sort-by
     e8. concat
-#### c. lazy seq
+#### c. lazy seq functions
     e1. range
     e2. repeat
     e3. repeatedly
     e4. custom lazy seq generation
+#### d. collection functions
+    e1. count
