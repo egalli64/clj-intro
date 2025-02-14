@@ -68,3 +68,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e2. empty?
     e3. every?
     e4. into
+    e5. conj
