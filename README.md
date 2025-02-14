@@ -65,3 +65,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e4. custom lazy seq generation
 #### d. collection functions
     e1. count
+    e2. empty?
