@@ -62,3 +62,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e1. range
     e2. repeat
     e3. repeatedly
+    e4. custom lazy seq generation
