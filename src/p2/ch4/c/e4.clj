@@ -7,7 +7,15 @@
     ;; zero arity overload, calls the other overload with 0 as argument
     ([] (step-by-2 0))
     ;; one arity overload
-    ([n] (cons n (lazy-seq (step-by-2 (+ n 2)))))
+    ([n] (
+        ;; cons put n in the first position of the generated sequence
+        cons n (
+            ;; let the seq be lazy, or we'll have a stack overflow due to recursion
+            lazy-seq (
+                ;; recursively call the function on n increased by 2
+                step-by-2 (+ n 2)
+        ))
+    ))
 )
 
 (defn -main []
