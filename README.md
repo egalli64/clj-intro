@@ -66,3 +66,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### d. collection functions
     e1. count
     e2. empty?
+    e3. every?
