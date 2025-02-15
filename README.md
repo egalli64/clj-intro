@@ -73,3 +73,7 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e1. apply
     e2. partial
     e3. complement
+
+### Chapter 5 - Functional Programming
+#### a. pure function
+    e1. referential transparency
