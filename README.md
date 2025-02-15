@@ -77,3 +77,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 ### Chapter 5 - Functional Programming
 #### a. pure function
     e1. referential transparency
+    e2. no side effects
