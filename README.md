@@ -71,4 +71,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e5. conj
 #### e. function functions
     e1. apply
-    
+    e2. partial
