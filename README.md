@@ -72,3 +72,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### e. function functions
     e1. apply
     e2. partial
+    e3. complement
