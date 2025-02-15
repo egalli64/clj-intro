@@ -69,3 +69,6 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e3. every?
     e4. into
     e5. conj
+#### e. function functions
+    e1. apply
+    
