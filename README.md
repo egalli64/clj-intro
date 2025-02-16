@@ -78,3 +78,6 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### a. pure function
     e1. referential transparency
     e2. no side effects
+#### b. living with immutable data structures
+    e1. recursion instead of loop
+    
