@@ -80,4 +80,5 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e2. no side effects
 #### b. living with immutable data structures
     e1. recursion instead of loop
+    e2. function composition instead of attribute mutation
     
