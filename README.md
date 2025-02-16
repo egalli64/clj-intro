@@ -81,4 +81,7 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### b. living with immutable data structures
     e1. recursion instead of loop
     e2. function composition instead of attribute mutation
+#### c. more function functions
+    e1. comp
+
     
