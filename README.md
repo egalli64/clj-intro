@@ -88,3 +88,4 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 ### Chapter 6 - Organizing Your Project
 #### a. basics
     e1. current namespace
+    e2. def, ns-interns, names collision
