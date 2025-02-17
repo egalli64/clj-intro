@@ -84,4 +84,7 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### c. more function functions
     e1. comp
     e2. memoize
-    
+
+### Chapter 6 - Organizing Your Project
+#### a. basics
+    e1. current namespace
