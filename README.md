@@ -86,6 +86,8 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e2. memoize
 
 ### Chapter 6 - Organizing Your Project
-#### a. basics
+#### a. namespaces
     e1. current namespace
     e2. def, ns-interns, names collision
+    e3. create-ns, ns-name, in-ns
+    
