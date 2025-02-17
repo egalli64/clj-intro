@@ -83,5 +83,5 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e2. function composition instead of attribute mutation
 #### c. more function functions
     e1. comp
-
+    e2. memoize
     
