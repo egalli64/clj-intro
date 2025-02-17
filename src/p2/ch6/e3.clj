@@ -1,6 +1,6 @@
 ;;; create-ns, ns-name, in-ns
 
-(ns p2.ch6.a.e3)
+(ns p2.ch6.e3)
 
 (defn -main []
     (println "The current namespace:" (ns-name *ns*))
