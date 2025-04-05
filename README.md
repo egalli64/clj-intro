@@ -24,10 +24,10 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e7. def: bind a value to a symbol in the global scope
 #### b. data structures
     e1. numbers and strings
-    e2. maps and keyword
-    e3. vector
-    e4. list
-    e5. sets
+    e2. map and keyword; hash-map {}
+    e3. vector []
+    e4. list '()
+    e5. set: hash-set #{}
 #### c. functions
     e1. call
     e2. function, macro, special form

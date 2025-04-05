@@ -1,7 +1,7 @@
 ;;; maps: key - value relation
-;; the key is usually a _keyword_ (name prefixed by colon)
+;; the key is usually a _keyword_ (symbol prefixed by colon)
 ;; a _keyword_ is a symbolic constant that does not have any associated value
-;; the value could be anything
+;; the map value could be anything
 
 (ns p2.ch3.b.e2)
 

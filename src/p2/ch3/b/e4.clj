@@ -1,15 +1,15 @@
-;;; list
+;;; list '() sequential access, linked list
 
 (ns p2.ch3.b.e4)
 
 (defn -main []
     ;; using _list literal_ to create list objects
-    (println "An empty list:" '())
-    (println "A list with three items:" '(1 2 3))
+    (println "An empty list (literal):" '())
+    (println "A list with three items (literal):" '(1 2 3))
 
     ;; same, but using the list constructor
-    (println "An empty list:" (list))
-    (println "A list with three items:" (list 1 2 3))
+    (println "An empty list (constructor):" (list))
+    (println "A list with three items (constructor):" (list 1 2 3))
 
     ;; getting a value by index by _nth function_
     (println "Get the first value ..." (nth '(1 2 3) 0))

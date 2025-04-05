@@ -1,4 +1,4 @@
-;;; integers and strings
+;;; numbers and strings
 (ns p2.ch3.b.e1)
 
 

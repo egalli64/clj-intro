@@ -1,5 +1,6 @@
-;;; sets - no duplicates
-;; both hash-set and sorted-set are available
+;;; sets: #{}, hash-set - no duplicates
+;; use the factory function set to generate a hash-set
+;; sorted-set is also available
 
 (ns p2.ch3.b.e5)
 
