@@ -33,9 +33,9 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e2. callables: function, macro, special form
     e3. definition by defn
     e4. arity overloading
-    e5. variadic function
-    e6. destructuring
-    e7. anonymous function
+    e5. variadic function by & more
+    e6. destructuring by [[ x & more]]
+    e7. anonymous function by (fn [] ) and #( % ) macro
     e8. closure
 #### d. more
     e1. let

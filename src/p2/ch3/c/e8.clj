@@ -5,7 +5,9 @@
 (ns p2.ch3.c.e8)
 
 ;; a factory function
-(defn increaser "Returns an increaser closure" [delta] #(+ % delta))
+(defn increaser "Returns an increaser closure" [delta]
+    #(+ % delta)
+)
 
 ;; creating a closure
 (def increase-3 (increaser 3))

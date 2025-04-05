@@ -1,7 +1,7 @@
-;;; anonymous function (also known as lambda function)
+;;; anonymous function (also known as lambda function in other languages)
 ;;
-;; by fn keyword: (fn [parameters] body)
-;; shorthand:     #(body with %)
+;; by fn keyword:       (fn [parameters] body)
+;; by macro shorthand:  #(body with %)
 
 (ns p2.ch3.c.e7)
 
@@ -26,9 +26,14 @@
     (println "Names mapped to messages:" messages)
 
     ;; when more parameters are needed, use %1, %2, ... and %& for more args
-    (println (#(str "Hi, " %1 ", " %2 " and " %& "!") "Tom" "Bob" "Joe" "Kim"))
+    (println (
+        #(str "Hi, " %1 ", " %2 " and " %& "!") 
+        "Tom" "Bob" "Joe" "Kim"
+    ))
 
     ;; same
-    (def hello (fn [first second & more] (str "Hi, " first ", " second " and " more "!")))
-    (println (hello "Tom" "Bob" "Joe" "Kim"))
+    (def hello (
+        fn [first second & more] (
+            str "Hi, " first ", " second " and " more "!")
+    ))(println (hello "Tom" "Bob" "Joe" "Kim"))
 )
