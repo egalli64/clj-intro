@@ -1,5 +1,9 @@
 ;;; regular expression
 ;; to build a regex pattern use the function re-pattern or the equivalent reader macro #""
+;;
+;; re-matches: full match
+;; re-find: find the first match
+;; re-seq: find all matches
 
 (ns p2.ch3.d.e3)
 

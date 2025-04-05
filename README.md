@@ -38,11 +38,11 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e7. anonymous function by (fn [] ) and #( % ) macro
     e8. closure
 #### d. more
-    e1. let
-    e2. loop recur
-    e3. regular expression
-    e4. into
-    e5. reduce
+    e1. let: bind a value to a symbol in the local scope
+    e2. loop recur: simplified TCO mechanism
+    e3. regular expression: re-pattern, re-matches, re-find, re-seq
+    e4. into function: plain and with transducer
+    e5. the reduce high order function
 
 ### Chapter 4 - Core Functions
 #### a. programming to abstractions
