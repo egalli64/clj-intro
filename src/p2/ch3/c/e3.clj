@@ -1,6 +1,6 @@
 ;;; Function definition - in the global space at namespace level
 ;;
-;; defn function-name "optional docstring" [list of parameters] function_body
+;; (defn function-name "optional docstring" [list of parameters] function_body)
 ;; the last form evaluated is implicitly returned to the caller
 
 (ns p2.ch3.c.e3)
@@ -12,7 +12,7 @@
 (defn check-negative "A function returning a string" [x] (if (< x 0) "negative" "non negative"))
 
 (defn -main "The main function for the current namespace" []
-    ;; my hello returns nil
+    ;; the hello function returns nil
     (println (hello "Tom"))
 
     ;; won't work: ArityException

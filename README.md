@@ -29,9 +29,9 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e4. list '()
     e5. set: hash-set #{}
 #### c. functions
-    e1. call
-    e2. function, macro, special form
-    e3. definition
+    e1. invoking a callable
+    e2. callables: function, macro, special form
+    e3. definition by defn
     e4. arity overloading
     e5. variadic function
     e6. destructuring
