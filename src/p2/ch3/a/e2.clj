@@ -2,7 +2,7 @@
 ;;
 ;; it follows this structure: (if condition form-1 form-2)
 ;; The first form is evaluated if condition is truthy (not nil or false)
-;; The second form is evaluated if condition is falsy (nil or false)
+;; The second form is evaluated if condition is falsey (nil or false)
 
 (ns p2.ch3.a.e2)
 

@@ -9,19 +9,19 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 ## Part 1 - Setup
     The user startup script
     e1. running a script
-    e2. running an app
-    e3. functions: +, *, first
+    e2. running an app, the -main function
+    e3. calling functions: +, *, first
 
 ## Part 2 - Language Fundamentals
 ### Chapter 3 - Crash Course
 #### a. syntax
-    e1. form, expression
-    e2. control flow: if
-    e3. control flow: if + do, when
-    e4. nil, true, false
+    e1. form, expression, literal, operation
+    e2. control flow: if, truthy and falsey (nil and false)
+    e3. control flow: if do, when (if do with no "else")
+    e4. the nil? function, truthy and falsey
     e5. the equality operator =
-    e6. or, and
-    e7. def
+    e6. the boolean expressions or, and
+    e7. def: bind a value to a symbol in the global scope
 #### b. data structures
     e1. numbers and strings
     e2. maps and keyword
