@@ -55,8 +55,8 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e3. reduce/assoc for mapping
     e4. reduce/assoc for filtering
     e5. take, drop, take-while, drop-while
-    e6. filter, some
-    e7. sort, sort-by
+    e6. filter, some, some w/ and
+    e7. sort, sort w/ comparator, sort-by
     e8. concat
 #### c. lazy seq functions
     e1. range

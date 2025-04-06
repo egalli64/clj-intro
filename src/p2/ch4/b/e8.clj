@@ -1,5 +1,5 @@
 ;;; concat
-;; (concat seqable sequable) concatenate the two seqables in a new lazy sequence
+;; (concat seqable seqable) concatenate the two seqables in a new lazy sequence
 
 (ns p2.ch4.b.e8)
 
