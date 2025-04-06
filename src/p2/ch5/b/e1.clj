@@ -27,13 +27,16 @@
 
 ;; loop - recur alternative (TCO), hides internally the use of accumulator
 (defn sum-loop-recur [values]
-    ;; "loop" (actually, TCO recurse) on the local variable values that shadows the parameter, and on the accumulator
+    ;; "loop" (actually, TCO recurse) on the symbol values that shadows the outer parameter, and on the accumulator
+    ;; the values binding in loop is initialized with the value of the outer parameter
+    ;; acc is initialized to zero
     (loop [values values acc 0]
         ;; if the seq is empty returns the accumulator
         (if (empty? values)
             acc
             ;; otherwise recur on loop with rest and acc increased with first
-            (recur (rest values) (+ (first values) acc)))))
+            (recur (rest values) (+ (first values) acc))))
+)
 
 ;; in this case we can use reduce
 (defn sum-reduce [values] (reduce + 0 values))
