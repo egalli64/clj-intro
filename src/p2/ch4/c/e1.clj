@@ -9,6 +9,7 @@
 
 (defn -main []
     ;; being lazy, a range generation is relatively cheap
+    (print "timing the generation of 1 million range: ")
     (time (range 0 1000000))
 
     ;; infinite range requires a limit!

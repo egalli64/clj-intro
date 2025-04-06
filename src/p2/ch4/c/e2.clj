@@ -7,5 +7,5 @@
 
 (defn -main []
     (println "repeat 3 hello:" (repeat 3 "hello"))
-    (println "take 3 from repeat hello:" (take 3 (repeat "hello")))
+    (println "take 3 from infinite repeat hello:" (take 3 (repeat "hello")))
 )

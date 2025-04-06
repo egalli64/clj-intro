@@ -6,6 +6,6 @@
 (ns p2.ch4.c.e3)
 
 (defn -main []
-    (println "repeatedly 10 calls of rand-int for [0..1]:" (repeatedly 10 #(rand-int 2)))
-    (println "take 3 from repeatedly call rand:" (take 3 (repeatedly rand)))
+    (println "repeatedly 10 calls of rand-int for [0..2):" (repeatedly 10 #(rand-int 2)))
+    (println "take 3 from repeatedly infinite call rand:" (take 3 (repeatedly rand)))
 )
