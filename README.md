@@ -70,9 +70,9 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e4. into
     e5. conj
 #### e. function functions
-    e1. apply
-    e2. partial
-    e3. complement
+    e1. apply: splat a collection
+    e2. partial: simplify currying
+    e3. complement: negate a predicate function
 
 ### Chapter 5 - Functional Programming
 #### a. pure function
