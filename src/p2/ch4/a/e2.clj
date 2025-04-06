@@ -1,4 +1,8 @@
 ;;; map, first, rest, cons functions
+;; designed to work on sequences, work on seqable
+;; they work on a collection, one element at a time
+;; we use the right data structure for the current problem
+;; still we work on it with these functions
 ;;
 ;; (map func seqable ...) applies func to the elements of seqable(s) and returns the values in a _lazy sequence_ 
 ;; (first seqable) returns the first element in the seqable
@@ -12,22 +16,23 @@
 (defn -main []
     ;; map the input vector to a lazy seq by inc
     (let [numbers (map inc input)]
-        (println "Mapping" input "to ..." (type numbers) numbers)
+        (println "Mapping by inc" input "to a" (type numbers) numbers)
     )
+
     ;; generate a set from the vector, than maps it by inc as above 
-    (let [a_set (set input) numbers (map inc a_set)]
-        (println "Mapping" a_set "to ..." numbers)
+    (let [a_set (set input)]
+        (println "Mapping by inc" a_set "to" (map inc a_set))
     )
 
     ;; first
-    (println "First item in" input "is ..." (first input))
-    (println "First item an empty seqable is ..." (first #{}))
+    (println "First element in" input "is" (first input))
+    (println "First element in an empty seqable is" (first #{}))
 
     ;; rest
-    (println "Rest of" input "is ..." (rest input))
-    (println "Rest of an empty seqable is empty ..." (rest #{}))
+    (println "Rest of" input "is" (rest input))
+    (println "Rest of an empty seqable is empty:" (rest #{}))
 
     ;; cons
-    (println "Cons 0 to" input "leads to ..." (cons 0 input))
-    (println "Cons 0 to an empty seqable leads to ..." (cons 0 #{}))
+    (println "Cons 0 to" input "leads to" (cons 0 input))
+    (println "Cons 0 to an empty seqable leads to" (cons 0 #{}))
 )
