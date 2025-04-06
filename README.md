@@ -51,9 +51,9 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e3. from map (data structure) to seq
 #### b. seq functions
     e1. more on using the map function
-    e2. assoc
-    e3. reduce for mapping
-    e4. reduce for filtering
+    e2. assoc: kind of cons for maps (but could also modify it)
+    e3. reduce/assoc for mapping
+    e4. reduce/assoc for filtering
     e5. take, drop, take-while, drop-while
     e6. filter, some
     e7. sort, sort-by

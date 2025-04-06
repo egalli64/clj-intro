@@ -6,10 +6,13 @@
     (let [data {:min 10 :max 20}]
         (println "The original data:" data)
 
-        ;; takes an accumulator and a map entry, assoc to the accumulator the new entry with increased value
-        (defn increment-value [acc [k v]] (assoc acc k (inc v)))
+        ;; takes an accumulator and a map entry
+        (defn increase-values [acc [k v]] (
+            ;; assoc to the accumulator the new entry with increased value
+            assoc acc k (inc v)
+        ))
         ;; call reduce to add all the entries in data to a new map (with value increased)
-        (println "reduce - assoc:" (reduce increment-value {} data))
+        (println "Use reduce-assoc to increase values:" (reduce increase-values {} data))
 
         ;; same, anonymous function by fn
         (println "Same, lambda by fn:" (reduce (fn [acc [k v]] (assoc acc k (inc v))) {} data))

@@ -23,11 +23,11 @@
     (let [data [1 2]]
         (println "Original data:" data)
         ;; new vector with a new item in it
-        (println "add:" (assoc data 2 3))
+        (println "assoc at index 2 value 3:" (assoc data 2 3))
         ;; won't work: IndexOutOfBoundsException - no holes in a vector
-        ;; (println "add:" (assoc data 3 4))
+        ;; (println "assoc at index 3 value 4:" (assoc data 3 4))
         ;; new vector with a modified item in it
-        (println "modify:" (assoc data 1 42))
+        (println "assoc at index 1 value 42:" (assoc data 1 42))
         ;; new vector with a modified item and a new one in it
         (println "add and modify:" (assoc data 1 11 2 22))
 
