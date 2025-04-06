@@ -82,8 +82,8 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e1. loop/recur: recursion instead of loop
     e2. function composition instead of attribute mutation
 #### c. more function functions
-    e1. comp
-    e2. memoize
+    e1. comp: compose functions
+    e2. memoize: caching results
 
 ### Chapter 6 - Organizing Your Project
     e1. current namespace
