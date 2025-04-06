@@ -8,10 +8,10 @@
 (defn -main[]
     (println "vector empty? (yes)" (empty? []))
     (println "vector empty? (no)" (empty? [1]))
-    (println "list empty?" (empty? '()))
+    (println "list empty (yes)?" (empty? '()))
     (println "set empty?" (empty? #{}))
     (println "map empty?" (empty? {}))
-    (println "seq empty? (yes)" (empty? (range 0 0)))
-    (println "seq empty? (no)" (empty? (range)))
+    (println "lazy-seq from range empty?" (empty? (range 0 0)))
+    (println "lazy-seq seq from range empty? (no)" (empty? (range)))
     (println "nil empty? (yes!)" (empty? nil))
 )
