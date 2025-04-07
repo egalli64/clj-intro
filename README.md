@@ -90,3 +90,9 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
     e2. def, ns-interns, names collision
     e3. create-ns, ns-name, in-ns
     e4. require, refer, alias, use
+
+### Chapter 7 - Reading, Evaluation, and Macros
+#### a. intro
+    e1. defmacro
+    e2. eval: the Clojure evaluator
+    
