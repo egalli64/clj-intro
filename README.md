@@ -95,4 +95,6 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### a. intro
     e1. defmacro
     e2. eval: the Clojure evaluator
-    
+#### b. the reader
+    e1. read-string
+    e2. macro resolving to explicit form
