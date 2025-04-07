@@ -98,3 +98,9 @@ https://www.braveclojure.com/clojure-for-the-brave-and-true/
 #### b. the reader
     e1. read-string
     e2. macro resolving to explicit form
+#### c. the evaluator
+    e1. eval to self
+    e2. symbols
+    e3. lists
+    e4. defmacro
+    e5. macroexpand
