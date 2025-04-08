@@ -1,8 +1,3 @@
-;; Problem 3, Strings
-;; https://4clojure.oxal.org/#/problem/3
-;; (= __ (.toUpperCase "hello world"))
-"HELLO WORLD"
-
 ;; Problem 4, Lists
 ;; https://4clojure.oxal.org/#/problem/4
 ;; (= (list __) '(:a :b :c))
