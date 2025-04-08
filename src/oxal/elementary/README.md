@@ -8,3 +8,4 @@ https://4clojure.oxal.org/
 
 - [1](p01.clj) Only true is true
 - [1b](p01b.clj) Only false and nil are falsey
+- [2](p02.clj) Parentheses in a simple mathematical expression

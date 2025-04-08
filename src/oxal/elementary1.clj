@@ -1,13 +1,3 @@
-;; Problem 1, Nothing but the Truth
-;; https://4clojure.oxal.org/#/problem/1
-;; (= __ true) => true
-true
-
-;; Problem 2, Simple Math
-;; https://4clojure.oxal.org/#/problem/2
-;; (= (- 10 (* 2 3)) __) => true
-4
-
 ;; Problem 3, Strings
 ;; https://4clojure.oxal.org/#/problem/3
 ;; (= __ (.toUpperCase "hello world"))
