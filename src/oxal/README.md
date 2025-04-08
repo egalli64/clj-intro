@@ -8,3 +8,4 @@ https://4clojure.oxal.org/
 
 - [Elementary 1 .. 9](elementary1.clj)
 - [Elementary 10 .. 18](elementary2.clj)
+- [Easy 19 .. 27](easy1.clj)
