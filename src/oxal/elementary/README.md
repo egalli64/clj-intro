@@ -11,3 +11,4 @@ Each file is a script. In the REPL: (load-file "path/to/script.clj")
 - [1](p01.clj) Boolean, truthy/falsey
 - [2](p02.clj) Parentheses in a simple mathematical expression
 - [3](p03.clj) Invoking Java method on strings
+- [4](p04.clj) Create a list

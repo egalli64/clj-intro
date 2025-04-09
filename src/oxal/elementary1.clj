@@ -1,8 +1,3 @@
-;; Problem 4, Lists
-;; https://4clojure.oxal.org/#/problem/4
-;; (= (list __) '(:a :b :c))
-:a :b :c
-
 ;; Problem 5, conj on lists
 ;; https://4clojure.oxal.org/#/problem/5
 ;; (= __ (conj '(2 3 4) 1))
