@@ -6,6 +6,7 @@ Tested on Java 21, Clojure 1.12
 Elementary 4ever-clojure exercises
 https://4clojure.oxal.org/
 
-- [1](p01.clj) Only true is true
-- [1b](p01b.clj) Only false and nil are falsey
+Each file is a script. In the REPL: (load-file "path/to/script.clj")
+
+- [1](p01.clj) Boolean, truthy/falsey
 - [2](p02.clj) Parentheses in a simple mathematical expression
