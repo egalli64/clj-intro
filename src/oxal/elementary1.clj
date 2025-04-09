@@ -1,9 +1,3 @@
-;; Problem 5, conj on lists
-;; https://4clojure.oxal.org/#/problem/5
-;; (= __ (conj '(2 3 4) 1))
-;; (= __ (conj '(3 4) 2 1))
-'(1 2 3 4)
-
 ;; Problem 6, Vectors
 ;; https://4clojure.oxal.org/#/problem/6
 ;; (= [__] (list :a :b :c) (vec '(:a :b :c)) (vector :a :b :c))
