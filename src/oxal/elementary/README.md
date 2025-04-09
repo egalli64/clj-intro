@@ -15,3 +15,4 @@ Each file is a script. In the REPL: (load-file "path/to/script.clj")
 - [5](p05.clj) Factory conj on list
 - [6](p06.clj) Create a vector
 - [7](p07.clj) Factory conj on vector
+- [8](p08.clj) Create a set (and accessing union function)
