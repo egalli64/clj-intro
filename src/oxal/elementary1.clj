@@ -1,9 +1,3 @@
-;; Problem 7, conj on vectors
-;; https://4clojure.oxal.org/#/problem/7
-;; (= __ (conj [1 2 3] 4))
-;; (= __ (conj [1 2] 3 4))
-[1 2 3 4]
-
 ;; Problem 8, Sets
 ;; https://4clojure.oxal.org/#/problem/8
 ;; (= __ (set '(:a :a :b :c :c :c :c :d :d)))
