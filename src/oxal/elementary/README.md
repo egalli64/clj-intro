@@ -13,3 +13,4 @@ Each file is a script. In the REPL: (load-file "path/to/script.clj")
 - [3](p03.clj) Invoking Java method on strings
 - [4](p04.clj) Create a list
 - [5](p05.clj) Factory conj on list
+- [4](p06.clj) Create a vector
