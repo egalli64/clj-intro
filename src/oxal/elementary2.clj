@@ -1,8 +1,3 @@
-;; Problem 11, conj on maps
-;; https://4clojure.oxal.org/#/problem/11
-;; (= {:a 1, :b 2, :c 3} (conj {:a 1} __ [:c 3]))
-{:b 2}
-
 ;; Problem 12, Sequences
 ;; https://4clojure.oxal.org/#/problem/12
 ;; (= __ (first '(3 2 1)))
