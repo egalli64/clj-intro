@@ -1,9 +1,3 @@
-;; Problem 10, Maps
-;; https://4clojure.oxal.org/#/problem/10
-;; (= __ ((hash-map :a 10, :b 20, :c 30) :b))
-;; (= __ (:b {:a 10, :b 20, :c 30}))
-20
-
 ;; Problem 11, conj on maps
 ;; https://4clojure.oxal.org/#/problem/11
 ;; (= {:a 1, :b 2, :c 3} (conj {:a 1} __ [:c 3]))

@@ -17,3 +17,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [7](p07.clj) Factory conj on vector
 - [8](p08.clj) Create a set (and accessing union function)
 - [9](p09.clj) Factory conj on set
+- [10](p10.clj) Create a map (and accessing a value)
