@@ -21,3 +21,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [11](p11.clj) Factory conj on map
 - [12](p12.clj) first, second, last on seq
 - [13](p13.clj) rest
+- [14](p14.clj) functions: defn, fn, #(), partial
