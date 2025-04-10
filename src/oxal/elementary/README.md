@@ -25,3 +25,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [15](p15.clj) functions
 - [16](p16.clj) functions
 - [17](p17.clj) map function
+- [18](p18.clj) filter function
