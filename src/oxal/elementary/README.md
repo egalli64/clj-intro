@@ -23,3 +23,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [13](p13.clj) rest
 - [14](p14.clj) functions: defn, fn, #(), partial
 - [15](p15.clj) functions
+- [16](p16.clj) functions
