@@ -20,3 +20,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [10](p10.clj) Create a map (and accessing a value)
 - [11](p11.clj) Factory conj on map
 - [12](p12.clj) first, second, last on seq
+- [13](p13.clj) rest
