@@ -19,3 +19,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [27](p27.clj) reverse on seq (Palindrome)
 - [28](p28.clj) flatten on seq
 - [29](p29.clj) string replace w/ regular expression
+- [30](p30.clj) partition-by identity
