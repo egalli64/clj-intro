@@ -19,7 +19,5 @@
 (defn caps-only [s] (clojure.string/replace s #"[^A-Z]" ""))
 (println "Strip non-uppercase:" (caps-only "HeLlO, WoRlD!"))
 
-;; #( clojure.string/replace % #"[^A-Z]" "" )
-
 (print "Is the actual problem solved? ")
 (empty? (#( clojure.string/replace % #"[^A-Z]" "" ) "nothing"))
