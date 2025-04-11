@@ -14,3 +14,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [22](p22.clj) count on Counted collections
 - [23](p23.clj) reverse on seq
 - [24](p24.clj) reduce on seq
+- [25](p25.clj) filter on seq
