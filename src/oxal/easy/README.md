@@ -18,3 +18,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [26](p26.clj) compare defn with anon function (Fibonacci)
 - [27](p27.clj) reverse on seq (Palindrome)
 - [28](p28.clj) flatten on seq
+- [29](p29.clj) string replace w/ regular expression
