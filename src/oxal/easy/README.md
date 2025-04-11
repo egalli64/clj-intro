@@ -21,3 +21,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [29](p29.clj) string replace w/ regular expression
 - [30](p30.clj) partition-by identity and singlify
 - [31](p31.clj) partition-by identity
+- [32](p32.clj) repeat and mapcat on seq
