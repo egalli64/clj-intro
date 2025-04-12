@@ -1,13 +1,16 @@
 ;; Problem 5, conj on lists
 ;; https://4clojure.oxal.org/#/problem/5
-;; (= __ (conj '(2 3 4) 1)) : '(1 2 3 4)
-;; (= __ (conj '(3 4) 2 1)) : '(1 2 3 4)
+;; (= __ (conj '(2 3 4) 1))
+;; (= __ (conj '(3 4) 2 1))
 
-;; elaborating on the theme
+;; thinking ...
 (println "The factory conj on list generates a new list")
 (println "New element at the beginning:" (conj '(:a :b :c) :x))
 (println "nil is considered as an empty list:" (conj nil :x))
 (println "list type:" (type '(:x)))
 
-(print "Is the actual problem solved? ")
-(= '(1 2 3 4) (conj '(2 3 4) 1))
+;; my solution
+(def solution '(1 2 3 4))
+
+(print "Is the problem solved? ")
+(= solution (conj '(2 3 4) 1))
