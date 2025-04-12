@@ -8,7 +8,7 @@ https://4clojure.oxal.org/
 
 Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 
-- [19](p19.clj) last on seq
+- [19](p19.clj) implementing last with reduce
 - [20](p20.clj) butlast on seq
 - [21](p21.clj) nth on indexed collections
 - [22](p22.clj) count on Counted collections
