@@ -1,10 +1,10 @@
 ;; Problem 16, Hello World
 ;; https://4clojure.oxal.org/#/problem/16
-;; (= (__ "Dave") "Hello, Dave!") : #(str "Hello, " % "!")
-;; (= (__ "Jenn") "Hello, Jenn!") : #(str "Hello, " % "!")
-;; (= (__ "Rhea") "Hello, Rhea!") : #(str "Hello, " % "!")
+;; (= (__ "Dave") "Hello, Dave!")
+;; (= (__ "Jenn") "Hello, Jenn!")
+;; (= (__ "Rhea") "Hello, Rhea!")
 
-;; elaborating on the theme
+;; thinking ...
 (defn hello [x] (str "Hello, " x "!"))
 
 (println "Greeting by function")
@@ -12,5 +12,8 @@
 (println "Calling a fn function:" ((fn [x] (str "Hello, " x "!")) "Tom"))
 (println "Calling an anon function:" (#(str "Hello, " % "!") "Tom"))
 
-(print "Is the actual problem solved? ")
-(= (#(str "Hello, " % "!") "Rhea") "Hello, Rhea!")
+;; my solution
+(def solution #(str "Hello, " % "!"))
+
+(print "Is the problem solved? ")
+(= (solution "Rhea") "Hello, Rhea!")

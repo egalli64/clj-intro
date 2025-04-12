@@ -4,7 +4,7 @@
 ;; (= __ (second [2 3 4]))      : 3
 ;; (= __ (last (list 1 2 3)))   : 3
 
-;; elaborating on the theme
+;; thinking ...
 (println "first on seq")
 (println "On list:" (first '(:a :b :c)))
 (println "On vector:" (first [:a :b :c]))
@@ -23,6 +23,8 @@
 (println "On map:" (last {:a 1 :b 2 :c 3}))
 (println "On range:" (last (range 10)))
 
+;; my solution
+(def solution 3)
 
-(print "Is the actual problem solved? ")
-(= 3 (first '(3 2 1)))
+(print "Is the problem solved? ")
+(= solution (first '(3 2 1)))

@@ -1,9 +1,9 @@
 ;; Problem 10, Maps
 ;; https://4clojure.oxal.org/#/problem/10
-;; (= __ ((hash-map :a 10, :b 20, :c 30) :b))   : 20
-;; (= __ (:b {:a 10, :b 20, :c 30}))            : 20
+;; (= __ ((hash-map :a 10, :b 20, :c 30) :b))
+;; (= __ (:b {:a 10, :b 20, :c 30}))
 
-;; elaborating on the theme
+;; thinking ...
 (println "Creating a map (literal):" {:a 1 :b 2 :c 3})
 (println "Type for literal map (w/ insertion order):" (type {:a 1}))
 (println "Creating an array-map (factory):" (array-map :a 1 :b 2 :c 3))
@@ -18,5 +18,8 @@
 (println "Get value (missing):" (:b {:a 1}))
 (println "Get value (missing w/ default):" (:b {:a 1} 42))
 
-(print "Is the actual problem solved? ")
-(= 20 (:b {:a 10, :b 20, :c 30}))
+;; my solution
+(def solution 20)
+
+(print "Is the problem solved? ")
+(= solution (:b {:a 10, :b 20, :c 30}))

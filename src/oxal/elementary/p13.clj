@@ -1,8 +1,8 @@
 ;; Problem 13, rest
 ;; https://4clojure.oxal.org/#/problem/13
-;; (= __ (rest [10 20 30 40])) : [20 30 40]
+;; (= __ (rest [10 20 30 40]))
 
-;; elaborating on the theme
+;; thinking ...
 (println "list rest:" (rest '(:a :b :c)))
 (println "vector rest:" (rest [:a :b :c]))
 (println "map rest:" (rest {:a 1 :b 2 :c 3}))
@@ -13,5 +13,8 @@
 (println "On empty seq:" (rest []))
 (println "On nil:" (rest nil))
 
-(print "Is the actual problem solved? ")
-(= [20 30 40] (rest [10 20 30 40]))
+;; my solution
+(def solution [20 30 40])
+
+(print "Is the problem solved? ")
+(= solution (rest [10 20 30 40]))
