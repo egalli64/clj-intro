@@ -2,7 +2,7 @@
 ;; https://4clojure.oxal.org/#/problem/4
 ;; (= (list __) '(:a :b :c)) : __ is :a :b :c
 
-;; elaborating on the theme
+;; thinking ...
 (println "Creating a list (literal):" '(:a :b :c))
 (println "Creating a list (ctor):" (list :a :b :c))
 
@@ -11,6 +11,8 @@
 ;; but :b is not a map so it returns the default value, :c
 (println "Do not forget to quote the list ..." (:a :b :c))
 
+;; my solution
+;; :a :b :c
 
-(print "Is the actual problem solved? ")
+(print "Is the problem solved? ")
 (= (list :a :b :c) '(:a :b :c))
