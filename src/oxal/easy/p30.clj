@@ -3,9 +3,8 @@
 ;; (= (apply str (__ "Leeeeeerrroyyy")) "Leroy")
 ;; (= (__ [1 1 2 3 3 2 2 3]) '(1 2 3 2 3))
 ;; (= (__ [[1 2] [1 2] [3 4] [1 2]]) '([1 2] [3 4] [1 2]))
-;; #(map first (partition-by identity %))
 
-;; elaborating on the theme
+;; thinking ...
 (print "Partition by identity, create groups with same values: ")
 (println (partition-by identity [1 1 2 3 3 2 2 3]))
 (print "Get just an element (the first) for each group: ")
@@ -14,5 +13,9 @@
 (defn remove-duplicates [xs] (map first (partition-by identity xs)))
 (println "By function:" (remove-duplicates [1 1 2 3 3 2 2 3]))
 
-(print "Is the actual problem solved? ")
-(= (apply str (#(map first (partition-by identity %)) "Leeeeeerrroyyy")) "Leroy")
+;; my solution
+(def solution #(map first (partition-by identity %)))
+
+;; verify it
+(print "Is the problem solved? ")
+(= (apply str (solution "Leeeeeerrroyyy")) "Leroy")

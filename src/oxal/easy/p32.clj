@@ -4,9 +4,8 @@
 ;; (= (__ [:a :a :b :b]) '(:a :a :a :a :b :b :b :b))
 ;; (= (__ [[1 2] [3 4]]) '([1 2] [1 2] [3 4] [3 4]))
 ;; (= (__ [44 33]) [44 44 33 33])
-;; (fn [xs] (mapcat #(repeat 2 %) xs))
 
-;; elaborating on the theme
+;; thinking ...
 (print "Duplicate the seq: ")
 (println (repeat 2 [:1 :2 :3]))
 (print "Duplicate each element in the seq: ")
@@ -17,5 +16,9 @@
 (defn dup [xs] (mapcat #(repeat 2 %) xs))
 (println "In a function:" (dup '(:1 :2 :3)))
 
+;; my solution
+(def solution (fn [xs] (mapcat #(repeat 2 %) xs)))
+
+;; verify it
 (print "Is the problem solved? ")
-(= ((fn [xs] (mapcat #(repeat 2 %) xs)) [44 33]) [44 44 33 33])
+(= (solution [44 33]) [44 44 33 33])
