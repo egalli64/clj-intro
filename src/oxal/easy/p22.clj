@@ -1,12 +1,12 @@
 ;; Problem 22, Count a Sequence
 ;; https://4clojure.oxal.org/#/problem/22
-;; (= (__ '(1 2 3 3 1)) 5)          : count
-;; (= (__ "Hello World") 11)        : count
-;; (= (__ [[1 2] [3 4] [5 6]]) 3)   : count
-;; (= (__ '(13)) 1)                 : count
-;; (= (__ '(:a :b :c)) 3)           : count
+;; (= (__ '(1 2 3 3 1)) 5)
+;; (= (__ "Hello World") 11)
+;; (= (__ [[1 2] [3 4] [5 6]]) 3)
+;; (= (__ '(13)) 1)
+;; (= (__ '(:a :b :c)) 3)
 
-;; elaborating on the theme
+;; thinking ...
 (println "count can be invoked only on Counted objects")
 (println "vector:" (count [:a :b :c]))
 (println "list:" (count '(:a :b :c)))
@@ -22,5 +22,26 @@
     (count (map inc [1 2 3])))
 ;; (println "this takes infinite time:" (count (range)))
 
-(print "Is the actual problem solved? ")
-(= (count '(13)) 1)
+;; simplified implementation
+(defn my-count [xs]
+    (loop [xs xs, acc 0]
+        (if (empty? xs)
+            acc
+            (recur (rest xs) (inc acc)))))
+
+(println "vector:" (my-count [:a :b :c]))
+(println "list:" (my-count '(:a :b :c)))
+(println "map:" (my-count {:a 1 :b 2 :c 3}))
+(println "set:" (my-count #{:a :b :c}))
+(println "string:" (my-count "abc"))
+(println "nil:" (my-count nil))
+
+;; my solution
+(def solution #(loop [xs % acc 0]
+    (if (empty? xs)
+        acc
+        (recur (rest xs) (inc acc)))
+))
+
+(print "Is the problem solved? ")
+(= (solution '(13)) 1)
