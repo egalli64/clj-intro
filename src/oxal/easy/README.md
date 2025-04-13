@@ -12,7 +12,7 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [20](p20.clj) butlast on seq
 - [21](p21.clj) zero? first recur rest dec (to implement nth)
 - [22](p22.clj) loop recur (to implement count)
-- [23](p23.clj) reverse on seq
+- [23](p23.clj) loop recur (to implement reverse)
 - [24](p24.clj) reduce on seq
 - [25](p25.clj) filter on seq
 - [26](p26.clj) compare defn with anon function (Fibonacci)
