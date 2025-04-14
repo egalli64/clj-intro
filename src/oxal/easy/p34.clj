@@ -7,25 +7,11 @@
 ;; thinking ...
 (println (range 1 4))
 
-(defn rng [begin end] 
-    (loop [cur (dec end), acc '()] 
-        (if (< cur begin)
-            acc
-            (recur (dec cur) (cons cur acc)))))
-(println (rng 1 4))
-
-(def rng (fn [begin end] 
-    (loop [cur (dec end), acc '()] 
-        (if (< cur begin)
-            acc
-            (recur (dec cur) (cons cur acc))))))
-(println (rng 1 4))
+(let [rng (fn [begin end] (loop [cur (dec end), acc '()] (if (< cur begin) acc (recur (dec cur) (cons cur acc)))))]
+  (println (rng 1 4)))
 
 ;; my solution
-(def solution #(loop [cur (dec %2), acc '()] 
-    (if (< cur %1)
-        acc
-        (recur (dec cur) (cons cur acc)))))
+(def solution #(loop [cur (dec %2), acc '()] (if (< cur %1) acc (recur (dec cur) (cons cur acc)))))
 
 ;; verify it
 (print "Is the problem solved? ")
