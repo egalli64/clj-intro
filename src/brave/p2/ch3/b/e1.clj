@@ -1,6 +1,10 @@
 ;;; numbers and strings
 (ns brave.p2.ch3.b.e1)
 
+;; a couple of strings
+(def head "[[[")
+(def tail "]]]")
+
 
 (defn -main []
     ;; numbers
@@ -8,8 +12,6 @@
     ;; string
     (println "A string is a \"string\", if you know what I mean.")
 
-    (def head "[[[")
-    (def tail "]]]")
-    ;; concatenate string by str
-    (println "Concatenate by str:" (str head "hello world!" tail))
-)
+    ;; concatenate strings by str
+    (println "Concatenate by str:" (str head "hello world!" tail)))
+
