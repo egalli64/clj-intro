@@ -11,20 +11,20 @@
 (print "Join a char seq in a str (apply to force the realization): ")
 (println (apply str (filter Character/isUpperCase "HeLlO, WoRlD!")))
 
-(defn caps-only [s] (apply str (filter Character/isUpperCase s)))
-(println "Final result:" (caps-only "HeLlO, WoRlD!"))
+(let [caps-only (fn [s] (apply str (filter Character/isUpperCase s)))]
+  (println "Final result:" (caps-only "HeLlO, WoRlD!")))
 
 ;; by clojure.string/replace
-(defn caps-only [s] (clojure.string/replace s #"[^A-Z]" ""))
-(println "Strip non-uppercase:" (caps-only "HeLlO, WoRlD!"))
+(require '[clojure.string :as str])
+(let [caps-only (fn [s] (str/replace s #"[^A-Z]" ""))]
+  (println "Strip non-uppercase:" (caps-only "HeLlO, WoRlD!")))
 
-;; my solutions
-; Java specific, not supported by JS
-(def solution #(apply str (filter Character/isUpperCase %)))
-(println "Filter by anon function:" (solution "HeLlO, WoRlD!"))
+;; solution /1: Java specific, not supported by JS
+(let [solution #(apply str (filter Character/isUpperCase %))]
+  (println "Filter by anon function:" (solution "HeLlO, WoRlD!")))
 
-; pure Clojure solution
-(def solution #(clojure.string/replace % #"[^A-Z]" "" ))
+;; solution /2: pure Clojure
+(def solution #(clojure.string/replace % #"[^A-Z]" ""))
 
 ;; verify it
 (print "Is the problem solved? ")
