@@ -5,33 +5,28 @@
 ;; exception
 (ns brave.p2.ch7.c.e2)
 
+;; def for _var_ global binding
+(def x 15)
+
+;; defn for _function_ global binding
+(defn exclaim [exclamation]
+  ;; the parameters are bindings local to the function
+  (str exclamation "!"))
+
 (defn -main []
-    ;; special form, correct in this context
-    (if true :a :b)
-    ;; Syntax error compiling: Too few arguments to if
-    ;; (if)
+  ;; special form, correct in this context
+  (if true :a :b)
 
-    ;; local binding
-    (let [x 5]
-        (println "Using a local binding:" (+ x 3))
-    )
+  ;; Syntax error compiling: Too few arguments to if
+  ;; (if)
 
-    ;; def global binding
-    (def x 15)
-    (println "Using a var:" (+ x 3))
+  (println "Using a var:" (+ x 3))
 
-    (let [x 5]
-        (println "Local binding shadow the var:" (+ x 3))
-    )
+  ;; local binding
+  (let [x 5]
+    (println "Local binding shadows var:" (+ x 3)))
 
-    ;; defn global binding
-    (defn exclaim [exclamation]
-        ;; the parameters are function local bindings
-        (str exclamation "!")
-    )
-
-    (println "Invoking a user function:" (exclaim "Hadoken"))
-
-    ;; global functions are symbols in the Clojure core namespace
-    (println "Invoking a standard function:" (map inc [1 2 3]))
-)
+  (println "Invoking a function in the namespace:" (exclaim "Hadoken"))
+  
+  ;; global functions are symbols in the Clojure core namespace
+  (println "Invoking a standard function:" (map inc [1 2 3])))
