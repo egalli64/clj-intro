@@ -4,20 +4,22 @@
 (ns brave.p2.ch3.a.e3)
 
 (defn -main []
-    ;; print what _if_ returns
-    (println (if true
-        ;; then execute println and return the following form
-        (do (println "Truthy") "Returned by if-truthy")
-        ;; else execute println and return the following form
-        (do (println "Falsey") "Returned by if-falsey")))
 
-    ;; if ... do works fine also without the "else" branch
-    (println (if true
-        ;; then execute println and return the following form
-        (do (println "Truthy") "if-do, no 'else' branch")))
+  ;; print what _if_ returns
+  (println (if true
+             ;; then execute println and return the following form 
+             (do (print "Truthy ... ") "returned by if-truthy")
+             ;; else execute println and return the following form
+             (do (print "Falsey ... ") "returned by if-falsey")))
 
-    ;; when is just an alternative syntax for the if ... do without "else"
-    (println (when true
-        ;; then execute println and return the following form
-        (println "Yes!") "in a when there is no room for an 'else'"))
-)
+
+  ;; if ... do works fine also without the "else" branch
+  ;; but it is perceived as less readable, use _when_ instead
+  (println (if true
+             ;; then execute println and return the following form
+             (do (print "Truthy ... ") "if-do, no 'else' branch")))
+
+    ;; _when_ alternative syntax preferred for the if without "else"
+  (println (when true
+             ;; then execute println and return the following form
+             (println "Yes!") "in a when there is no room for an 'else'")))

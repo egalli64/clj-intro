@@ -6,7 +6,8 @@
 
 (ns brave.p2.ch3.a.e2)
 
-(defn -main [] 
-    (println (if true "That's truthy" "That's falsey"))
-    (println (if false "On falsey the if-expression returns nil!"))
-)
+(defn -main []
+  (println (if true "That's truthy" "That's falsey"))
+
+  ;; missing else branch is legal, but use when instead for improved readability (see next example)
+  (println (if false "On falsey the if-expression returns nil!")))
