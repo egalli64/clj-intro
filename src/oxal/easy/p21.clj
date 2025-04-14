@@ -13,31 +13,20 @@
 
 ;; nth is not available on non-indexed collections
 (try
-    (nth #{:a :b :c} 2)
-    (catch UnsupportedOperationException e (println (.getMessage e)))
-)
+  (nth #{:a :b :c} 2)
+  (catch UnsupportedOperationException e (println (.getMessage e))))
 
 ;; fallback to avoid IndexOutOfBoundsException
 (println "With fallback:", (nth [:a :b :c] 42 "not found"))
 (try
-    (nth [:a :b :c] 42)
-    (catch Exception e (println "No fallback:" (type e)))
-)
+  (nth [:a :b :c] 42)
+  (catch Exception e (println "No fallback:" (type e))))
 
 ;; a simplified function that works as nth
-(defn my-nth [xs n]
-    (if (zero? n) (first xs) (recur (rest xs) (dec n))))
-
-(println "On a vector:", (my-nth [:a :b :c] 2))
-(println "On a list:", (my-nth '(:a :b :c) 2))
-(println "On a string:", (my-nth "abc" 2))
-
-(def my-nth (fn [xs n]
-    (if (zero? n) (first xs) (recur (rest xs) (dec n)))))
-
-(println "On a vector:", (my-nth [:a :b :c] 2))
-(println "On a list:", (my-nth '(:a :b :c) 2))
-(println "On a string:", (my-nth "abc" 2))
+(let [my-nth (fn [xs n] (if (zero? n) (first xs) (recur (rest xs) (dec n))))]
+  (println "On a vector:", (my-nth [:a :b :c] 2))
+  (println "On a list:", (my-nth '(:a :b :c) 2))
+  (println "On a string:", (my-nth "abc" 2)))
 
 ;; my solution
 (def solution #(if (zero? %2) (first %1) (recur (rest %1) (dec %2))))
