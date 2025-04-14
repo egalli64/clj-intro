@@ -4,10 +4,10 @@
 ;; define a macro
 (defmacro backwards [form] (reverse form))
 
-
 (defn -main []
     (println
-        ;; invoking the backwars macro
-        ;; that works backwards :O
-        (backwards (" backwards" " am" "I" str)))
+        ;; invoking the backwars macro that works backwards :O
+        ;; uncomment it to check it - lint sees it as an error
+        ;; (backwards (" backwards" " am" "I" str))
+     )
 )
