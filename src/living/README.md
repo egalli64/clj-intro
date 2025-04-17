@@ -10,3 +10,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 ### Chapter 1 - The Structure of Clojure
 #### a. Baby Steps with Simple Values
     e1. numbers
+    e2. other types

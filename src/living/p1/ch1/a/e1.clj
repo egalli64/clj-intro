@@ -1,5 +1,6 @@
 ;;; For more info read Living Clojure by Carin Meier
-;;
+;; numeric types
+;; 
 ;; Run it in the REPL, for insstance by: (load-file "src/living/p1/ch1/a/e1.clj")
 
 ;; an integer as literal
