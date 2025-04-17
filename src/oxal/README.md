@@ -7,5 +7,4 @@ Tested on Java 21, Clojure 1.12
 https://4clojure.oxal.org/
 
 - [Elementary](elementary/README.md)
-- [Easy 19 .. 27](easy1.clj)
-- [Easy 28 29 30](easy2.clj)
+- [Easy](easy/README.md)
