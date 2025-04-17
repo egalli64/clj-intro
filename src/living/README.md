@@ -12,4 +12,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. Numbers
     e2. Other types
 #### b. Put Your Clojure Data in Collections
-    e1. list: first, rest, cons
+    e1. list: '(), first, rest, cons
+    e2. vector: [], first, rest, nth, last
