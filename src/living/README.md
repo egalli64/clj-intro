@@ -14,3 +14,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### b. Put Your Clojure Data in Collections
     e1. list: '(), first, rest, cons
     e2. vector: [], first, rest, nth, last
+    e3. collections: count, conj
