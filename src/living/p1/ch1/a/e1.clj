@@ -6,7 +6,7 @@
 ;; an integer as literal
 (println 42)
 
-;; a real number
+;; a double
 (println 42.23)
 
 ;; a ratio
@@ -24,5 +24,5 @@
 ;; an expression leading to a ratio
 (let [x (/ 14 35)] (println x))
 
-;; (almost) same expression leading to a real number
+;; (almost) same expression leading to a double number
 (let [x (/ 14 35.0)] (println x))
