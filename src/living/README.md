@@ -15,3 +15,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. list: '(), first, rest, cons
     e2. vector: [], first, rest, nth, last
     e3. collections: count, conj
+    e4. map: {}, get, keys, vals, assoc, dissoc
