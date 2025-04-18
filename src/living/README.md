@@ -17,3 +17,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e3. collections: count, conj
     e4. map: {}, get, keys, vals, assoc, dissoc
     e5. set: #{}, union, difference, intersection, contains? conj, disj, factory function
+#### c. Symbols and the Art of Binding
+    e1. def, user namespace, let
+    
