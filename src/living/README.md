@@ -20,3 +20,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### c. Symbols and the Art of Binding
     e1. def, user namespace, let
     e2. defn, fn, shorthand form #()
+    e3. namespace
+    
