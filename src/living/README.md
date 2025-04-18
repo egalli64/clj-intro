@@ -7,6 +7,7 @@ Notes jotted down while reading Living Clojure by Carin Meier (2015) O'Reilly
 https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
 ## Part 1 - A Guided Tour of Clojure
+
 ### Chapter 1 - The Structure of Clojure
 #### a. Baby Steps with Simple Values
     e1. Numbers
@@ -21,4 +22,7 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. def, user namespace, let
     e2. defn, fn, shorthand form #()
     e3. namespace
-    
+
+### Chapter 2 - Flow and Functional Transformations
+#### a. Controlling the Flow with Logic
+    e1. boolean, nil, class, true?, false?, nil? not
