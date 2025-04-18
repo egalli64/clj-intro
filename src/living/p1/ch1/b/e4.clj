@@ -6,6 +6,7 @@
 (def data {:a 1, :b 2, :c 3})
 (println "A map:" data)
 
+;; first, rest, last can give unexpected results
 (println "First:" (first data))
 (println "Rest:" (rest data))
 (println "Last:" (last data))
@@ -21,6 +22,7 @@
 (println "Keys:" (keys data))
 (println "Vals:" (vals data))
 
+;; assoc/dissoc specific for associative data structures (like map)
 (println "Assoc (new val):" (assoc data :b 42))
 (println "Assoc (new key/val):" (assoc data :x 42))
 (println "Dissoc (by key):" (dissoc data :b))
