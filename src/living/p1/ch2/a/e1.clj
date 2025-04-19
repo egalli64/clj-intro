@@ -1,19 +1,22 @@
 ;;; For more info read Living Clojure by Carin Meier
-;; boolean, nil, class, true?, false?, nil? not
+;; class, boolean, nil, true?, false?, nil?
 
-(println "The type of an object (by class):" (class true))
-(println "Check if true is true (by true?):" (true? true))
-(println "Check if false is true (by true?):" (true? false))
+;; class
+(println "What is true?" (class true))    ; boolean
+(println "What is false?:" (class true))  ; boolean
+(println "What is nil?" (class nil))      ; nil
+(println "What is 42?" (class 42))        ; long
 
-(println "Check if true is false (by false?):" (false? true))
-(println "Check if false is false (by false?):" (false? false))
+;; true?
+(println "true is true?" (true? true))
+(println "false is true?" (true? false))
+(println "nil is true?" (true? nil))        ; false
 
-(println "What is nil (by class)?" (class nil))
-(println "Check if nil is nil (by nil?):" (nil? nil))
-(println "Check if nil is true (by true?):" (true? nil))
-(println "Check if nil is false (by false?):" (false? nil))
+;; false?
+(println "true is false?" (false? true))
+(println "false is false?" (false? false))
+(println "nil is false?" (false? nil))      ; false
 
-(println "not true is ..." (not true))        ; false
-(println "not false is ..." (not false))      ; true
-(println "not nil is ..." (not nil))          ; true!
-(println "not whatever else is ..." (not 0))  ; false!
+;; nil?
+(println "nil is nil?" (nil? nil))
+(println "whatever else is nil?" (nil? 0))
