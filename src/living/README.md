@@ -27,3 +27,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### a. Controlling the Flow with Logic
     e1. class, boolean, nil, true?, false?, nil?
     e2. not, =, not =
+    e3. Logic tests on collections: empty?, seq
