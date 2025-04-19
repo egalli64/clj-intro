@@ -25,4 +25,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
 ### Chapter 2 - Flow and Functional Transformations
 #### a. Controlling the Flow with Logic
-    e1. boolean, nil, class, true?, false?, nil? not
+    e1. class, boolean, nil, true?, false?, nil?
+    e2. not, =, not =
