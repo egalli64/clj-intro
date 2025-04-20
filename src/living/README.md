@@ -35,3 +35,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e6. if, if-let
         e7. when, when-let
         e8. cond :else
+        e9. case
