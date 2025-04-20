@@ -36,3 +36,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e7. when, when-let
         e8. cond :else
         e9. case
+#### b. Functions Creating Functions and Other Neat Expressions
+    e1. Currying with partial
