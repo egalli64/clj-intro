@@ -40,3 +40,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. Currying with partial
     e2. Composition with comp
     e3. Destructuring sequences
+    e4. Destructuring maps
