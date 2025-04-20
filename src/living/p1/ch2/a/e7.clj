@@ -1,5 +1,5 @@
 ;;; For more info read Living Clojure by Carin Meier
-;; Flow control: when, when-let
+;; Flow control: when, when-let - useful to remark that no "else" branch in present
 
 ;; when
 (println "Only 'true' branch for when:" (when true "it is true"))
@@ -11,7 +11,7 @@
   (println "Only the 'good' values deserve a following message:" (when (zero? head-or-tail) "head"))
   (println "The extracted value was" head-or-tail))
 
-;; if-let
+;; when-let
 ;; a function that generates an even value, or nil
 (defn even-dice [] (let [dice (rand-int 6)] (if (odd? dice) (inc dice) nil)))
 
