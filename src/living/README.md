@@ -33,3 +33,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e5. not-any?, some
     Flow control
         e6. if, if-let
+        e7. when, when-let
