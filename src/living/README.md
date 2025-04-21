@@ -47,4 +47,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. range
     e2. take from range, repeat, count
     e3. repeatedly, cycle, rest on cycle
+#### d. Recursion
+    e1. Traversing a seq by recursion
         
