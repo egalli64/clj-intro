@@ -50,4 +50,7 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### d. Recursion
     e1. Traversing a seq by recursion
     e2. loop - recur
-        
+#### e. The Functional Shape of Data Transformations
+    The map function
+        e1. basic use of map function
+    
