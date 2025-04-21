@@ -45,5 +45,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e5. parameters
 #### c. The Power of Laziness
     e1. range
-    e2, take from range, repeat, count
-    
+    e2. take from range, repeat, count
+    e3. repeatedly, cycle, rest on cycle
+        
