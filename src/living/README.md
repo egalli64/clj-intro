@@ -39,5 +39,7 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### b. Functions Creating Functions and Other Neat Expressions
     e1. Currying with partial
     e2. Composition with comp
-    e3. Destructuring sequences
-    e4. Destructuring maps
+    Destructuring
+        e3. sequences
+        e4. maps
+        e5. parameters
