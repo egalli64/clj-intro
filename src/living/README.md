@@ -53,4 +53,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### e. The Functional Shape of Data Transformations
     The map function
         e1. basic use of map function
+        e2. map and side effects - doall
     
