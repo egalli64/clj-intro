@@ -5,8 +5,10 @@
 ;; generate an infinite range starting from zero!
 ;; (println (range))
 
-;; but it is not a concrete collection
-(println (class (range)) (class (range 5)))
+;; it is not a concrete collection
+(println "Two types of ranges:" (class (range)) (class (range 5)))
+;; a seqable is an object that could be converted to a sequence
+(println "A range is a seqable?" (not (nil? (seq (range)))))
 
 (println "a range in [0 .. 5):" (range 5))
 (println "a range in [3 .. 8):" (range 3 8))
