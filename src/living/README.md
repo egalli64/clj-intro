@@ -55,5 +55,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e1. basic use of map function
         e2. map and side effects - doall
         e3. zipping together collections with map
-    e4. the reduce function
+    e4. reduce
+    e5. filter and remove - complement
     
