@@ -54,4 +54,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     The map function
         e1. basic use of map function
         e2. map and side effects - doall
+        e3. zipping together collections with map
     
