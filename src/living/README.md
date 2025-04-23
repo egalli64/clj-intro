@@ -60,3 +60,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e6. the for expression - :let and :when modifiers
     e7. flatten
     e8. into
+    e9. partition, partition-all, partition-by
