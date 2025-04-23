@@ -1,11 +1,11 @@
 ;;; For more info read Living Clojure by Carin Meier
-;; future: more threads competing on an atom
+;; future: more threads competing on an atom by swap!
 
 ;; defining an atom
 (def counter (atom 0))
 (println "Initial value:" @counter)
 
-;; a function to increase an atom n times
+;; a function to increase an atom three times
 (defn increase-3 [atom] (dotimes [_ 3] (swap! atom inc)))
 
 ;; call it sychronously
@@ -21,8 +21,7 @@
 (reset! counter 0)
 (println "Reset the counter:" @counter)
 
-;; using a non-pure function to show swap! at work
-;; (and why we should use only pure functions in this context)
+;; using a non-pure function to show swap! could retry excuting it
 (defn inc-print [value] (print value) (inc value))
 
 ;; a function to increase an atom n times
