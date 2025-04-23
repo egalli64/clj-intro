@@ -58,3 +58,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e4. reduce
     e5. filter and remove - complement
     e6. the for expression - :let and :when modifiers
+    e7. flatten
