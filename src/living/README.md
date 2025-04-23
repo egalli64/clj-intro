@@ -65,3 +65,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 ### Chapter 3 - State and Concurrency
 #### a. Using Atoms for Independent Items
     e1. atom, def and deref
+    e2. reset!
