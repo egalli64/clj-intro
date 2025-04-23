@@ -61,3 +61,7 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e7. flatten
     e8. into
     e9. partition, partition-all, partition-by
+
+### Chapter 3 - State and Concurrency
+#### a. Using Atoms for Independent Items
+    e1. atom, def and deref
