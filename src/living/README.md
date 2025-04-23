@@ -67,3 +67,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. atom, def and deref
     e2. reset!
     e3. swap! - and dotimes
+    e4. future - competing on an atom
