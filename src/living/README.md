@@ -74,3 +74,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e3. dosync and alter
     e4. future - competing on refs by dosync/alter
     e5. commute
+    e6. future - competing on refs by dosync/commute
