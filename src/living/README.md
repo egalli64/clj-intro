@@ -77,3 +77,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e6. future - competing on refs by dosync/commute
 #### c. Using Agents to Manage Changes on Their Own
     e1. agent: def and deref
+    e2. send, send-off
