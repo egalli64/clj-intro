@@ -64,7 +64,10 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
 ### Chapter 3 - State and Concurrency
 #### a. Using Atoms for Independent Items
-    e1. atom, def and deref
+    e1. atom: def and deref
     e2. reset!
     e3. swap! - and dotimes
     e4. future - competing on an atom with swap!
+#### b. Using Refs for Coordinated Changes - Software Transactional Memory (STM)
+    e1. ref: def and deref
+    
