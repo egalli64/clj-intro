@@ -4,12 +4,13 @@
 ;; defining two refs
 (def alpha (ref 1))
 (def beta (ref 11))
-(println "Initial ref value is" @alpha @beta)
+(println "Initial ref value are" @alpha @beta)
 
-;; can't ref-set outside a dosync block
+;; no ref-set outside a dosync block!
+(print "Running a ref-set outside a dosync block leads to an IllegalStateException: ")
 (try (ref-set alpha 42) (catch IllegalStateException e (println (.getMessage e))))
 
-;; the right way to do it: ref-set in a dosync block
+;; ref-set in a dosync block
 (dosync (ref-set alpha 42) (ref-set beta 24))
 (println "Current ref values ..." @alpha @beta)
 
