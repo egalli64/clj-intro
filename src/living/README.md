@@ -70,4 +70,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e4. future - competing on an atom with swap!
 #### b. Using Refs for Coordinated Changes - Software Transactional Memory (STM)
     e1. ref: def and deref
+    e2. dosync and ref-set
     
