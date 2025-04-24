@@ -72,4 +72,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. ref: def and deref
     e2. dosync and ref-set
     e3. dosync and alter
-    
+    e4. future - competing on refs by dosync/alter
