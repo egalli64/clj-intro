@@ -81,3 +81,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     Exceptions
         e3. agent-error, restart-agent
         e4. set-error-mode!
+        e5. set-error-handler!
