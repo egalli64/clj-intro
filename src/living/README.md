@@ -78,4 +78,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### c. Using Agents to Manage Changes on Their Own (async, by queue)
     e1. agent: def and deref
     e2. send, send-off
-    e3. exceptions: agent-error, restart-agent
+    Exceptions
+        e3. agent-error, restart-agent
+        e4. set-error-mode!
