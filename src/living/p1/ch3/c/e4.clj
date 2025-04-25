@@ -19,7 +19,7 @@
 (set-error-mode! absolem :continue)
 
 (send absolem change-crash)
-(println "After crashing (:continue) the agent status is still :val ..." absolem)
+(println "After crashing (:continue) the agent status is still :ready ..." absolem)
 
 ;; can't send a change to a failed agent
 (try (send absolem change) (catch RuntimeException e (println "RuntimeException caught:" (.getMessage e))))
