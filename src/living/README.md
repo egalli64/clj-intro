@@ -63,18 +63,19 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e9. partition, partition-all, partition-by
 
 ### Chapter 3 - State and Concurrency
-#### a. Using Atoms for Independent Items
+#### a. Using Atoms for Independent Items (sync)
     e1. atom: def and deref
     e2. reset!
     e3. swap! - and dotimes
     e4. future - competing on an atom with swap!
-#### b. Using Refs for Coordinated Changes - Software Transactional Memory (STM)
+#### b. Using Refs for Coordinated (sync) Changes - Software Transactional Memory (STM)
     e1. ref: def and deref
     e2. dosync and ref-set
     e3. dosync and alter
     e4. future - competing on refs by dosync/alter
     e5. commute
     e6. future - competing on refs by dosync/commute
-#### c. Using Agents to Manage Changes on Their Own
+#### c. Using Agents to Manage Changes on Their Own (async, by queue)
     e1. agent: def and deref
     e2. send, send-off
+    e3. exceptions: agent-error, restart-agent
