@@ -13,3 +13,6 @@
 (let [local (java.net.InetAddress/getByName "localhost")]
   (println "The object InetAddress:" local)
   (println "The host name:" (.getHostName local)))
+
+;; another example, generate a UUID
+(println (.toString (java.util.UUID/randomUUID)))
