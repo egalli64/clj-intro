@@ -87,3 +87,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 #### a. Handling Interop with Java
     e1. class, invoking an instance method, creating a new object
     e2. import, invoking a static method
+    e3. using the doto macro to chained calls
