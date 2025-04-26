@@ -90,3 +90,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e3. using the doto macro to chained calls
 #### b. Practical Polymorphism
     e1. using cond for type dispatching
+    e2. multimethods by defmulti and defmethod
