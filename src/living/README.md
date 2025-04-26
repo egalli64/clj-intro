@@ -82,3 +82,7 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e3. agent-error, restart-agent
         e4. set-error-mode!
         e5. set-error-handler!
+
+### Chapter 4 - Java Interop and Polymorphism
+#### a. Handling Interop with Java
+    e1. class, invoking an instance method, creating a new object
