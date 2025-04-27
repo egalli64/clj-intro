@@ -20,10 +20,7 @@
   java.lang.Long
   (eat-mushroom [this] (if (< this 3) "Eat the right side to grow" "Eat the left side to shrink")))
 
-;; invoking a protocol function on an object instance of a class extended with that protocol
-(println (eat-mushroom "Big Mushroom"))
-
-;; test the multimethods
+;; invoking a protocol function on object instances of classes targeted by extend-protocol
 (let [values ["Big Mushroom" :grow :shrink :hello 0 10]]
   (doseq [value values]
     (println (eat-mushroom value))))
