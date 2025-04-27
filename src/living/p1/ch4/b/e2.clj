@@ -2,8 +2,11 @@
 ;; Polymorphism: multimethods by defmulti and defmethod
 
 ;; a multimethod with a single argument
+;; here class is the dispatch function
+;; accordingly to the actual class of the passed argument, a defmethod is called
 (defmulti process class)
 
+;; a call to process with a String argument will be dispatched to this defmethod
 (defmethod process java.lang.String [input]
   (str "Processing string: " input))
 
