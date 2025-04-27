@@ -95,3 +95,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e3. custom dispatch function
     Protocol
         e4. defprotocol and extend-protocol
+        e5. custom data type (DTO-like): defrecord
