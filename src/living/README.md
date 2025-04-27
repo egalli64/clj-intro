@@ -97,4 +97,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e4. defprotocol and extend-protocol
         e5. custom data type (DTO-like): defrecord
         e6. defrecord and defprotocol
-        
+        e7. deftype
