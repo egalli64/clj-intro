@@ -4,3 +4,6 @@
 
 # Clojure CLI
 /.cpcache
+
+# Cursive
+/.idea
