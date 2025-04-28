@@ -98,3 +98,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e5. custom data type (DTO-like): defrecord
         e6. defrecord and defprotocol
         e7. deftype
+
+### Chapter 5 - How to Use Clojure Projects and Libraries
+    e1. Creating Our Project with deps.edn [I'm not using Leiningen]
