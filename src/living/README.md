@@ -100,4 +100,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
         e7. deftype
 
 ### Chapter 5 - How to Use Clojure Projects and Libraries
-    e1. Creating Our Project with deps.edn [I'm not using Leiningen]
+    e1. creating a project with deps.edn [I'm not using Leiningen]
+    e2. creating a test: deftest, testing
