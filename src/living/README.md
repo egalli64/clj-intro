@@ -104,3 +104,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. creating a project with deps.edn
     e2. creating a test: deftest, testing
     e3. dependency management with deps.edn
+
+### Chapter 6 - Communication with core.async
+    e1. setting up the project with core.async dependency
