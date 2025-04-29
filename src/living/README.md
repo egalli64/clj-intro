@@ -111,3 +111,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e1. sync channel put >!! and take <!!
     e2. close
     e3. async channel put >! and take <! in a go block
+    e4. the go-loop block
