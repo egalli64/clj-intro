@@ -108,4 +108,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 ### Chapter 6 - Communication with core.async
     e1. using core.async, creating a channel
 #### a. Basics of core.async Channels
-    e1. synchronous put >!! and take <!! on a channel
+    e1. synchronous put >!! and take <!!
+    e2. close
