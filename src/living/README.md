@@ -114,3 +114,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e4. the go-loop block
     e5. alts!
     e6. Serving Tea at a core.async Tea Party (recap)
+    e7. Creating a Tea Party to Be Run from the Command Line (jar)
