@@ -119,3 +119,5 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 ### Chapter 8 - The Power of Macros
 #### a. Exploring Macros
     e1. macroexpand-1
+#### b. Creating Our Own Macros
+    e1. no macro
