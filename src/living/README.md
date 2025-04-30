@@ -113,3 +113,4 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e3. async channel put >! and take <! in a go block
     e4. the go-loop block
     e5. alts!
+    e6. Serving Tea at a core.async Tea Party (recap)
