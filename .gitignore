@@ -3,7 +3,10 @@
 /.clj-kondo/
 
 # Clojure CLI
-/.cpcache
+/.cpcache/
 
 # Cursive
-/.idea
+/.idea/
+
+# Java
+/target/
