@@ -115,3 +115,7 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e5. alts!
     e6. Serving Tea at a core.async Tea Party (recap)
     e7. Creating a Tea Party to Be Run from the Command Line (jar)
+
+### Chapter 8 - The Power of Macros
+#### a. Exploring Macros
+    e1. macroexpand-1
