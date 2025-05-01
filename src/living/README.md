@@ -117,8 +117,7 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e7. Creating a Tea Party to Be Run from the Command Line (jar)
 
 ### Chapter 8 - The Power of Macros
-#### a. Exploring Macros
-    e1. macroexpand-1
-#### b. Creating Our Own Macros
-    e1. no macro
-    e2. defmacro
+    e1. Exploring Macros: macroexpand-1
+    e2. no macro
+    e3. defmacro
+      

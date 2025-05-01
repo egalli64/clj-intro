@@ -5,7 +5,7 @@
 ;; It receives arguments and manipulates them to generate new code
 ;; The result is code, that is executed at runtime
 
-(ns living.p1.ch8.b.e2)
+(ns living.p1.ch8.e3)
 
 (defn hi-queen [phrase] (str phrase ", so please your Majesty."))
 
