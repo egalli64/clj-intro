@@ -122,3 +122,8 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e3. defmacro
     e4. template: backtick ` and tilde ~
     e5. defmacro and template
+
+## Part 2 - Living Clojure Training Program
+### Chapter 10 - Weekly Living Clojure Training Plan
+#### a. Week 1..3 [4clojure exercises](https://4clojure.oxal.org/)
+See my solution in the [Oxal](../oxal/README.md) repo section
