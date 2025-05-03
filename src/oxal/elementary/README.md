@@ -37,3 +37,4 @@ Each file is a script. You could run them in the REPL, for instance using (load-
 - [72](p072.clj) thread-last macro ->>
 - [134](p134.clj) map and nil
 - [145](p145.clj) for :let :when :while
+- [156](p156.clj) map key/default value, zipmap
