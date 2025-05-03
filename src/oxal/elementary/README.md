@@ -6,7 +6,7 @@ Tested on Java 21, Clojure 1.12
 Elementary 4ever-clojure exercises
 https://4clojure.oxal.org/
 
-Each file is a script. Run them in the REPL, for example: (load-file "path/to/script.clj")
+Each file is a script. You could run them in the REPL, for instance using (load-file "path/to/script.clj")
 
 - [1](p001.clj) boolean, truthy/falsey
 - [2](p002.clj) parentheses in a simple mathematical expression
@@ -36,3 +36,4 @@ Each file is a script. Run them in the REPL, for example: (load-file "path/to/sc
 - [71](p071.clj) thread-first macro ->
 - [72](p072.clj) thread-last macro ->>
 - [134](p134.clj) map and nil
+- [145](p145.clj) for :let :when :while
