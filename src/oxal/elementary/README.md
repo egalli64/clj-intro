@@ -39,3 +39,4 @@ Each file is a script. You could run them in the REPL, for instance using (load-
 - [145](p145.clj) for :let :when :while
 - [156](p156.clj) map key/default value, zipmap
 - [161](p161.clj) subset and superset
+- [162](p162.clj) boolean, truthy/falsey, if-not
