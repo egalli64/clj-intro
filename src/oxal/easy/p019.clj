@@ -20,8 +20,10 @@
 (println "Last in hash-map:" (my-last (hash-map :a 1 :b 2 :c 3)))
 (println "Last in set:" (my-last #{:a :b :c}))
 
-;; my solution
-;; reduce (fn [_ x] x)
-
+;; my solution as anon function: (fn [xs] (reduce (fn [_ x] x) xs))
 (print "Is the problem solved? ")
-(= (reduce (fn [_ x] x) '(5 4 3)) 3)
+(let [solution (fn [xs] (reduce (fn [_ x] x) xs))]
+     (and (= (solution '(5 4 3)) 3)
+          (= (solution '(5 4 3)) 3)
+          (= (solution ["b" "c" "d"]) "d"))
+     )
