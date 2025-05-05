@@ -9,7 +9,7 @@ https://4clojure.oxal.org/
 Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 
 - [19](p019.clj) implementing last with reduce
-- [20](p20.clj) butlast on seq
+- [20](p020.clj) butlast on seq
 - [21](p21.clj) zero? first recur rest dec (to implement nth)
 - [22](p22.clj) loop recur (to implement count)
 - [23](p23.clj) loop recur (to implement reverse)
