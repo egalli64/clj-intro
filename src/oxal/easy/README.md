@@ -14,7 +14,7 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [22](p022.clj) loop recur (to implement count)
 - [23](p023.clj) loop recur (to implement reverse)
 - [24](p024.clj) reduce on seq
-- [25](p25.clj) filter on seq
+- [25](p025.clj) filter on seq
 - [26](p26.clj) compare defn with anon function (Fibonacci)
 - [27](p27.clj) reverse on seq (Palindrome)
 - [28](p28.clj) sequential mapcat (to implement flatten)

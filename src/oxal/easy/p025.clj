@@ -13,7 +13,9 @@
 (println "On a limited range:" (filter odd? (range 4)))
 
 ;; my solution
-;; filter odd?
-
-(print "Is the problem solved? ")
-(= (filter odd? [2 2 4 6]) '())
+(let [solution #(filter odd? %)]
+  (print "Is the problem solved? ")
+  (and (= (solution #{1 2 3 4 5}) '(1 3 5))
+       (= (solution [4 2 1 6]) '(1))
+       (= (solution [2 2 4 6]) '())
+       (= (solution [1 1 1 3]) '(1 1 1 3))))
