@@ -16,7 +16,7 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [24](p024.clj) reduce on seq
 - [25](p025.clj) filter on seq
 - [26](p026.clj) compare defn with anon function (Fibonacci)
-- [27](p27.clj) reverse on seq (Palindrome)
+- [27](p027.clj) reverse on seq (Palindrome)
 - [28](p28.clj) sequential mapcat (to implement flatten)
 - [29](p29.clj) string replace w/ regular expression
 - [30](p30.clj) partition-by identity and singlify

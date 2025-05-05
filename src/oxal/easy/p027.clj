@@ -19,7 +19,10 @@
 (println "Comparing a seq with its reverse is natural?" (= (seq "321") (reverse "123")))
 
 ;; my solution
-(def solution #(= (seq %) (reverse (seq %))))
-
-(print "Is the problem solved? ")
-(false? (solution '(:a :b :c)))
+(let [solution #(= (seq %) (reverse (seq %)))]
+  (print "Is the problem solved? ")
+  (and (false? (solution '(1 2 3 4 5)))
+       (true? (solution "racecar"))
+       (true? (solution [:foo :bar :foo]))
+       (true? (solution '(1 1 3 3 1 1)))
+       (false? (solution '(:a :b :c)))))
