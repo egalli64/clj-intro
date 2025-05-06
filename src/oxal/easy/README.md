@@ -20,7 +20,7 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [28](p028.clj) sequential mapcat (to implement flatten)
 - [29](p029.clj) string replace w/ regular expression, filter and Java isUpperCase w/ type hint
 - [30](p030.clj) partition-by identity and map to remove duplicates
-- [31](p31.clj) partition-by identity
+- [31](p031.clj) partition-by identity
 - [32](p32.clj) repeat and mapcat on seq
 - [33](p33.clj) repeat and mapcat on seq (variation)
 - [34](p34.clj) loop-recur (to implement range)

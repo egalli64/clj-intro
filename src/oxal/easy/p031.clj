@@ -8,8 +8,8 @@
 ;; see problem 30
 
 ;; my solution
-(def solution #(partition-by identity %))
-
-;; verify it
-(print "Is the problem solved? ")
-(= (solution [:a :a :b :b :c]) '((:a :a) (:b :b) (:c)))
+(let [solution #(partition-by identity %)]
+  (print "Is the problem solved? ")
+  (and (= (solution [1 1 2 1 1 1 3 3]) '((1 1) (2) (1 1 1) (3 3)))
+       (= (solution [:a :a :b :b :c]) '((:a :a) (:b :b) (:c)))
+       (= (solution [[1 2] [1 2] [3 4]]) '(([1 2] [1 2]) ([3 4])))))
