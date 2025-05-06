@@ -1,5 +1,10 @@
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; Easy 4ever-clojure exercises
 ;; Problem 34, Implement range
 ;; Create a list of integer in the given range
+;; https://4clojure.oxal.org/#/problem/34
 ;; (= (__ 1 4) '(1 2 3))
 ;; (= (__ -2 2) '(-2 -1 0 1))
 ;; (= (__ 5 8) '(5 6 7))
