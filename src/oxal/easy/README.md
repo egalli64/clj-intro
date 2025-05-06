@@ -23,4 +23,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [31](p031.clj) partition-by identity
 - [32](p032.clj) repeat and mapcat on seq to duplicate the elements of a seq
 - [33](p033.clj) repeat and mapcat on seq (variation)
-- [34](p34.clj) loop-recur (to implement range)
+- [34](p034.clj) loop-recur (to implement range)
