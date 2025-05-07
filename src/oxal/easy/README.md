@@ -29,3 +29,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [40](p040.clj) alternative interpose (by repeat, interleave, drop-last)
 - [41](p041.clj) drop elements in nth position (by partition-all)
 - [42](p042.clj) factorial (loop recur)
+- [45](p045.clj) iterate
