@@ -17,14 +17,14 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [25](p025.clj) filter on seq
 - [26](p026.clj) compare defn with anon function (Fibonacci)
 - [27](p027.clj) reverse on seq (Palindrome)
-- [28](p028.clj) sequential mapcat (to implement flatten)
+- [28](p028.clj) alternative flatten (by sequential mapcat)
 - [29](p029.clj) string replace w/ regular expression, filter and Java isUpperCase w/ type hint
 - [30](p030.clj) partition-by identity and map to remove duplicates
 - [31](p031.clj) partition-by identity
 - [32](p032.clj) repeat and mapcat on seq to duplicate the elements of a seq
 - [33](p033.clj) repeat and mapcat on seq (variation)
-- [34](p034.clj) loop-recur (to implement range)
-- [38](p038.clj) reduce (to implement max)
-- [39](p039.clj) apply concat on map result (to implement interleave)
-- [40](p040.clj) repeat, interleave, drop-last (to implement interpose)
+- [34](p034.clj) alternative range (by loop-recur)
+- [38](p038.clj) alternative max (by reduce)
+- [39](p039.clj) alternative interleave (by apply concat on map result)
+- [40](p040.clj) alternative interpose (by repeat, interleave, drop-last)
 - [41](p041.clj) drop elements in nth position (by partition-all)
