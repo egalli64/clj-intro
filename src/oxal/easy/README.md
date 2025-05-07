@@ -30,3 +30,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [41](p041.clj) drop elements in nth position (by partition-all)
 - [42](p042.clj) factorial (loop recur)
 - [45](p045.clj) iterate
+- [47](p047.clj) contains?
