@@ -31,3 +31,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [42](p042.clj) factorial (loop recur)
 - [45](p045.clj) iterate
 - [47](p047.clj) contains?
+- [48](p048.clj) some
