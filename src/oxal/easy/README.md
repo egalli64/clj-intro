@@ -8,11 +8,11 @@ https://4clojure.oxal.org/
 
 Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 
-- [19](p019.clj) reduce (to implement last) 
-- [20](p020.clj) butlast on seq
-- [21](p021.clj) zero? first recur rest dec (to implement nth)
-- [22](p022.clj) loop recur (to implement count)
-- [23](p023.clj) loop recur (to implement reverse)
+- [19](p019.clj) alternative last (by reduce) 
+- [20](p020.clj) penultimate element (by butlast / drop-last)
+- [21](p021.clj) alternative nth (by zero? first recur rest dec)
+- [22](p022.clj) alternative count (by loop recur)
+- [23](p023.clj) alternative reverse (by loop recur)
 - [24](p024.clj) reduce on seq
 - [25](p025.clj) filter on seq
 - [26](p026.clj) compare defn with anon function (Fibonacci)
