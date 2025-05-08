@@ -13,16 +13,18 @@
 ;; we can't use zipmap, that is exactly what we need
 (zipmap [:a :b :c] [1 2 3])
 
-;; interleave is close to what we need
+;; interleave is close to what we need, but generates a seq
 (interleave [:a :b :c] [1 2 3])
+;; we could partition the result of interleaving
+(partition 2 [:a 1 :b 2 :c 3])
+;; and put each pair in a map - notice: we need the pairs in vectors!
+(into {} [[:a 1] [:b 2] [:c 3]] )
 
+;; assoc on map simplify the job
+(apply assoc {} (interleave [:a :b :c] [1 2 3]))
+
+;; use map to generate pairs k/v and put them in a map by into
 (into {} (map vector [:a :b :c] [1 2 3]))
-
-(let [__ (fn [keys values]
-           (into {} (map vector keys values))
-           )]
-  (__ [:a :b :c] [1 2 3])
-  )
 
 ;; solution
 (let [__ #(into {} (map vector %1 %2))]
