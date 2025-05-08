@@ -33,3 +33,4 @@ Each file is a script. Run them in the REPL: (load-file "path/to/script.clj")
 - [47](p047.clj) contains?
 - [48](p048.clj) some
 - [49](p048.clj) alternative split-at (by take and drop)
+- [51](p051.clj) destructuring (& :as)
