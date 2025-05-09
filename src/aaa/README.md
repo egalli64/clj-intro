@@ -10,3 +10,4 @@ Tested on Java 21, Clojure 1.12
 - [filter](filter.clj) - select items matching a predicate
 - [reduce](reduce.clj) - accumulate values from a collection
 - [apply](apply.clj) - splat/spread/unpack a collection
+- [assoc on vector](assoc-vector.clj) - vector with a reset item
