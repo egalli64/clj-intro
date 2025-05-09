@@ -23,42 +23,42 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
 ### Chapter 2 - Flow and Functional Transformations
 #### a. Controlling the Flow with Logic
-    e1. class, boolean, nil, true?, false?, nil?
-    e2. not, =, not =
-    Logic tests on collections
-        e3. empty?, seq
-        e4. every?
-        e5. not-any?, some
-    Flow control
-        e6. if, if-let
-        e7. when, when-let
-        e8. cond :else
-        e9. case
+- [class, boolean, nil, true?, false?, nil?](ch2/a/e1.clj)
+- [not, =, not =](ch2/a/e2.clj)
+  #### Logic tests on collections
+  - [empty?, seq](ch2/a/e3.clj)
+  - [every?](ch2/a/e4.clj)
+  - [not-any?, some](ch2/a/e5.clj)
+  #### Flow control
+  - [if, if-let](ch2/a/e6.clj)
+  - [when, when-let](ch2/a/e7.clj)
+  - [cond :else](ch2/a/e8.clj)
+  - [case](ch2/a/e9.clj)
 #### b. Functions Creating Functions and Other Neat Expressions
-    e1. Currying with partial
-    e2. Composition with comp
-    Destructuring
-        e3. sequences
-        e4. maps
-        e5. parameters
+- [Currying with partial](ch2/b/e1.clj)
+- [Composition with comp](ch2/b/e2.clj)
+  #### Destructuring
+  - [sequences](ch2/b/e3.clj)
+  - [maps](ch2/b/e4.clj)
+  - [parameters](ch2/b/e5.clj)
 #### c. The Power of Laziness
-    e1. range
-    e2. take from range, repeat, count
-    e3. repeatedly, cycle, rest on cycle
+- [range](ch2/c/e1.clj)
+- [take from range, repeat, count](ch2/c/e2.clj)
+- [repeatedly, cycle, rest on cycle](ch2/c/e3.clj)
 #### d. Recursion
-    e1. Traversing a seq by recursion
-    e2. loop - recur
+- [Traversing a seq by recursion](ch2/d/e1.clj)
+- [loop - recur](ch2/d/e2.clj)
 #### e. The Functional Shape of Data Transformations
-    The map function
-        e1. basic use of map function
-        e2. map and side effects - doall
-        e3. zipping together collections with map
-    e4. reduce
-    e5. filter and remove - complement
-    e6. the for expression - :let and :when modifiers
-    e7. flatten
-    e8. into
-    e9. partition, partition-all, partition-by
+  #### The map function
+  - [basic use of map function](ch2/e/e1.clj)
+  - [map and side effects - doall](ch2/e/e2.clj)
+  - [zipping together collections with map](ch2/e/e3.clj)
+  - [reduce](ch2/e/e4.clj)
+  - [filter and remove - complement](ch2/e/e5.clj)
+  - [the for expression - :let and :when modifiers](ch2/e/e6.clj)
+  - [flatten](ch2/e/e7.clj)
+  - [into](ch2/e/e8.clj)
+  - [partition, partition-all, partition-by](ch2/e/e9.clj)
 
 ### Chapter 3 - State and Concurrency
 #### a. Using Atoms for Independent Items (sync)
