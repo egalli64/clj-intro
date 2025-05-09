@@ -7,3 +7,4 @@ Tested on Java 21, Clojure 1.12
 - [cons](cons.clj) - construct a seq 
 - [conj](conj.clj) - conjunct items to a collection
 - [map](map.clj) - transform items in a collection
+- [filter](filter.clj) - select items matching a predicate
