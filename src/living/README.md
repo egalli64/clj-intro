@@ -6,22 +6,20 @@ Tested on Java 21, Clojure 1.12
 Notes jotted down while reading Living Clojure by Carin Meier (2015) O'Reilly
 https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
-## Part 1 - A Guided Tour of Clojure
-
 ### Chapter 1 - The Structure of Clojure
 #### a. Baby Steps with Simple Values
-    e1. Numbers
-    e2. Other types
+- [Numbers](ch1/a/e1.clj)
+- [Other types](ch1/a/e2.clj)
 #### b. Put Your Clojure Data in Collections
-    e1. list: '(), first, rest, cons
-    e2. vector: [], first, rest, nth, last
-    e3. collections: count, conj
-    e4. map: {}, get, keys, vals, assoc, dissoc
-    e5. set: #{}, union, difference, intersection, contains? conj, disj, factory function
+- [list](ch1/b/e1.clj): '(), first, rest, cons
+- [vector](ch1/b/e2.clj): [], first, rest, nth, last 
+- [collections](ch1/b/e3.clj): count, conj 
+- [map](ch1/b/e4.clj): {}, get, keys, vals, assoc, dissoc 
+- [set](ch1/b/e5.clj): #{}, union, difference, intersection, contains? conj, disj, factory function
 #### c. Symbols and the Art of Binding
-    e1. def, user namespace, let
-    e2. defn, fn, shorthand form #()
-    e3. namespace
+- [def, user namespace, let](ch1/c/e1.clj) 
+- [defn, fn, shorthand form #()](ch1/c/e2.clj)
+- [namespace](ch1/c/e3.clj)
 
 ### Chapter 2 - Flow and Functional Transformations
 #### a. Controlling the Flow with Logic
@@ -123,7 +121,6 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
     e4. template: backtick ` and tilde ~
     e5. defmacro and template
 
-## Part 2 - Living Clojure Training Program
 ### Chapter 10 - Weekly Living Clojure Training Plan
 #### a. Week 1..3 [4clojure exercises](https://4clojure.oxal.org/)
 See my solution in the [Oxal](../oxal/README.md) repo section
