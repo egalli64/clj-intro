@@ -4,6 +4,7 @@
 Tested on Java 21, Clojure 1.12
 
 ## Some commonly used Clojure functions 
+- [count](count.clj) - number of items
 - [cons](cons.clj) - construct a seq 
 - [conj](conj.clj) - conjunct items to a collection
 - [map](map.clj) - transform items in a collection
