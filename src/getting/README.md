@@ -17,3 +17,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### b. Arithmetic
 - [Basic operations](p1/ch1/b/e1.clj): + - * /
 - [Combining operations](p1/ch1/b/e2.clj)
+#### c. Not Variable Assignment, but Close
+- [Binding symbol to value](): def
