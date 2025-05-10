@@ -19,3 +19,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [Combining operations](p1/ch1/b/e2.clj)
 #### c. Not Variable Assignment, but Close
 - [Binding symbol to value](): def
+#### d. A Function of Your Own
+- [Binding symbol to function](): defn
