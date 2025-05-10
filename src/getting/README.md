@@ -13,4 +13,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [Hello!](p1/ch1/a/e1.clj): print (and comments)
 - [Concatenate](p1/ch1/a/e2.clj): str
 - [Size](p1/ch1/a/e3.clj): count
-- [Constants](p1/ch1/a/e4.clj): true, false, nil 
+- [Constants](p1/ch1/a/e4.clj): true, false, nil
+#### b. Arithmetic
+- [Basic operations](p1/ch1/b/e1.clj): + - * /
+- [Combining operations](p1/ch1/b/e2.clj)
