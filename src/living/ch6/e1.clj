@@ -1,4 +1,7 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; Check the core.async dependency is available
 ;; see org.clojure/core.async dependency in the project configuration
 ;; https://github.com/clojure/core.async

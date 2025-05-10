@@ -115,11 +115,11 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 - [jar](ch6/a/e7.clj): Creating a Tea Party to Be Run from the Command Line
 
 ### Chapter 8 - The Power of Macros
-    e1. Exploring Macros: macroexpand-1
-    e2. no macro
-    e3. defmacro
-    e4. template: backtick ` and tilde ~
-    e5. defmacro and template
+- [Exploring Macros](ch8/e1.clj): macroexpand-1
+- [no macro](ch8/e2.clj)
+- [defmacro](ch8/e3.clj)
+- [template](ch8/e4.clj): backtick ` and tilde ~
+- [defmacro and template](ch8/e5.clj)
 
 ### Chapter 10 - Weekly Living Clojure Training Plan
 #### a. Week 1..3 [4clojure exercises](https://4clojure.oxal.org/)

@@ -1,7 +1,10 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; no macro
 
-(ns living.p1.ch8.e2)
+(ns living.ch8.e2)
 
 (defn hi-queen [phrase] (str phrase ", so please your Majesty."))
 (defn alice-hi-queen [] (hi-queen "My name is Alice"))

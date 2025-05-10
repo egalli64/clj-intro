@@ -1,6 +1,9 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; template: backtick `, unquote ~
-(ns living.p1.ch8.e4)
+(ns living.ch8.e4)
 
 (def user :Tom)
 

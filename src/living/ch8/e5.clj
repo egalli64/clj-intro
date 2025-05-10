@@ -1,18 +1,18 @@
-;;; For more info read Living Clojure by Carin Meier
-;; defmacro
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
 ;;
-;; A macro is a function that is evaluated at compile time
-;; It receives arguments and manipulates them to generate new code
-;; The result is code, that is executed at runtime
+;; For more info read Living Clojure by Carin Meier
+;; defmacro and template
 
-(ns living.p1.ch8.e3)
+(ns living.ch8.e5)
 
 (defn hi-queen [phrase] (str phrase ", so please your Majesty."))
 
 ;; run in the REPL: (macroexpand-1 '(def-hi-queen alice-hi-queen "My name is Alice"))
 ;; it will show: (defn alice-hi-queen [] (hi-queen "My name is Alice"))
 (defmacro def-hi-queen [name phrase]
-  (list 'defn (symbol name) [] (list 'hi-queen phrase)))
+  `(defn ~(symbol name) [] (hi-queen ~phrase))
+  )
 
 ;; Cursive can't get that a macro is involved in the process
 (def-hi-queen alice-hi-queen "My name is Alice")
