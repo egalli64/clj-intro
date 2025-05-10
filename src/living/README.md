@@ -62,24 +62,24 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
 ### Chapter 3 - State and Concurrency
 #### a. Using Atoms for Independent Items (sync)
-    e1. atom: def and deref
-    e2. reset!
-    e3. swap! - and dotimes
-    e4. future - competing on an atom with swap!
+- [atom: def and deref](ch3/a/e1.clj)
+- [reset!](ch3/a/e2.clj)
+- [swap!](ch3/a/e3.clj) and dotimes
+- [future](ch3/a/e4.clj) competing on an atom with swap!
 #### b. Using Refs for Coordinated (sync) Changes - Software Transactional Memory (STM)
-    e1. ref: def and deref
-    e2. dosync and ref-set
-    e3. dosync and alter
-    e4. future - competing on refs by dosync/alter
-    e5. commute
-    e6. future - competing on refs by dosync/commute
+- [ref](ch3/b/e1.clj): def and deref
+- [dosync and ref-set](ch3/b/e2.clj)
+- [dosync and alter](ch3/b/e3.clj)
+- [future](ch3/b/e4.clj) competing on refs by dosync/alter
+- [commute](ch3/b/e5.clj)
+- [future](ch3/b/e6.clj) competing on refs by dosync/commute
 #### c. Using Agents to Manage Changes on Their Own (async, by queue)
-    e1. agent: def and deref
-    e2. send, send-off
-    Exceptions
-        e3. agent-error, restart-agent
-        e4. set-error-mode!
-        e5. set-error-handler!
+- [agent](ch3/c/e1.clj): def and deref
+- [send, send-off](ch3/b/e2.clj)
+  #### Exceptions
+  - [agent-error, restart-agent](ch3/c/e3.clj)
+  - [set-error-mode!](ch3/c/e4.clj)
+  - [set-error-handler!](ch3/c/e5.clj)
 
 ### Chapter 4 - Java Interop and Polymorphism
 #### a. Handling Interop with Java

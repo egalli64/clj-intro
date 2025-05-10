@@ -1,5 +1,8 @@
-;;; For more info read Living Clojure by Carin Meier
-;; future: more threads competing on refs by dosync/alter
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
+;; future: more threads competing on refs by dosync/commute
 
 ;; defining two refs
 (def height (ref 3))
@@ -8,7 +11,7 @@
 
 ;; synchronized version
 (defn heigh-inc-sync "if counter is positive increase height" []
-  (dosync (when (pos? @counter) (alter counter dec) (alter height #(+ % 24)))))
+  (dosync (when (pos? @counter) (commute counter dec) (commute height #(+ % 24)))))
 
 ;; the task
 (defn change-defs-2 [] (dotimes [_ 2] (heigh-inc-sync)))
