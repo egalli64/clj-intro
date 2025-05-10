@@ -99,9 +99,9 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
 ### Chapter 5 - How to Use Clojure Projects and Libraries
 #### _[But I'm using deps.edn, not Leiningen]_
-    e1. creating a project with deps.edn
-    e2. creating a test: deftest, testing
-    e3. dependency management with deps.edn
+- [creating a project](ch5/e1.clj) with deps.edn
+- [creating a test](ch5/e2.clj): deftest, testing
+- [dependency management](ch5/e3.clj) with deps.edn
 
 ### Chapter 6 - Communication with core.async
     e1. using core.async, creating a channel
