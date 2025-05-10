@@ -1,8 +1,12 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; Java interop: import, invoking a static method
 
-(ns living.p1.ch4.a.e2
-  (:import (java.net InetAddress)))
+(ns living.ch4.a.e2
+  (:import (java.net InetAddress)
+           (java.util UUID)))
 
 ;; slash for static methods
 (let [local (InetAddress/getByName "localhost")]
@@ -15,4 +19,4 @@
   (println "The host name:" (.getHostName local)))
 
 ;; another example, generate a UUID
-(println (.toString (java.util.UUID/randomUUID)))
+(println (.toString (UUID/randomUUID)))

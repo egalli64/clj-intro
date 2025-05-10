@@ -83,19 +83,19 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 
 ### Chapter 4 - Java Interop and Polymorphism
 #### a. Handling Interop with Java
-    e1. class, invoking an instance method, creating a new object
-    e2. import, invoking a static method
-    e3. using the doto macro to chained calls
+- [class](ch4/a/e1.clj) invoking an instance method, creating a new object
+- [import, invoking a static method](ch4/a/e2.clj)
+- [using the doto macro to chained calls](ch4/a/e3.clj)
 #### b. Practical Polymorphism
-    e1. using cond for type dispatching
-    Multimethod: defmulti and defmethod
-        e2. class as dispatch function
-        e3. custom dispatch function
-    Protocol
-        e4. defprotocol and extend-protocol
-        e5. custom data type (DTO-like): defrecord
-        e6. defrecord and defprotocol
-        e7. deftype
+- [using cond for type dispatching](ch4/b/e1.clj)
+  #### Multimethod: defmulti and defmethod
+  - [class as dispatch function](ch4/b/e2.clj)
+  - [custom dispatch function](ch4/b/e3.clj)
+  #### Protocol
+  - [defprotocol and extend-protocol](ch4/b/e4.clj)
+  - [custom data type (DTO-like)](ch4/b/e5.clj): defrecord
+  - [defrecord and defprotocol](ch4/b/e6.clj)
+  - [deftype](ch4/b/e7.clj)
 
 ### Chapter 5 - How to Use Clojure Projects and Libraries
 #### _[But I'm using deps.edn, not Leiningen]_

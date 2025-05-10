@@ -1,12 +1,17 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; Polymorphism: cond for type dispatching
 
+; for the most commonly used types are available predicates, see below
 (defn process-verbose [input]
   (cond
-    (= java.lang.String (class input)) (str "Processing string: " input)
+    ; String, Long, ... are defined in the package java.lang.String, imported by default
+    (= String (class input)) (str "Processing string: " input)
+    (= Long (class input)) (str "Processing long: " input)
     (= clojure.lang.Keyword (class input)) (str "Processing keyword: " input)
     (= clojure.lang.Symbol (class input)) (str "Processing symbol: " input)
-    (= java.lang.Long (class input)) (str "Processing long: " input)
     :else (str "Processing an unknown object: " input)))
 
 ;; test the function

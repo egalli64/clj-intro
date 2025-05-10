@@ -1,4 +1,7 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; Polymorphism: deftype (minimal automatic features)
 
 ;; a protocol with two functions
