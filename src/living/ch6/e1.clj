@@ -3,7 +3,7 @@
 ;; see org.clojure/core.async dependency in the project configuration
 ;; https://github.com/clojure/core.async
 
-(ns living.p1.ch6.e1
+(ns living.ch6.e1
   (:require [clojure.core.async :as async]))
 
 (defn -main []

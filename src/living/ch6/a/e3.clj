@@ -1,6 +1,9 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; channel: async put >! and take <! in a go block
-(ns living.p1.ch6.a.e3
+(ns living.ch6.a.e3
   (:require [clojure.core.async :as async]))
 
 (defn -main []

@@ -104,15 +104,15 @@ https://www.oreilly.com/library/view/living-clojure/9781491909270/
 - [dependency management](ch5/e3.clj) with deps.edn
 
 ### Chapter 6 - Communication with core.async
-    e1. using core.async, creating a channel
+- [core.async](ch6/e1.clj): create a channel
 #### a. Basics of core.async Channels
-    e1. sync channel put >!! and take <!!
-    e2. close
-    e3. async channel put >! and take <! in a go block
-    e4. the go-loop block
-    e5. alts!
-    e6. Serving Tea at a core.async Tea Party (recap)
-    e7. Creating a Tea Party to Be Run from the Command Line (jar)
+- [sync channel](ch6/a/e1.clj): put >!! and take <!!
+- [close](ch6/a/e2.clj)
+- [async channel](ch6/a/e3.clj): put >! and take <! in a go block
+- [the go-loop block](ch6/a/e4.clj)
+- [alts!](ch6/a/e5.clj)
+- [Recap](ch6/a/e6.clj): Serving Tea at a core.async Tea Party
+- [jar](ch6/a/e7.clj): Creating a Tea Party to Be Run from the Command Line
 
 ### Chapter 8 - The Power of Macros
     e1. Exploring Macros: macroexpand-1

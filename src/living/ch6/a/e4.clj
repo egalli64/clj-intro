@@ -1,6 +1,9 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; channel: go-loop block
-(ns living.p1.ch6.a.e4
+(ns living.ch6.a.e4
   (:require [clojure.core.async :as async]))
 
 (def tea-channel (async/chan 10))
@@ -24,5 +27,4 @@
   (async/>!! tea-channel :tea-with-milk)
 
   (Thread/sleep 333)
-  (async/>!! tea-channel :cup-x)
-  )
+  (async/>!! tea-channel :cup-x))

@@ -1,4 +1,7 @@
-;;; For more info read Living Clojure by Carin Meier
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; For more info read Living Clojure by Carin Meier
 ;; standalone CLI app - using deps.edn (not Leiningen)
 ;; in deps.edn: :aliases - :build, see https://github.com/clojure/tools.build?tab=readme-ov-file#release-information
 ;; build.clj - Clojure code to do the job
@@ -7,7 +10,7 @@
 ;; the jar is generated in the target folder
 ;;    run it by: java -jar target/tea-app.jar
 
-(ns living.p1.ch6.a.e7
+(ns living.ch6.a.e7
   ;; support to the interaction with Java (for jar generation)
   (:gen-class)
   (:require [clojure.core.async :as async]))
