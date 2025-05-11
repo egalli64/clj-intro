@@ -18,6 +18,8 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [Basic operations](p1/ch1/b/e1.clj): + - * /
 - [Combining operations](p1/ch1/b/e2.clj)
 #### c. Not Variable Assignment, but Close
-- [Binding symbol to value](): def
+- [Binding symbol to value](p1/ch1/c/e1.clj): def
 #### d. A Function of Your Own
-- [Binding symbol to function](): defn
+- [Binding symbol to function](p1/ch1/d/e1.clj): defn
+#### e. In the Wild
+- [Uber jar](p1/ch1/e/e1.clj): ns, :gen-class, deps.edn, build.clj 
