@@ -23,4 +23,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [Binding symbol to function](p1/ch1/d/e1.clj): defn
 #### e. In the Wild
 - [Uber jar](p1/ch1/e/e1.clj): ns, :gen-class, -main, deps.edn, build.clj 
-- [Uber jar /2](p1/ch1/e/e2.clj): -main calling another function 
+- [Uber jar /2](p1/ch1/e/e2.clj): -main calling another function
+- [define and redefine](p1/ch1/e/e3.clj): multiple def and defn on the same symbol
