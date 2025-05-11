@@ -25,3 +25,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [Uber jar](p1/ch1/e/e1.clj): ns, :gen-class, -main, deps.edn, build.clj 
 - [Uber jar /2](p1/ch1/e/e2.clj): -main calling another function
 - [define and redefine](p1/ch1/e/e3.clj): multiple def and defn on the same symbol
+
+### Chapter 2 - Vectors and Lists
+#### a. One Thing After Another
+- [vector]()
