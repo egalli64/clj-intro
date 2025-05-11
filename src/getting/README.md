@@ -39,3 +39,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [basics operations on list](p1/ch2/d/e2.clj): count, first, rest, nth
 #### e. Lists versus Vectors
 - [list conjunction and construct](p1/ch2/e/e1.clj): conj, cons
+
+### Chapter 3 - Maps, Keywords, and Sets
+#### a. This Goes with That
+- [map (data structure)](): literal syntax {}, hash-map function, get value associated to key
