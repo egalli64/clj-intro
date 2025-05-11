@@ -22,4 +22,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### d. A Function of Your Own
 - [Binding symbol to function](p1/ch1/d/e1.clj): defn
 #### e. In the Wild
-- [Uber jar](p1/ch1/e/e1.clj): ns, :gen-class, deps.edn, build.clj 
+- [Uber jar](p1/ch1/e/e1.clj): ns, :gen-class, -main, deps.edn, build.clj 
+- [Uber jar /2](p1/ch1/e/e2.clj): -main calling another function 

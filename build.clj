@@ -19,5 +19,6 @@
                :uber-file uber-file
                :basis     basis
                ; :main      'living.p1.ch6.a.e7
-               :main      'getting.p1.ch1.e.e1
+               ; :main      'getting.p1.ch1.e.e1
+               :main      'getting.p1.ch1.e.e2
                }))
