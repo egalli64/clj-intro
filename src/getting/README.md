@@ -34,3 +34,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [basics operations on vector](p1/ch2/b/e2.clj): count, first, rest, nth
 #### c. Growing Your Vectors
 - [vector conjunction and construct](p1/ch2/c/e1.clj): conj, cons
+#### d. Lists
+- [list](p1/ch2/d/e1.clj): literal syntax '(), list function
+
