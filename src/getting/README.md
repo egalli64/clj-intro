@@ -28,4 +28,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 2 - Vectors and Lists
 #### a. One Thing After Another
-- [vector]()
+- [vector](p1/ch2/a/e1.clj): literal syntax []
+#### b. A Toolkit of Functions
+- [vector](p1/ch2/b/e1.clj): function

@@ -2,7 +2,7 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; vector
+;; vector literal syntax
 
 ;; a vector of four integers
 (println [1 2 3 4])
