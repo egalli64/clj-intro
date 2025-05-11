@@ -32,3 +32,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### b. A Toolkit of Functions
 - [vector](p1/ch2/b/e1.clj): function
 - [basics operations on vector](p1/ch2/b/e2.clj): count, first, rest, nth
+#### c. Growing Your Vectors
+- [vector conjunction and construct](p1/ch2/c/e1.clj): conj, cons
