@@ -37,3 +37,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### d. Lists
 - [list](p1/ch2/d/e1.clj): literal syntax '(), list function
 - [basics operations on list](p1/ch2/d/e2.clj): count, first, rest, nth
+#### e. Lists versus Vectors
+- [list conjunction and construct](p1/ch2/e/e1.clj): conj, cons
