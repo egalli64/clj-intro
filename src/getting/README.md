@@ -31,3 +31,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [vector](p1/ch2/a/e1.clj): literal syntax []
 #### b. A Toolkit of Functions
 - [vector](p1/ch2/b/e1.clj): function
+- [basics operations on vector](p1/ch2/b/e2.clj): count, first, rest, nth
