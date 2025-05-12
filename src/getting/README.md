@@ -57,3 +57,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### e. Sets
 - [create a set](p1/ch3/e/e1.clj): literal syntax #{}, hash-set function
 - [search in a set](p1/ch3/e/e2.clj): contains?, by key
+- [add/remove an item](p1/ch3/e/e3.clj): conj, disj
