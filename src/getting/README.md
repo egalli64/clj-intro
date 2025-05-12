@@ -45,3 +45,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [map (data structure)](p1/ch3/a/e1.clj): literal syntax {}, hash-map function, get value associated to key
 #### b. Keywords
 - [keyword as map key](p1/ch3/b/e1.clj)
+#### c. Changing Your Map Without Changing It
+- [add/modify an entry to a map](p1/ch3/c/e1.clj): assoc
+- [remove an entry to a map](p1/ch3/c/e2.clj): dissoc
+- [add/modify an item to a vector](p1/ch3/c/e3.clj): assoc on vector
