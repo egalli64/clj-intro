@@ -56,3 +56,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [sorted map](p1/ch3/d/e3.clj): sorted-map
 #### e. Sets
 - [create a set](p1/ch3/e/e1.clj): literal syntax #{}, hash-set function
+- [search in a set](p1/ch3/e/e2.clj): contains?, by key
