@@ -42,14 +42,17 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 3 - Maps, Keywords, and Sets
 #### a. This Goes with That
-- [map (data structure)](p1/ch3/a/e1.clj): literal syntax {}, hash-map function, get value associated to key
+- [create a map](p1/ch3/a/e1.clj): literal syntax {}, hash-map function
+- [get value from map by key](p1/ch3/a/e1.clj): get
 #### b. Keywords
 - [keyword as map key](p1/ch3/b/e1.clj)
 #### c. Changing Your Map Without Changing It
 - [add/modify an entry to a map](p1/ch3/c/e1.clj): assoc
 - [remove an entry to a map](p1/ch3/c/e2.clj): dissoc
 - [add/modify an item to a vector](p1/ch3/c/e3.clj): assoc on vector
-#### d.  Other Handy Map Functions
+#### d. Other Handy Map Functions
 - [getting all the keys in a map](p1/ch3/d/e1.clj): keys
 - [getting all the values in a map](p1/ch3/d/e2.clj): vals
 - [sorted map](p1/ch3/d/e3.clj): sorted-map
+#### e. Sets
+- [create a set](p1/ch3/e/e1.clj): literal syntax #{}, hash-set function
