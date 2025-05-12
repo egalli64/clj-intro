@@ -70,3 +70,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [predicates to compare numbers](p1/ch4/b/e2.clj): > >= < <=
 - [some other predicates](p1/ch4/b/e3.clj): number? string? keyword? map? vector?
 - [boolean functions](p1/ch4/b/e4.clj): not and or
+#### c. Truthy and Falsy
+- [Kind of true, kind of false](p1/ch4/c/e1.clj)
