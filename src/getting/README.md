@@ -49,3 +49,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [add/modify an entry to a map](p1/ch3/c/e1.clj): assoc
 - [remove an entry to a map](p1/ch3/c/e2.clj): dissoc
 - [add/modify an item to a vector](p1/ch3/c/e3.clj): assoc on vector
+#### d.  Other Handy Map Functions
+- [getting all the keys in a map](p1/ch3/d/e1.clj): keys
+- [getting all the values in a map](p1/ch3/d/e2.clj): vals
+- [sorted map](p1/ch3/d/e3.clj): sorted-map
