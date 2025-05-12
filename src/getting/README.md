@@ -58,3 +58,10 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [create a set](p1/ch3/e/e1.clj): literal syntax #{}, hash-set function
 - [search in a set](p1/ch3/e/e2.clj): contains?, by key
 - [add/remove an item](p1/ch3/e/e3.clj): conj, disj
+
+### Chapter 4 - Logic
+#### a. The Fundamental If
+- [executing a form only if a condition is truthy](p1/ch4/a/e1.clj): if
+- [choosing which form execute between two ones](p1/ch4/a/e2.clj): if (else)
+- [generating a value accordingly to condition](p1/ch4/a/e3.clj)
+- [no "else" implies nil](p1/ch4/a/e4.clj)
