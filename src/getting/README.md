@@ -72,3 +72,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [boolean functions](p1/ch4/b/e4.clj): not and or
 #### c. Truthy and Falsy
 - [Kind of true, kind of false](p1/ch4/c/e1.clj)
+#### d. Do and When
+- [grouping forms](p1/ch4/d/e1.clj): do
+- [grouping forms in a condition](p1/ch4/d/e2.clj): if-do[-do]
+- [grouping forms, only for truthy](p1/ch4/d/e3.clj): when
