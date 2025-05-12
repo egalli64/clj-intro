@@ -42,4 +42,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 3 - Maps, Keywords, and Sets
 #### a. This Goes with That
-- [map (data structure)](): literal syntax {}, hash-map function, get value associated to key
+- [map (data structure)](p1/ch3/a/e1.clj): literal syntax {}, hash-map function, get value associated to key
+#### b. Keywords
+- [keyword as map key](p1/ch3/b/e1.clj)
