@@ -12,8 +12,3 @@
 ;; using the hash-map function
 (def book (hash-map "title" "Oliver Twist", "author" "Dickens", "published" 1838))
 (println "The book map:" book)
-
-;; get a value by the get function
-(get book "published")
-;; same, using the actual map as a function
-(book "published")
