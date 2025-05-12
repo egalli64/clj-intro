@@ -65,3 +65,8 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [choosing which form execute between two ones](p1/ch4/a/e2.clj): if (else)
 - [generating a value accordingly to condition](p1/ch4/a/e3.clj)
 - [no "else" implies nil](p1/ch4/a/e4.clj)
+#### b. Asking Questions
+- [equality testing](p1/ch4/b/e1.clj): =, not=
+- [predicates to compare numbers](p1/ch4/b/e2.clj): > >= < <=
+- [some other predicates](p1/ch4/b/e3.clj): number? string? keyword? map? vector?
+- [boolean functions](p1/ch4/b/e4.clj): not and or
