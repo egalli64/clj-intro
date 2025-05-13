@@ -97,3 +97,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [simplified approach](p1/ch5/c/e2.clj): defmulti, defmethod
 - [dispatch function example](p1/ch5/c/e3.clj)
 - [no dispatch function example](p1/ch5/c/e4.clj): dispatch by keyword
+#### d. Deeply Recursive
+- [plain recursive function (no TCO)](p1/ch5/d/e1.clj)
