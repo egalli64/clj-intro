@@ -101,3 +101,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [plain recursive function (no TCO)](p1/ch5/d/e1.clj)
 - [tail call optimization on recursion](p1/ch5/d/e2.clj): recur
 - [idiomatic TCO on recursion](p1/ch5/d/e3.clj): loop recur
+- [standard functions often make life easier](p1/ch5/d/e4.clj): (apply/map spoiler)
