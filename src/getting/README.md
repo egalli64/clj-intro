@@ -81,3 +81,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [simplify by cond](p1/ch4/e/e2.clj): cond predicate value
 - [the cond :else idiom](p1/ch4/e/e3.clj): cond :else
 - [simplified condition](p1/ch4/e/e4.clj): case
+#### f. Throwing and Catching
+- [Clojure exception](p1/ch4/f/e1.clj): ex-info ExceptionInfo
