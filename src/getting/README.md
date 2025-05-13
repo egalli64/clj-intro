@@ -99,3 +99,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [no dispatch function example](p1/ch5/c/e4.clj): dispatch by keyword
 #### d. Deeply Recursive
 - [plain recursive function (no TCO)](p1/ch5/d/e1.clj)
+- [tail call optimization on recursion](p1/ch5/d/e2.clj): recur
