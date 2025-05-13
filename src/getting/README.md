@@ -83,3 +83,8 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [simplified condition](p1/ch4/e/e4.clj): case
 #### f. Throwing and Catching
 - [Clojure exception](p1/ch4/f/e1.clj): ex-info ExceptionInfo
+
+### Chapter 5 - More Capable Functions
+#### a. One Function, Different Parameters
+- [multi-arity function](p1/ch5/a/e1.clj)
+- [multi-arity function revised](p1/ch5/a/e2.clj): filling in the defaults
