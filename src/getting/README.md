@@ -102,3 +102,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [tail call optimization on recursion](p1/ch5/d/e2.clj): recur
 - [idiomatic TCO on recursion](p1/ch5/d/e3.clj): loop recur
 - [standard functions often make life easier](p1/ch5/d/e4.clj): (apply/map spoiler)
+#### e. Docstrings
+- [documenting defn, def (and more)](p1/ch5/e/e1.clj)
