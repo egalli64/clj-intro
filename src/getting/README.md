@@ -92,3 +92,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [variadic function with rest parameter](p1/ch5/b/e1.clj): & marker
 - [accessing an item from a rest parameter](p1/ch5/b/e2.clj)
 - [mixing plain and rest parameters](p1/ch5/b/e3.clj)
+#### c. Multimethods
+- [function behavior based on argument structure](p1/ch5/c/e1.clj): if - "else if" approach
+- [simplified approach](p1/ch5/c/e2.clj): defmulti, defmethod
