@@ -95,3 +95,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### c. Multimethods
 - [function behavior based on argument structure](p1/ch5/c/e1.clj): if - "else if" approach
 - [simplified approach](p1/ch5/c/e2.clj): defmulti, defmethod
+- [dispatch function example](p1/ch5/c/e3.clj)
+- [no dispatch function example](p1/ch5/c/e4.clj): dispatch by keyword
