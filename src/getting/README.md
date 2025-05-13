@@ -104,3 +104,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [standard functions often make life easier](p1/ch5/d/e4.clj): (apply/map spoiler)
 #### e. Docstrings
 - [documenting defn, def (and more)](p1/ch5/e/e1.clj)
+#### f. Pre- and Post-Conditions
+- [precondition the hard way](p1/ch5/f/e1.clj): when-not
+- [precondition](p1/ch5/f/e2.clj): {:pre [expressions]}
+- [postcondition](p1/ch5/f/e3.clj): {:post [expressions]}
