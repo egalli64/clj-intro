@@ -76,3 +76,8 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [grouping forms](p1/ch4/d/e1.clj): do
 - [grouping forms in a condition](p1/ch4/d/e2.clj): if-do[-do]
 - [grouping forms, only for truthy](p1/ch4/d/e3.clj): when
+#### e. Dealing with Multiple Conditions
+- [if "else if" "else" is a pain](p1/ch4/e/e1.clj)
+- [simplify by cond](p1/ch4/e/e2.clj): cond predicate value
+- [the cond :else idiom](p1/ch4/e/e3.clj): cond :else
+- [simplified condition](p1/ch4/e/e4.clj): case
