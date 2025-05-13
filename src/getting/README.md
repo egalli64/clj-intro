@@ -88,3 +88,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### a. One Function, Different Parameters
 - [multi-arity function](p1/ch5/a/e1.clj)
 - [multi-arity function revised](p1/ch5/a/e2.clj): filling in the defaults
+#### b. Arguments with Wild Abandon
+- [variadic function with rest parameter](p1/ch5/b/e1.clj): & marker
+- [accessing an item from a rest parameter](p1/ch5/b/e2.clj)
+- [mixing plain and rest parameters](p1/ch5/b/e3.clj)
