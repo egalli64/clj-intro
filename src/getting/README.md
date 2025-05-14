@@ -118,3 +118,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [anonymous function](p1/ch6/b/e1.clj): fn
 - [a closure](p1/ch6/b/e2.clj)
 - [another closure](p1/ch6/b/e3.clj)
+#### c. A Functional Toolkit
+- [calling a function on the items of a collection](p1/ch6/c/e1.clj): apply
