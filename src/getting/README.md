@@ -121,3 +121,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### c. A Functional Toolkit
 - [call a function on the items of a collection](p1/ch6/c/e1.clj): apply
 - [build a function with fewer parameters](p1/ch6/c/e2.clj): partial
+- [another example for partial](p1/ch6/c/e3.clj)
