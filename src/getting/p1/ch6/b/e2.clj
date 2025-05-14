@@ -4,8 +4,6 @@
 ;; For more info read Getting Clojure by Russ Olsen
 ;; a closure
 
-(ns getting.p1.ch6.b.e2)
-
 ;; a book
 (def dracula {:title "Dracula", :author "Stoker", :price 1.99, :genre :horror})
 
@@ -16,11 +14,10 @@
 
 ;; helpers based on the closure above
 (def real-cheap? (cheaper-than 1.00))
-(def kind-of-cheap? (cheaper-than 2.00))
-(def marginally-cheap? (cheaper-than 6.00))
+(println "Is" (:title dracula) "real cheap?" (real-cheap? dracula))
 
-(defn -main []
-  (println "Considering:" dracula)
-  (println "Is real cheap?" (real-cheap? dracula))
-  (println "Is kind of cheap?" (kind-of-cheap? dracula))
-  (println "Is marginally cheap?" (marginally-cheap? dracula)))
+(def kind-of-cheap? (cheaper-than 2.00))
+(println "Is" (:title dracula) "kind of cheap?" (kind-of-cheap? dracula))
+
+(def marginally-cheap? (cheaper-than 6.00))
+(println "Is" (:title dracula) "marginally cheap?" (marginally-cheap? dracula))
