@@ -4,8 +4,6 @@
 ;; For more info read Getting Clojure by Russ Olsen
 ;; another closure
 
-(ns getting.p1.ch6.b.e3)
-
 ;; a couple of books
 (def dracula {:title "Dracula", :author "Stoker", :price 1.99, :genre :horror})
 (def possession {:title "Possession", :author "Byatt", :price 9.99, :genre :historical})
@@ -19,12 +17,15 @@
 (defn horror? [book] (= (:genre book) :horror))
 (defn historical? [book] (= (:genre book) :historical))
 
-;; helpers based on the closure above
+;; a predicate based on the "both" closure
 (def cheap-horror? (both cheap? horror?))
+(println "Is" (:title dracula) "a cheap horror?" (cheap-horror? dracula))
+
+;; another predicate based on the "both" closure
 (def cheap-historical? (both cheap? historical?))
+(println "Is" (:title possession) "a cheap historical?" (cheap-historical? possession))
+
+;; a bit more complex predicate
 (def cheap-historical-possession?
   (both cheap-historical? (fn [book] (= (:title book) "Possession"))))
-
-(defn -main []
-  (println dracula "is a cheap horror?" (cheap-horror? dracula))
-  (println possession "is a cheap historical 'Possession'?" (cheap-historical-possession? possession)))
+(println "Is" (:title possession) "a cheap historical 'Possession'?" (cheap-historical-possession? possession))
