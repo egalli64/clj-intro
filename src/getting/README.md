@@ -117,3 +117,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### b. Functions on the Fly
 - [anonymous function](p1/ch6/b/e1.clj): fn
 - [a closure](p1/ch6/b/e2.clj)
+- [another closure](p1/ch6/b/e3.clj)
