@@ -119,4 +119,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [a closure](p1/ch6/b/e2.clj)
 - [another closure](p1/ch6/b/e3.clj)
 #### c. A Functional Toolkit
-- [calling a function on the items of a collection](p1/ch6/c/e1.clj): apply
+- [call a function on the items of a collection](p1/ch6/c/e1.clj): apply
+- [build a function with fewer parameters](p1/ch6/c/e2.clj): partial
