@@ -116,3 +116,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [a combiner as high order function](p1/ch6/a/e1.clj)
 #### b. Functions on the Fly
 - [anonymous function](p1/ch6/b/e1.clj): fn
+- [a closure](p1/ch6/b/e2.clj)
