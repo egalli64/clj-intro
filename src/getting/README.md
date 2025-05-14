@@ -124,3 +124,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [another example for partial](p1/ch6/c/e3.clj)
 - [build a negating function](p1/ch6/c/e4.clj): complement
 - [combine predicates and-ing them together](p1/ch6/c/e5.clj): every-pred
+#### d. Function Literals
+- [minimalistic syntax for anonymous function](p1/ch6/d/e1.clj): #()
