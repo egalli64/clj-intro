@@ -122,3 +122,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [call a function on the items of a collection](p1/ch6/c/e1.clj): apply
 - [build a function with fewer parameters](p1/ch6/c/e2.clj): partial
 - [another example for partial](p1/ch6/c/e3.clj)
+- [build a negating function](p1/ch6/c/e4.clj): complement
