@@ -110,3 +110,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [postcondition](p1/ch5/f/e3.clj): {:post [expressions]}
 #### g. Staying Out of Trouble
 - [variadic in multi-arity](p1/ch5/g/e1.clj)
+
+### Chapter 6 - Functional Things
+#### a. Functions Are Values
+- [a combiner as high order function](p1/ch6/a/e1.clj)
