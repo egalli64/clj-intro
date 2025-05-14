@@ -108,3 +108,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [precondition the hard way](p1/ch5/f/e1.clj): when-not
 - [precondition](p1/ch5/f/e2.clj): {:pre [expressions]}
 - [postcondition](p1/ch5/f/e3.clj): {:post [expressions]}
+#### g. Staying Out of Trouble
+- [variadic in multi-arity](p1/ch5/g/e1.clj)
