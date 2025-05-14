@@ -123,3 +123,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [build a function with fewer parameters](p1/ch6/c/e2.clj): partial
 - [another example for partial](p1/ch6/c/e3.clj)
 - [build a negating function](p1/ch6/c/e4.clj): complement
+- [combine predicates and-ing them together](p1/ch6/c/e5.clj): every-pred
