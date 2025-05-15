@@ -113,7 +113,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 6 - Functional Things
 #### a. Functions Are Values
-- [a combiner as high order function](p1/ch6/a/e1.clj)
+- [a combiner as higher order function](p1/ch6/a/e1.clj)
 #### b. Functions on the Fly
 - [anonymous function](p1/ch6/b/e1.clj): fn
 - [a closure](p1/ch6/b/e2.clj)
@@ -129,4 +129,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 7 - Let
 #### a. A Local, Temporary Place for Your Stuff
-- [define a local variable](p1/ch7/a/e1.clj): let
+- [local binding](p1/ch7/a/e1.clj): let
+#### b. Let Over Fn
+- [make the previous example more complex](p1/ch7/b/e1.clj)
+- [function factory keeps the complexity under control](p1/ch7/b/e2.clj): let fn
