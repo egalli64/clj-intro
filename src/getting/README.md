@@ -139,3 +139,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### d. Staying Out of Trouble
 - [let lexical scope](p1/ch7/d/e1.clj)
 - [nested let](p1/ch7/d/e2.clj)
+- [duplicated let](p1/ch7/d/e3.clj)
