@@ -134,4 +134,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [make the previous example more complex](p1/ch7/b/e1.clj)
 - [function factory keeps the complexity under control](p1/ch7/b/e2.clj): let fn
 #### c. Variations on the Theme
-- [combining let and if together](p1/ch7/c/e1.clj): if-let
+- [combining if and let together](p1/ch7/c/e1.clj): if-let
+- [combining when and let together](p1/ch7/c/e2.clj): when-let
