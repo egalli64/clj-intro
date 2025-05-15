@@ -126,3 +126,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [combine predicates and-ing them together](p1/ch6/c/e5.clj): every-pred
 #### d. Function Literals
 - [minimalistic syntax for anonymous function](p1/ch6/d/e1.clj): #()
+
+### Chapter 7 - Let
+#### a. A Local, Temporary Place for Your Stuff
+- [define a local variable](p1/ch7/a/e1.clj): let
