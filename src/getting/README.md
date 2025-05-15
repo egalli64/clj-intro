@@ -136,3 +136,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### c. Variations on the Theme
 - [combining if and let together](p1/ch7/c/e1.clj): if-let
 - [combining when and let together](p1/ch7/c/e2.clj): when-let
+#### d. Staying Out of Trouble
+- [let lexical scope](p1/ch7/d/e1.clj)
+- [nested let](p1/ch7/d/e2.clj)
