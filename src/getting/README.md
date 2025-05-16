@@ -150,3 +150,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [What is a var](p1/ch8/c/e1.clj)
 #### d. Varying Your Vars
 - [vars could vary (but shouldn't)](p1/ch8/d/e1.clj)
+- [use dynamic vars (spoiler), only when strictly required](p1/ch8/d/e2.clj): ^:dynamic binding
