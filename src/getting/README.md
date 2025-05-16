@@ -161,3 +161,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [accessing vars from namespace not already known](p1/ch9/b/e1.clj): require
 #### c. A Namespace of Your Own
 - [a minimal Clojure app](p1/ch9/c/e1.clj): ns :gen-class
+- [each file with its own namespace](p1/ch9/c/e2.clj)
