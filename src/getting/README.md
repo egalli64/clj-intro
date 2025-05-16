@@ -146,3 +146,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [globally bind a symbol to a value](p1/ch8/a/e1.clj): def, defn
 #### b. Symbols Are Things
 - [What is a symbol](p1/ch8/b/e1.clj)
+#### c. Bindings Are Things Too
+- [What is a var](p1/ch8/c/e1.clj)
