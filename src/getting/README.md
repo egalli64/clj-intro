@@ -156,4 +156,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 9 - Namespaces
 #### a. A Place for Your Vars
--[create/switch namespace](p1/ch9/a/e1.clj): ns
+- [create/switch namespace](p1/ch9/a/e1.clj): ns
+#### b. Loading Namespaces
+- [accessing vars from namespace not already known](p1/ch9/b/e1.clj): require
