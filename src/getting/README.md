@@ -148,3 +148,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [What is a symbol](p1/ch8/b/e1.clj)
 #### c. Bindings Are Things Too
 - [What is a var](p1/ch8/c/e1.clj)
+#### d. Varying Your Vars
+- [vars could vary (but shouldn't)](p1/ch8/d/e1.clj)
