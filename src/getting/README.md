@@ -162,3 +162,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### c. A Namespace of Your Own
 - [a minimal Clojure app](p1/ch9/c/e1.clj): ns :gen-class
 - [each file with its own namespace](p1/ch9/c/e2.clj)
+- [requiring while defining a namespace](p1/ch9/c/e3.clj): ns :require
