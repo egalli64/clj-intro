@@ -24,5 +24,5 @@
 (println (book-description dracula))
 
 ;; a defn using a previous def in its body
-(defn circle-area [radius] (* PI (* radius radius)))
+(defn circle-area [radius] (* PI radius radius))
 (println (circle-area 3.6573))
