@@ -163,3 +163,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [a minimal Clojure app](p1/ch9/c/e1.clj): ns :gen-class
 - [each file with its own namespace](p1/ch9/c/e2.clj)
 - [requiring while defining a namespace](p1/ch9/c/e3.clj): ns :require
+#### d. As and Refer
+- [aliasing a required namespace](p1/ch9/d/e1.clj): :as
