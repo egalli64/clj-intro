@@ -166,3 +166,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### d. As and Refer
 - [aliasing a required namespace](p1/ch9/d/e1.clj): ns :require :as
 - [pulling a var in the current namespace](p1/ch9/d/e2.clj): ns :require :refer
+#### e. Namespaces, Symbols, and Keywords
+- [getting the current namespace](p1/ch9/e/e1.clj): \*ns\*
