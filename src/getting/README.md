@@ -153,3 +153,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [use dynamic vars (spoiler), only when strictly required](p1/ch8/d/e2.clj): ^:dynamic binding \*earmuff\*
 #### e. In the Wild
 - [some commonly used standard earmuffs](p1/ch8/e/e1.clj): \*print-length\* \*1 \*e
+
+### Chapter 9 - Namespaces
+#### a. A Place for Your Vars
+-[create/switch namespace](p1/ch9/a/e1.clj): ns
