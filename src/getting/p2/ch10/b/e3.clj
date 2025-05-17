@@ -2,14 +2,14 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; rest
+;; next
 
 (def titles ["Emma" "Oliver Twist" "Robinson Crusoe"])
-(rest titles)
+(next titles)
 
 (def book {:title "Emma", :author "Austen", :published 1815})
-(rest book)
+(next book)
 
-;; rest on an empty collection, or even on nil, leads to an empty seq (see next)
-(rest [])
-(rest nil)
+;; next on an empty collection, or even on nil, leads to nil (see rest)
+(next [])
+(next nil)
