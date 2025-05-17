@@ -169,3 +169,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### e. Namespaces, Symbols, and Keywords
 - [getting the current namespace](p1/ch9/e/e1.clj): \*ns\*
 - [getting a namespace by name, and its vars](p1/ch9/e/e2.clj): find-ns, ns-map
+- [extracting the namespace from symbols and keywords](p1/ch9/e/e3.clj): namespace

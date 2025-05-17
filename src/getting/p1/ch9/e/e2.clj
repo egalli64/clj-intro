@@ -2,7 +2,7 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; *ns*,
+;; find-ns, ns-map
 
 (ns getting.p1.ch9.e.e2)
 
