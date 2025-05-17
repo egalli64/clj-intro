@@ -170,3 +170,13 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [getting the current namespace](p1/ch9/e/e1.clj): \*ns\*
 - [getting a namespace by name, and its vars](p1/ch9/e/e2.clj): find-ns, ns-map
 - [extracting the namespace from symbols and keywords](p1/ch9/e/e3.clj): namespace
+
+## Part 2 - Intermediate
+
+### Chapter 10 - Sequences
+Each standard collection is implemented in terms of a sequence, supporting all the methods defined in ISeq.
+#### a. One Thing After Another
+- [Adapting vector to sequence](p2/ch10/a/e1.clj): seq
+- [A list is-a sequence](p2/ch10/a/e2.clj)
+- [Adapting map to sequence](p2/ch10/a/e3.clj)
+- [Empty seq is nil](p2/ch10/a/e3.clj)
