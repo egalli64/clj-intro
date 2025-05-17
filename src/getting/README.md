@@ -184,3 +184,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [first element](p2/ch10/b/e1.clj): first
 - [the elements beyond the first](p2/ch10/b/e2.clj): rest
 - [alternative to rest](p2/ch10/b/e3.clj): next
+- [add an element in first position](p2/ch10/b/e4.clj): cons
