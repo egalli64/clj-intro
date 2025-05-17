@@ -176,7 +176,9 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 ### Chapter 10 - Sequences
 Each standard collection is implemented in terms of a sequence, supporting all the methods defined in ISeq.
 #### a. One Thing After Another
-- [Adapting vector to sequence](p2/ch10/a/e1.clj): seq
-- [A list is-a sequence](p2/ch10/a/e2.clj)
-- [Adapting map to sequence](p2/ch10/a/e3.clj)
-- [Empty seq is nil](p2/ch10/a/e3.clj)
+- [adapting vector to sequence](p2/ch10/a/e1.clj): seq
+- [list is-a sequence](p2/ch10/a/e2.clj)
+- [adapting map to sequence](p2/ch10/a/e3.clj)
+- [empty seq is nil](p2/ch10/a/e3.clj)
+#### b. A Universal Interface
+- [first element](p2/ch10/b/e1.clj): first
