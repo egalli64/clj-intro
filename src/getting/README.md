@@ -186,3 +186,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [alternative to rest](p2/ch10/b/e3.clj): next
 - [add an element in first position](p2/ch10/b/e4.clj): cons
 - [an alternative count function](p2/ch10/b/e5.clj)
+#### c. A Rich Toolkit …
+- [sorting a seqable](p2/ch10/c/e1.clj): sort
