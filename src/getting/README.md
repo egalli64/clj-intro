@@ -188,3 +188,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [an alternative count function](p2/ch10/b/e5.clj)
 #### c. A Rich Toolkit …
 - [sorting a seqable](p2/ch10/c/e1.clj): sort
+- [reversing a seqable](p2/ch10/c/e2.clj): reverse
