@@ -182,3 +182,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [empty seq is nil](p2/ch10/a/e3.clj)
 #### b. A Universal Interface
 - [first element](p2/ch10/b/e1.clj): first
+- [the elements beyond the first](p2/ch10/b/e2.clj): rest
