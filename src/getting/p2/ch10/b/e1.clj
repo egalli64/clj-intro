@@ -9,3 +9,7 @@
 
 (def book {:title "Emma", :author "Austen", :published 1815})
 (first book)
+
+;; first on an empty collection, or even on nil, leads to nil
+(first [])
+(first nil)
