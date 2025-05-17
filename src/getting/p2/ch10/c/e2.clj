@@ -2,7 +2,7 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; sort: works on any seqable, returns a seq
+;; reverse, composing sort and reverse
 
 (def titles ["Jaws" "Emma" "2001" "Dracula"])
 (type titles)
