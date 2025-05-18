@@ -196,3 +196,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [get the first truthy value returned by predicate](p2/ch10/d/e2.clj): some
 #### e. Map (function)
 - [map the elements maintaining the element types](p2/ch10/e/e1.clj)
+- [extracting a field from a map (structure)](p2/ch10/e/e2.clj)
