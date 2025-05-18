@@ -198,3 +198,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [map the elements maintaining the element types](p2/ch10/e/e1.clj): map
 - [extract a field from a map (structure)](p2/ch10/e/e2.clj): map
 - [extract and transform](p2/ch10/e/e3.clj): map comp, for
+#### f. Reduce
+- [combine the seq elements into a result](p2/ch10/f/e1.clj): reduce
