@@ -194,3 +194,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### d. … Made Richer with Functional Values
 - [keeping elements respecting a predicate](p2/ch10/d/e1.clj): filter
 - [get the first truthy value returned by predicate](p2/ch10/d/e2.clj): some
+#### e. Map (function)
+- [map the elements maintaining the element types](p2/ch10/e/e1.clj)
