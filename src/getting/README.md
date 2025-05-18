@@ -203,3 +203,7 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [get one single value from a collection](p2/ch10/f/e2.clj)
 #### g. Composing a Solution
 - [an example of function composition](p2/ch10/g/e1.clj): sort-by, reverse, take, map, interpose, apply str
+
+### Chapter 11 - Lazy Sequences
+#### a. Sequences Without End
+- [lazily generate an infinite seq](p2/ch11/a/e1.clj): repeat
