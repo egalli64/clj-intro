@@ -207,3 +207,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 ### Chapter 11 - Lazy Sequences
 #### a. Sequences Without End
 - [lazily generate an infinite seq](p2/ch11/a/e1.clj): repeat
+#### b. More Interesting Laziness
+- [lazy infinite repetition of a seq](p2/ch11/b/e1.clj): cycle
