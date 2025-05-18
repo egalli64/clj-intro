@@ -200,3 +200,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [extract and transform](p2/ch10/e/e3.clj): map comp, for
 #### f. Reduce
 - [combine the seq elements into a result](p2/ch10/f/e1.clj): reduce
+- [get one single value from a collection](p2/ch10/f/e2.clj)
