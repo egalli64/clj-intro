@@ -191,3 +191,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [reversing](p2/ch10/c/e2.clj): reverse
 - [splitting in subseq's by their size](p2/ch10/c/e3.clj): partition, partition-all
 - [merging in a seq](p2/ch10/c/e4.clj): interleave, interpose
+#### d. … Made Richer with Functional Values
+- [keeping elements respecting a predicate](p2/ch10/d/e1.clj): filter
