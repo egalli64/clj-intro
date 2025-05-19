@@ -231,3 +231,7 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### b. Getting Less than Everything
 - [discarding elements from destructuring_](p2/ch12/b/e1.clj): the idiomatic dummy symbol _
 - [multilevel destructuring](p2/ch12/b/e2.clj)
+#### c. Destructuring in Sequence
+- [any seqable could be destructured: a list](p2/ch12/c/e1.clj)
+- [string is seqable, it could be destructured](p2/ch12/c/e2.clj)
+
