@@ -223,3 +223,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [implementing a simple version of map](p2/ch11/e/e4.clj)
 #### f. Staying Out of Trouble
 - [(kind of) printing an infinite seq](p2/ch11/f/e1.clj): set! *print-length*
+- [getting a file as a string](p2/ch11/f/e2.clj): slurp doall doseq
