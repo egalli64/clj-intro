@@ -221,3 +221,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [implementing a simple version of repeat](p2/ch11/e/e2.clj)
 - [implementing a simple version of iterate](p2/ch11/e/e3.clj)
 - [implementing a simple version of map](p2/ch11/e/e4.clj)
+#### f. Staying Out of Trouble
+- [(kind of) printing an infinite seq](p2/ch11/f/e1.clj): set! *print-length*
