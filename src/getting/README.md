@@ -227,4 +227,6 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 
 ### Chapter 12. Destructuring
 #### a. Pry Open Your Data
-- [destructuring a collection](p2/ch12/a/e1.clj): the [] destructuring pattern
+- [destructure a collection](p2/ch12/a/e1.clj): the [] destructuring pattern
+#### b. Getting Less than Everything
+- [discarding elements from destructuring_](p2/ch12/b/e1.clj): the idiomatic dummy symbol _
