@@ -220,3 +220,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [building a lazy seq](p2/ch11/e/e1.clj): lazy-seq
 - [implementing a simple version of repeat](p2/ch11/e/e2.clj)
 - [implementing a simple version of iterate](p2/ch11/e/e3.clj)
+- [implementing a simple version of map](p2/ch11/e/e4.clj)
