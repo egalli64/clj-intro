@@ -10,3 +10,4 @@
   (cons x (lazy-seq (my-repeat x))))
 
 (take 3 (my-repeat "hello"))
+(take 3 (repeat "hello"))
