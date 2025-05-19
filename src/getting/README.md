@@ -218,3 +218,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [a lazy example](p2/ch11/d/e1.clj)
 #### e. Behind the Scenes
 - [building a lazy seq](p2/ch11/e/e1.clj): lazy-seq
+- [implementing a simple version of repeat](p2/ch11/e/e2.clj)
