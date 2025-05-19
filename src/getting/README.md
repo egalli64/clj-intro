@@ -215,4 +215,6 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [lazy map an infinite lazy seq](p2/ch11/c/e2.clj): map
 - [lazy interleave infinite lazy seqs](p2/ch11/c/e3.clj): interleave
 #### d. Laziness in Practice
-- [A lazy example](p2/ch11/d/e1.clj)
+- [a lazy example](p2/ch11/d/e1.clj)
+#### e. Behind the Scenes
+- [building a lazy seq](p2/ch11/e/e1.clj): lazy-seq
