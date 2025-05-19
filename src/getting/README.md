@@ -224,3 +224,7 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### f. Staying Out of Trouble
 - [(kind of) printing an infinite seq](p2/ch11/f/e1.clj): set! *print-length*
 - [getting a file as a string](p2/ch11/f/e2.clj): slurp doall doseq
+
+### Chapter 12. Destructuring
+#### a. Pry Open Your Data
+- [destructuring a collection](p2/ch12/a/e1.clj): the [] destructuring pattern
