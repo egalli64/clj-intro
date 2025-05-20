@@ -240,3 +240,6 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [map destructuring](p2/ch12/e/e1.clj): [{}]
 #### f. Diving into Nested Maps
 - [multilevel map destructuring](p2/ch12/f/e1.clj): [{{}}]
+#### g. The Final Frontier: Mixing and Matching
+- [destructuring map with vector](p2/ch12/g/e1.clj): [{[]}]
+- [destructuring vector with map](p2/ch12/g/e2.clj): [{[]}]
