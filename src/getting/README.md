@@ -230,7 +230,7 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [destructure a collection](p2/ch12/a/e1.clj): the [] destructuring pattern
 #### b. Getting Less than Everything
 - [discarding elements from destructuring_](p2/ch12/b/e1.clj): the idiomatic dummy symbol _
-- [multilevel destructuring](p2/ch12/b/e2.clj)
+- [multilevel destructuring](p2/ch12/b/e2.clj): [[]]
 #### c. Destructuring in Sequence
 - [any seqable could be destructured: a list](p2/ch12/c/e1.clj)
 - [string is seqable, it could be destructured](p2/ch12/c/e2.clj)
@@ -238,3 +238,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [destructuring a parameter](p2/ch12/d/e1.clj)
 #### e. Digging into Maps
 - [map destructuring](p2/ch12/e/e1.clj): [{}]
+#### f. Diving into Nested Maps
+- [multilevel map destructuring](p2/ch12/f/e1.clj): [{{}}]
