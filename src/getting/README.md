@@ -234,4 +234,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### c. Destructuring in Sequence
 - [any seqable could be destructured: a list](p2/ch12/c/e1.clj)
 - [string is seqable, it could be destructured](p2/ch12/c/e2.clj)
-
+#### d. Destructuring Function Arguments
+- [destructuring a parameter](p2/ch12/d/e1.clj)
