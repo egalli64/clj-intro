@@ -245,3 +245,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [destructuring vector with map](p2/ch12/g/e2.clj): [{[]}]
 #### h. Going Further
 - [simplify destructuring a map](p2/ch12/h/e1.clj): the keyword :keys
+- [keeping the destructured value as a whole](p2/ch12/h/e2.clj): by :as
