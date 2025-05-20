@@ -243,3 +243,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### g. The Final Frontier: Mixing and Matching
 - [destructuring map with vector](p2/ch12/g/e1.clj): [{[]}]
 - [destructuring vector with map](p2/ch12/g/e2.clj): [{[]}]
+#### h. Going Further
+- [simplify destructuring a map](p2/ch12/h/e1.clj): the keyword :keys
