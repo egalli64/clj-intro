@@ -254,3 +254,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [record works just like a map](p2/ch13/c/e1.clj)
 #### d. The Record Advantage
 - [using record or map?](p2/ch13/d/e1.clj)
+#### e. Protocols
+- [define a protocol and implementing it in a record](p2/ch13/e/e1.clj): defprotocol
