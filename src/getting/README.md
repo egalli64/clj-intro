@@ -246,3 +246,7 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### h. Going Further
 - [simplify destructuring a map](p2/ch12/h/e1.clj): the keyword :keys
 - [keeping the destructured value as a whole](p2/ch12/h/e2.clj): by :as
+
+### Chapter 13 - Records and Protocols
+#### b. Striking a More Specific Bargain with Records
+- [record: map with predefined key](p2/ch13/b/e1.clj): defrecord, ->RecordName, map->RecordName
