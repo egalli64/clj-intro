@@ -250,3 +250,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 ### Chapter 13 - Records and Protocols
 #### b. Striking a More Specific Bargain with Records
 - [record: map with predefined key](p2/ch13/b/e1.clj): defrecord, ->RecordName, map->RecordName
+#### c. Records Are Maps
+- [record works just like a map](p2/ch13/c/e1.clj)
