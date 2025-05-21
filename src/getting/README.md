@@ -252,3 +252,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [record: map with predefined key](p2/ch13/b/e1.clj): defrecord, ->RecordName, map->RecordName
 #### c. Records Are Maps
 - [record works just like a map](p2/ch13/c/e1.clj)
+#### d. The Record Advantage
+- [using record or map?](p2/ch13/d/e1.clj)

@@ -2,7 +2,7 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; using a defrecord as a map
+;; using a record as a map
 
 ;; a record
 (defrecord FictionalCharacter [name appears-in author])
