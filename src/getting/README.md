@@ -258,3 +258,8 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [define a protocol and implementing it in a record](p2/ch13/e/e1.clj): defprotocol
 #### f. Decentralized Polymorphism
 - [retrofit a type with a given protocol](p2/ch13/f/e1.clj): extend-protocol
+
+### Chapter 14 - Tests
+#### a. Spotting Bugs with clojure.test
+- [defining a couple of functions](p2/ch14/a/e1.clj)
+- [testing functions](../../test/getting/p2/ch14/a/e1_test.clj): clojure.test, deftest, is, testing
