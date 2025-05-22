@@ -256,3 +256,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [using record or map?](p2/ch13/d/e1.clj)
 #### e. Protocols
 - [define a protocol and implementing it in a record](p2/ch13/e/e1.clj): defprotocol
+#### f. Decentralized Polymorphism
+- [retrofit a type with a given protocol](p2/ch13/f/e1.clj): extend-protocol
