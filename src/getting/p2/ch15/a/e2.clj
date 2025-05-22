@@ -2,7 +2,7 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; spec to alpha validation: valid?, and, or
+;; spec alpha validation: valid?, and, or
 
 (ns getting.p2.ch15.a.e2
   (:require [clojure.spec.alpha :as s]))
