@@ -263,3 +263,7 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### a. Spotting Bugs with clojure.test
 - [defining a couple of functions](p2/ch14/a/e1.clj)
 - [testing functions](../../test/getting/p2/ch14/a/e1_test.clj): clojure.test, deftest, is, testing
+
+### Chapter 15 - Spec
+#### a. This Is the Data You’re Looking For
+- [validating a map "by hand"](p2/ch15/a/e1.clj)
