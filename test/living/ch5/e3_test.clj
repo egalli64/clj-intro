@@ -1,9 +1,9 @@
 ;;; For more info read Living Clojure by Carin Meier
 ;; Lazy import of all functionality provided by clojure.test
 
-(ns living.p1.ch5.e3_test
+(ns living.ch5.e3_test
   (:require [clojure.test :refer :all]
-            [living.p1.ch5.e3 :refer [serpent-talk]]))
+            [living.ch5.e3 :refer [serpent-talk]]))
 
 (deftest test-serpent-talk
   (testing "Cries serpent! with a snake_case version of the input"
