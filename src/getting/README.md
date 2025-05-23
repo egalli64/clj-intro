@@ -7,3 +7,4 @@ Tested on Java 21, Clojure 1.12
 
 ## [Part 1 - Basics](p1/README.md)
 ## [Part 2 - Intermediate](p2/README.md)
+## [Part 3 - Advanced](p3/README.md)
