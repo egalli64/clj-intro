@@ -267,6 +267,8 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 ### Chapter 15 - Spec
 #### a. This Is the Data You’re Looking For
 - [validating a map "by hand"](p2/ch15/a/e1.clj)
-- [alpha validation by spec](p2/ch15/a/e2.clj): clojure.spec.alpha, valid?, and, or
+- [alpha validation by spec](p2/ch15/a/e2.clj): clojure.spec.alpha: valid?, and, or
 #### b. Spec’ing Collections
-- [spec on collection](p2/ch15/b/e1.clj): coll-of, cat, keys
+- [spec on collection](p2/ch15/b/e1.clj):clojure.spec.alpha: coll-of, cat, keys
+#### c. Registering Specs
+- [global registry for specs](p2/ch15/c/e1.clj): clojure.spec.alpha/def
