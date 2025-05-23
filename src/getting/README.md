@@ -272,3 +272,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [spec on collection](p2/ch15/b/e1.clj):clojure.spec.alpha: coll-of, cat, keys
 #### c. Registering Specs
 - [global registry for specs](p2/ch15/c/e1.clj): clojure.spec.alpha/def
+#### d. Spec’ing Maps (Again)
+- [improved use of spec global registry](p2/ch15/d/e1.clj)
