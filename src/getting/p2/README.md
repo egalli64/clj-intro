@@ -112,3 +112,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### e. Why? Why? Why?
 - [debug a mismatching value](ch15/e/e1.clj): clojure.spec.alpha/explain
 - [more info on success](ch15/e/e2.clj): clojure.spec.alpha/conform
+#### f. Function Specs
+- [checking pre-conditions with spec](ch15/f/e1.clj)
