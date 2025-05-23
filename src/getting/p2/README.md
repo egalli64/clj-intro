@@ -115,3 +115,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 #### f. Function Specs
 - [checking pre-conditions with spec](ch15/f/e1.clj)
 - [split function definition and spec check](ch15/f/e2.clj): spec: fdef, spec test: instrument
+#### g. Spec-Driven Tests
+- [generating tests for function](ch15/g/e1.clj)
