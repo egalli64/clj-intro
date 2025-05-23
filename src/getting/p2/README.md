@@ -97,7 +97,7 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 ### Chapter 14 - Tests
 #### a. Spotting Bugs with clojure.test
 - [defining a couple of functions](ch14/a/e1.clj)
-- [testing functions](ch14/a/e1_test.clj): clojure.test, deftest, is, testing
+- [testing functions](ch14/a/e1_test.clj): "clojure.test", deftest, is, testing
 
 ### Chapter 15 - Spec
 #### a. This Is the Data You’re Looking For
@@ -114,3 +114,4 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [more info on success](ch15/e/e2.clj): clojure.spec.alpha/conform
 #### f. Function Specs
 - [checking pre-conditions with spec](ch15/f/e1.clj)
+- [split function definition and spec check](ch15/f/e2.clj): spec: fdef, spec test: instrument
