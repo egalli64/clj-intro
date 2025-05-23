@@ -109,3 +109,5 @@ Each standard collection is implemented in terms of a sequence, supporting all t
 - [global registry for specs](ch15/c/e1.clj): clojure.spec.alpha/def
 #### d. Spec’ing Maps (Again)
 - [improved use of spec global registry](ch15/d/e1.clj)
+#### e. Why? Why? Why?
+- [debug a mismatching map](ch15/e/e1.clj): clojure.spec.alpha/explain
