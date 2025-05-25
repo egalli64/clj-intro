@@ -16,3 +16,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [import a Java package](ch16/c/e1.clj): import and :import in ns
 #### d. Class Methods and Fields
 - [static member access](ch16/d/e1.clj): [class-name]/[member-name]
+#### e. In the Wild
+- [import a Java external dependency](ch16/e/e1.clj): deps.edn
+
