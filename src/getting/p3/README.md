@@ -19,3 +19,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### e. In the Wild
 - [import a Java external dependency](ch16/e/e1.clj): deps.edn
 
+### Chapter 17 - Threads, Promises, and Futures
+#### a. Great Power …
+- [running threads](ch17/a/e1.clj): Java Thread
