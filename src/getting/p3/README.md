@@ -12,3 +12,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### b. … And Back to Clojure
 - [create a Java object, calling its methods](ch16/a/e1.clj): [class-name]. args, .[method] obj  
 - [accessing Java object fields](ch16/a/e2.clj): .-[field-name] obj
+#### c. Packages
+- [import a Java package](ch16/b/e1.clj): import and :import in ns
