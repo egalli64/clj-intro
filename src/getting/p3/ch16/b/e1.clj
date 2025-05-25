@@ -2,18 +2,16 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; :import
+;; java.io.File
 
-(ns getting.p3.ch16.b.e1
-  (:import java.io.File))
+;; create a new object: class.
+(def authors (java.io.File. "authors.txt"))
 
-(def authors (File. "authors.txt"))
-
+;; invoking methods: .method
 (if (.exists authors)
   (println "Our authors file is there.") (println "Our authors file is missing."))
 
-;; importing more classes from a package (CLI version)
-(import '(java.io File InputStream))
+(if (.canRead authors)
+  (println "We can read it!") (println "It can't be read"))
 
-;; the classes in java.lang do not need import
-(type String)
+(.setReadable authors true)

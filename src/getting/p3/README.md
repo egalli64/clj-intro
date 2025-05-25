@@ -10,7 +10,9 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 16 - Interoperating with Java
 #### b. … And Back to Clojure
-- [create a Java object, calling its methods](ch16/a/e1.clj): [class-name]. args, .[method] obj  
-- [accessing Java object fields](ch16/a/e2.clj): .-[field-name] obj
+- [create a Java object, calling its methods](ch16/b/e1.clj): [class-name]. args, .[method] obj  
+- [accessing Java object fields](ch16/b/e2.clj): .-[field-name] obj
 #### c. Packages
-- [import a Java package](ch16/b/e1.clj): import and :import in ns
+- [import a Java package](ch16/c/e1.clj): import and :import in ns
+#### d. Class Methods and Fields
+- []()
