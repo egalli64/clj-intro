@@ -15,4 +15,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### c. Packages
 - [import a Java package](ch16/c/e1.clj): import and :import in ns
 #### d. Class Methods and Fields
-- []()
+- [static member access](ch16/d/e1.clj): [class-name]/[member-name]
