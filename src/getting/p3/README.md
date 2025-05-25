@@ -10,3 +10,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 
 ### Chapter 16 - Interoperating with Java
 #### b. … And Back to Clojure
+- [create a Java object, calling its methods](ch16/a/e1.clj): [class-name]. and .[method]  
