@@ -36,3 +36,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 ### Chapter 18 - State
 #### a. It’s Made of Atoms
 - [a var actually meant to change](ch18/a/e1.clj): atom: swap!, deref (or @)
+#### b. Swapping Maps
+- [a map wrapped in an atom](ch18/b/e1.clj)
