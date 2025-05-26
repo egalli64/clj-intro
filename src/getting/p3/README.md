@@ -32,3 +32,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [wait a child thread to provide a value](ch17/d/e2.clj): promise, deliver, deref (or @)
 #### e. A Value with a Future
 - [future: prepackaged promise](): future, deref (or @)
+
+### Chapter 18 - State
+#### a. It’s Made of Atoms
+- [a var actually meant to change](ch18/a/e1.clj): atom: swap!, deref (or @)
