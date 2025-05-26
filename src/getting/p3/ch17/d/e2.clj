@@ -2,7 +2,7 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;; future: promise, deliver, deref (or @)
+;; promise, deliver, deref (or @)
 
 (ns getting.p3.ch17.d.e2)
 
