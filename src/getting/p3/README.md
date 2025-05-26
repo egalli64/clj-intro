@@ -22,3 +22,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 ### Chapter 17 - Threads, Promises, and Futures
 #### a. Great Power …
 - [running threads](ch17/a/e1.clj): Java Thread
+#### b. … And Great Responsibility
+- [race condition](ch17/b/e1.clj)
