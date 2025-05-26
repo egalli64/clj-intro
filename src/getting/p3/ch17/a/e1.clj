@@ -2,7 +2,7 @@
 ;; https://github.com/egalli64/clj-intro
 ;;
 ;; For more info read Getting Clojure by Russ Olsen
-;;
+;; Java thread
 
 (ns getting.p3.ch17.a.e1)
 
