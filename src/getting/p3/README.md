@@ -29,3 +29,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [thread local bindings](ch17/c/e2.clj): dynamic vars ^:dynamic
 #### d. Promise Me a Result
 - [wait for a child thread termination](ch17/d/e1.clj): Thread .join
+- [future: wait a child thread to provide a value](ch17/d/e2.clj): promise, deliver, deref (or @)
