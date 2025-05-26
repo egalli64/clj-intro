@@ -26,3 +26,4 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [race condition](ch17/b/e1.clj)
 #### c. Good Fences Make Happy Threads
 - [respect immutability](ch17/c/e1.clj)
+- [thread local bindings](ch17/c/e2.clj): dynamic vars ^:dynamic
