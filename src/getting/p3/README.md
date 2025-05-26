@@ -27,3 +27,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### c. Good Fences Make Happy Threads
 - [respect immutability](ch17/c/e1.clj)
 - [thread local bindings](ch17/c/e2.clj): dynamic vars ^:dynamic
+#### d. Promise Me a Result
+- [wait for a child thread termination](ch17/d/e1.clj): Thread .join
