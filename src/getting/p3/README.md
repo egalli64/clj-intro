@@ -42,3 +42,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [keeping coherence on more atomic objects](ch18/c/e1.clj): ref, dosync, alter
 #### d. Agents
 - [how to have a side effect while swapping](ch18/d/e1.clj): agent, await, shutdown-agents
+
+### Chapter 19 - Read and Eval
+#### a. You Got Data On My Code!
+- [from data to code](ch19/a/e1.clj)
