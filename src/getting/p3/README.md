@@ -55,3 +55,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 #### b. Macros to the Rescue
 - [using macro](ch20/b/e1.clj): defmacro
 - [a simpler macro](ch20/b/e2.clj)
+#### c. Easier Macros with Syntax Quoting
+- [simplify macro](ch20/c/e1.clj): with backtick ` and tilde ~
