@@ -46,3 +46,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 ### Chapter 19 - Read and Eval
 #### a. You Got Data On My Code!
 - [from data to code](ch19/a/e1.clj)
+#### b. Reading and Evaluating
+- [read and eval](ch19/b/e1.clj)
