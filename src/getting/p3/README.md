@@ -38,3 +38,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [a var actually meant to change](ch18/a/e1.clj): atom: swap!, deref (or @)
 #### b. Swapping Maps
 - [a map wrapped in an atom](ch18/b/e1.clj)
+#### c. Refs: Team-Oriented Atoms
+- [keeping coherence on more atomic objects](ch18/c/e1.clj): ref, dosync, alter
