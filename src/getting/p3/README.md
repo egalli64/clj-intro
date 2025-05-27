@@ -52,3 +52,6 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 ### Chapter 20 - Macros
 #### a. There Are Three Kinds of Numbers in the World
 - [the need for macro](ch20/a/e1.clj)
+#### b. Macros to the Rescue
+- [using macro](ch20/b/e1.clj): defmacro
+- [a simpler macro](ch20/b/e2.clj)
