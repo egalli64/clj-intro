@@ -48,3 +48,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [from data to code](ch19/a/e1.clj)
 #### b. Reading and Evaluating
 - [read and eval](ch19/b/e1.clj)
+
+### Chapter 20 - Macros
+#### a. There Are Three Kinds of Numbers in the World
+- [the need for macro](ch20/a/e1.clj)
