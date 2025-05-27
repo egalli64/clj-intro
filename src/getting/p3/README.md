@@ -40,3 +40,5 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 - [a map wrapped in an atom](ch18/b/e1.clj)
 #### c. Refs: Team-Oriented Atoms
 - [keeping coherence on more atomic objects](ch18/c/e1.clj): ref, dosync, alter
+#### d. Agents
+- [how to have a side effect while swapping](ch18/d/e1.clj): agent, await, shutdown-agents
