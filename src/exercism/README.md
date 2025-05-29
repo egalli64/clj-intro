@@ -8,3 +8,4 @@ Tested on Java 21, Clojure 1.12
 - [Bird Watcher](bird_watcher.clj) and [its test](bird_watcher_test.clj)
 - [Cars, Assemble!](cars_assemble.clj) and [its test](cars_assemble_test.clj)
 - [Interest is Interesting](interest_is_interesting.clj) and [its test](interest_is_interesting_test.clj)
+- [Annalyn's Infiltration](annalyns_infiltration.clj) and [its test](annalyns_infiltration_test.clj)
