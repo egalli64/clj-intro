@@ -1,3 +1,9 @@
+;; clj-intro - Introduction to Clojure
+;; https://github.com/egalli64/clj-intro
+;;
+;; Exercism Clojure Track https://exercism.org/tracks/clojure
+;;
+;; Annalyn's Infiltration: https://exercism.org/tracks/clojure/exercises/annalyns-infiltration/
 (ns exercism.annalyns-infiltration-test
   (:require [clojure.test :refer :all])
   (:require [exercism.annalyns-infiltration :refer [can-fast-attack? can-spy? can-signal-prisoner? can-free-prisoner?]]))
@@ -13,5 +19,4 @@
 
 (deftest test-can-free-prisoner?
   (testing "Given can-free-prisoner? test" (is (= false (can-free-prisoner? false true false false))))
-  (testing "test can-free-prisoner? /2" (is (= true (can-free-prisoner? true false false true))))
-  )
+  (testing "test can-free-prisoner? /2" (is (= true (can-free-prisoner? true false false true)))))
