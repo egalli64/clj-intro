@@ -36,16 +36,25 @@ Tested on Java 21, Clojure 1.12
 - [remove]
 - [keep]
 - [filter-kv]
-- [empty?] - Tests if a collection is empty
 - [seq] - Returns a seq of the collection, or nil if empty
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
 
-### Boolean connectors and related functions
+### Core boolean connectors
 - [and] - returns the first falsy value or the last value if all are truthy
 - [or] - returns the first truthy value or the last falsy value
 - [not] - returns true if the argument is falsy, false otherwise
 
-- [some] - returns the first truthy result when applying a predicate to a collection
-- [every?] - returns true if a predicate is true for all items in a collection
-- [some?] - returns true if the argument is not nil
-- [nil?] - returns true if the argument is nil
+### Predicates
+- [some] - the first truthy result of applying predicate to collection
+- [every?] - is a predicate true for all items in a collection?
+- [some?] - is the argument not nil?
+- [nil?] - is the argument nil?
+- [zero?] - is number equals zero?
+- [pos?] - is number positive?
+- [neg?] - is number negative?
+- [even?] - is number even?
+- [odd?] - is number odd?
+- [true?] - is argument true?
+- [false?] - is argument false?
+- [empty?] - is collection empty?
+- [contains?] - does collection contain key/value?
