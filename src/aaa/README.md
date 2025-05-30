@@ -8,7 +8,6 @@ Tested on Java 21, Clojure 1.12
 - [cons](cons.clj) - construct a seq 
 - [conj](conj.clj) - conjunct items to a collection
 - [map](map.clj) - transform items in a collection
-- [filter](filter.clj) - select items matching a predicate
 - [reduce](reduce.clj) - accumulate values from a collection
 - [apply](apply.clj) - splat/spread/unpack a collection
 - [assoc on map](assoc-map.clj) - upsert entry in a map
@@ -27,15 +26,6 @@ Tested on Java 21, Clojure 1.12
 - [->] - Threading macros for clean data transformations
 - [group-by] - Group collection elements by function result
 - [frequencies] - Count occurrences in a collection
-- [take]
-- [take-while]
-- [take-last]
-- [drop]
-- [drop-while]
-- [drop-last]
-- [remove]
-- [keep]
-- [filter-kv]
 - [seq] - Returns a seq of the collection, or nil if empty
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
 
@@ -58,3 +48,26 @@ Tested on Java 21, Clojure 1.12
 - [false?] - is argument false?
 - [empty?] - is collection empty?
 - [contains?] - does collection contain key/value?
+
+### Access a collection element
+- [nth] - the element at index
+- [get] - value by key/index
+- [first] - the first element
+- [second] - the second element
+- [last] - the last element
+- [peek] - the first/last element (respecting the collection natural access pattern)
+
+### Select elements from a collection
+- [filter](filter.clj) - elements satisfying a predicate
+- [filter-kv] - filter for map
+- [remove] - elements not satisfying a predicate
+- [take] - first n elements
+- [take-while] - take while predicate is true
+- [take-last] - last n elements
+- [drop] - all but first n elements
+- [drop-while] - drop while predicate is true
+- [drop-last] - all but last n elements
+- [butlast] - all but the last element
+- [rest] - all but the first element (or empty seq)
+- [next] - all but the first element (or nil)
+- [keep] - non-nil results of applying a function to elements
