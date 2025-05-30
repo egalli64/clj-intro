@@ -9,3 +9,4 @@ Tested on Java 21, Clojure 1.12
 - [Cars, Assemble!](cars_assemble.clj) and [its test](cars_assemble_test.clj)
 - [Interest is Interesting](interest_is_interesting.clj) and [its test](interest_is_interesting_test.clj)
 - [Annalyn's Infiltration](annalyns_infiltration.clj) and [its test](annalyns_infiltration_test.clj)
+- [Log Levels](log_levels.clj) and [its test](log_levels_test.clj)
