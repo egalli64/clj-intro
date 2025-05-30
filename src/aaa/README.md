@@ -25,8 +25,6 @@ Tested on Java 21, Clojure 1.12
 - [juxt] - Apply multiple functions to same arguments
 - [->>] - Threading macros for clean data transformations
 - [->] - Threading macros for clean data transformations
-- [some] - Test conditions on collections
-- [every?] - Test conditions on collections
 - [group-by] - Group collection elements by function result
 - [frequencies] - Count occurrences in a collection
 - [take]
@@ -41,4 +39,13 @@ Tested on Java 21, Clojure 1.12
 - [empty?] - Tests if a collection is empty
 - [seq] - Returns a seq of the collection, or nil if empty
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
-- 
+
+### Boolean connectors and related functions
+- [and] - returns the first falsy value or the last value if all are truthy
+- [or] - returns the first truthy value or the last falsy value
+- [not] - returns true if the argument is falsy, false otherwise
+
+- [some] - returns the first truthy result when applying a predicate to a collection
+- [every?] - returns true if a predicate is true for all items in a collection
+- [some?] - returns true if the argument is not nil
+- [nil?] - returns true if the argument is nil
