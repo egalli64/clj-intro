@@ -10,3 +10,4 @@ Tested on Java 21, Clojure 1.12
 - [Interest is Interesting](interest_is_interesting.clj) and [its test](interest_is_interesting_test.clj)
 - [Annalyn's Infiltration](annalyns_infiltration.clj) and [its test](annalyns_infiltration_test.clj)
 - [Log Levels](log_levels.clj) and [its test](log_levels_test.clj)
+- [Squeaky Clean](squeaky_clean.clj) and [its test](squeaky_clean_test.clj)
