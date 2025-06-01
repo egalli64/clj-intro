@@ -43,7 +43,7 @@ https://pragprog.com/titles/roclojure/getting-clojure/
 ### Chapter 3 - Maps, Keywords, and Sets
 #### a. This Goes with That
 - [create a map](ch3/a/e1.clj): literal syntax {}, hash-map function
-- [get value from map by key](ch3/a/e1.clj): get
+- [get value from map by key](ch3/a/e2.clj): get
 #### b. Keywords
 - [keyword as map key](ch3/b/e1.clj)
 #### c. Changing Your Map Without Changing It
