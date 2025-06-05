@@ -3,8 +3,13 @@
 
 Tested on Java 21, Clojure 1.12
 
-## Some commonly used Clojure functions 
+# A list of commonly used functions
+
+## Basic inspection
 - [count](count.clj) - number of items
+- [seq](seq.clj) - Returns a seq of the collection, or nil if empty
+- [empty?] - is collection empty?
+
 - [cons](cons.clj) - construct a seq 
 - [conj](conj.clj) - conjunct items to a collection
 - [map](map.clj) - transform items in a collection
@@ -26,7 +31,6 @@ Tested on Java 21, Clojure 1.12
 - [->] - Threading macros for clean data transformations
 - [group-by] - Group collection elements by function result
 - [frequencies] - Count occurrences in a collection
-- [seq] - Returns a seq of the collection, or nil if empty
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
 
 ### Core boolean connectors
@@ -46,7 +50,6 @@ Tested on Java 21, Clojure 1.12
 - [odd?] - is number odd?
 - [true?] - is argument true?
 - [false?] - is argument false?
-- [empty?] - is collection empty?
 - [contains?] - does collection contain key/value?
 
 ### Access a collection element
