@@ -10,8 +10,12 @@ Tested on Java 21, Clojure 1.12
 - [seq](seq.clj) - convert to seq, or nil if empty
 - [empty?](empty.clj) - is empty?
 
-- [cons](cons.clj) - construct a seq 
-- [conj](conj.clj) - conjunct items to a collection
+## Adding items
+- [cons](cons.clj) - construct: prepend to a seq 
+- [conj](conj.clj) - conjunct: add to collection in a natural way
+- [into](into.clj) - add multiple items from one collection to another
+- [concat] - join sequences
+
 - [map](map.clj) - transform items in a collection
 - [reduce](reduce.clj) - accumulate values from a collection
 - [apply](apply.clj) - splat/spread/unpack a collection
@@ -19,7 +23,6 @@ Tested on Java 21, Clojure 1.12
 - [assoc on vector](assoc-vector.clj) - upsert item in a vector
 - [dissoc on map] - remove keys from a map
 - [update] - Update values in a map
-- [concat] - Combine collections
 - [range] - Generate a sequence of numbers
 - [repeat] - Create sequences with repeated values
 - [repeatedly] - Create sequences with repeated values
@@ -33,12 +36,12 @@ Tested on Java 21, Clojure 1.12
 - [frequencies] - Count occurrences in a collection
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
 
-### Core boolean connectors
+## Core boolean connectors
 - [and] - returns the first falsy value or the last value if all are truthy
 - [or] - returns the first truthy value or the last falsy value
 - [not] - returns true if the argument is falsy, false otherwise
 
-### Predicates
+## Predicates
 - [some] - the first truthy result of applying predicate to collection
 - [every?] - is a predicate true for all items in a collection?
 - [some?] - is the argument not nil?
@@ -52,7 +55,7 @@ Tested on Java 21, Clojure 1.12
 - [false?] - is argument false?
 - [contains?] - does collection contain key/value?
 
-### Access a collection element
+## Access a collection element
 - [nth] - the element at index
 - [get] - value by key/index
 - [first] - the first element
@@ -60,7 +63,7 @@ Tested on Java 21, Clojure 1.12
 - [last] - the last element
 - [peek] - the first/last element (respecting the collection natural access pattern)
 
-### Select elements from a collection
+## Select elements from a collection
 - [filter](filter.clj) - elements satisfying a predicate
 - [filter-kv] - filter for map
 - [remove] - elements not satisfying a predicate
