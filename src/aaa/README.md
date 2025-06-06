@@ -5,10 +5,10 @@ Tested on Java 21, Clojure 1.12
 
 # A list of commonly used functions
 
-## Basic inspection
+## Basic collection inspection
 - [count](count.clj) - number of items
-- [seq](seq.clj) - Returns a seq of the collection, or nil if empty
-- [empty?] - is collection empty?
+- [seq](seq.clj) - convert to seq, or nil if empty
+- [empty?](empty.clj) - is empty?
 
 - [cons](cons.clj) - construct a seq 
 - [conj](conj.clj) - conjunct items to a collection
