@@ -75,6 +75,15 @@ Tested on Java 21, Clojure 1.12
 - [some] - the first truthy result of applying predicate to collection
 - [every?] - is a predicate true for all items in a collection?
 - [contains?] - does collection contain key/value?
+- [some?] - is the argument not nil?
+- [nil?] - is the argument nil?
+- [zero?] - is number equals zero?
+- [pos?] - is number positive?
+- [neg?] - is number negative?
+- [even?] - is number even?
+- [odd?] - is number odd?
+- [true?] - is argument true?
+- [false?] - is argument false?
 
 ### Accessors
 - [second] - the second element
@@ -111,17 +120,6 @@ Tested on Java 21, Clojure 1.12
 - [group-by] - Group collection elements by function result
 - [frequencies] - Count occurrences in a collection
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
-
-## Predicates
-- [some?] - is the argument not nil?
-- [nil?] - is the argument nil?
-- [zero?] - is number equals zero?
-- [pos?] - is number positive?
-- [neg?] - is number negative?
-- [even?] - is number even?
-- [odd?] - is number odd?
-- [true?] - is argument true?
-- [false?] - is argument false?
 
 ## Select elements from a collection
 - [filter-kv] - filter for map
