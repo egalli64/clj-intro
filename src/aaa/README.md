@@ -6,8 +6,8 @@ Tested on Java 21, Clojure 1.12
 ## Basic functions
 
 ### Definitions
-- [def] - bind symbol to value
-- [defn] - bind symbol to function
+- [def](def.clj) - bind symbol to value
+- [defn](defn.clj) - bind symbol to function
 - [let] - local binding and scope
 
 ### Arithmetic
