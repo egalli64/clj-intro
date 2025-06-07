@@ -3,25 +3,54 @@
 
 Tested on Java 21, Clojure 1.12
 
-# A list of commonly used functions
+# Essential functions
 
-## Basic collection inspection
-- [count](count.clj) - number of items
-- [seq](seq.clj) - convert to seq, or nil if empty
-- [empty?](empty.clj) - is empty?
+## Constructors
+- [list] - singly linked list
+- [vector] - indexed sequence (based on trie ADT)
+- [hash-set] - hashtable (Hash Array Mapped Trie) backed set
+- [hash-map] - HAMT-backed map
+- [into](into.clj) - create a new collection with all items from the passed ones
 
-## Adding items
-- [cons](cons.clj) - construct: prepend to a seq 
-- [conj](conj.clj) - conjunct: add to collection in a natural way
-- [into](into.clj) - add multiple items from one collection to another
-- [concat](concat.clj) - a seq by joining sequences
-
+## Transformers
 - [map](map.clj) - transform items in a collection
+- [filter](filter.clj) - elements satisfying a predicate
 - [reduce](reduce.clj) - accumulate values from a collection
-- [apply](apply.clj) - splat/spread/unpack a collection
+
+## Accessors
+- [first] - the first element
+- [rest] - all but the first element (or empty seq)
+- [nth] - the element at index
+- [get] - value by key/index
+
+## Modifiers
+- [cons](cons.clj) - construct: prepend to a seq
+- [conj](conj.clj) - conjunct: add to collection in a natural way
 - [assoc on map](assoc-map.clj) - upsert entry in a map
 - [assoc on vector](assoc-vector.clj) - upsert item in a vector
 - [dissoc on map] - remove keys from a map
+
+# Inspectors
+- [seq](seq.clj) - view a collection as a seq (nil if empty)
+- [count](count.clj) - number of items
+- [empty?](empty.clj) - is empty?
+
+# Commonly used functions
+
+## Constructors
+### Set
+- [sorted-set] - BST backed set
+- [sorted-set-by] - sorted set - with custom comparator
+### Map
+- [array-map] - map semantic on linear managed block of memory (if small "enough")
+- [sorted-map] - BST backed map
+- [sorted-map-by] - sorted map - with custom comparator
+- [zipmap] - from two sequences (keys and values)
+
+## Adding items
+- [concat](concat.clj) - a seq by joining sequences
+
+- [apply](apply.clj) - splat/spread/unpack a collection
 - [update] - Update values in a map
 - [range] - Generate a sequence of numbers
 - [repeat] - Create sequences with repeated values
@@ -56,15 +85,11 @@ Tested on Java 21, Clojure 1.12
 - [contains?] - does collection contain key/value?
 
 ## Access a collection element
-- [nth] - the element at index
-- [get] - value by key/index
-- [first] - the first element
 - [second] - the second element
 - [last] - the last element
 - [peek] - the first/last element (respecting the collection natural access pattern)
 
 ## Select elements from a collection
-- [filter](filter.clj) - elements satisfying a predicate
 - [filter-kv] - filter for map
 - [remove] - elements not satisfying a predicate
 - [take] - first n elements
@@ -74,6 +99,5 @@ Tested on Java 21, Clojure 1.12
 - [drop-while] - drop while predicate is true
 - [drop-last] - all but last n elements
 - [butlast] - all but the last element
-- [rest] - all but the first element (or empty seq)
 - [next] - all but the first element (or nil)
 - [keep] - non-nil results of applying a function to elements
