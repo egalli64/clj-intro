@@ -1,78 +1,118 @@
 # clj-intro
-## Introduction to Clojure
+# Introduction to Clojure
 
 Tested on Java 21, Clojure 1.12
 
-# Essential functions
+## Basic functions
 
-## Constructors
+### Definitions
+- [def] - bind symbol to value
+- [defn] - bind symbol to function
+- [let] - local binding and scope
+
+### Arithmetic
+- [+, -, *, /] - basic operations
+- [max, min] - selecting a value
+
+### Boolean connectors
+- [and] - returns the first falsy value or the last value if all are truthy
+- [or] - returns the first truthy value or the last falsy value
+- [not] - returns true if the argument is falsy, false otherwise
+
+### Comparison
+- [=, not=, <, >, <=, >=]
+
+### I/O and strings
+- [println print] - sending output to the console 
+- [str] - generating a string
+
+## Essential functions
+
+### Constructors
 - [list] - singly linked list
 - [vector] - indexed sequence (based on trie ADT)
 - [hash-set] - hashtable (Hash Array Mapped Trie) backed set
 - [hash-map] - HAMT-backed map
 - [into](into.clj) - create a new collection with all items from the passed ones
 
-## Transformers
+### Transformers
 - [map](map.clj) - transform items in a collection
 - [filter](filter.clj) - elements satisfying a predicate
 - [reduce](reduce.clj) - accumulate values from a collection
 
-## Accessors
+### Accessors
 - [first] - the first element
 - [rest] - all but the first element (or empty seq)
 - [nth] - the element at index
 - [get] - value by key/index
 
-## Modifiers
+### Modifiers
 - [cons](cons.clj) - construct: prepend to a seq
 - [conj](conj.clj) - conjunct: add to collection in a natural way
 - [assoc on map](assoc-map.clj) - upsert entry in a map
 - [assoc on vector](assoc-vector.clj) - upsert item in a vector
 - [dissoc on map] - remove keys from a map
 
-# Inspectors
+### Inspectors
 - [seq](seq.clj) - view a collection as a seq (nil if empty)
 - [count](count.clj) - number of items
 - [empty?](empty.clj) - is empty?
 
-# Commonly used functions
+## Commonly used functions
 
-## Constructors
-### Set
+### Sequence combiners
+- [concat](concat.clj) - join sequences
+- [interleave]
+- [partition]
+
+### Transformers
+- [mapcat]
+- [keep] - non-nil results of applying a function to elements
+- [take] - first n elements
+- [drop] - all but first n elements
+
+### Predicates
+- [some] - the first truthy result of applying predicate to collection
+- [every?] - is a predicate true for all items in a collection?
+- [contains?] - does collection contain key/value?
+
+### Accessors
+- [second] - the second element
+- [last] - the last element
+- [peek] - the first/last element (respecting the collection natural access pattern)
+- [pop]
+
+### Application functions
+- [apply](apply.clj) - splat/spread/unpack a collection and apply a function to each item
+- [partial] - Partial function application
+- [comp] - Function composition
+
+## Other useful functions
+
+### Constructors
 - [sorted-set] - BST backed set
 - [sorted-set-by] - sorted set - with custom comparator
-### Map
 - [array-map] - map semantic on linear managed block of memory (if small "enough")
 - [sorted-map] - BST backed map
 - [sorted-map-by] - sorted map - with custom comparator
 - [zipmap] - from two sequences (keys and values)
 
-## Adding items
-- [concat](concat.clj) - a seq by joining sequences
+### Application functions
+- [juxt] - Apply multiple functions to same arguments
+- [complement]
 
-- [apply](apply.clj) - splat/spread/unpack a collection
 - [update] - Update values in a map
 - [range] - Generate a sequence of numbers
 - [repeat] - Create sequences with repeated values
 - [repeatedly] - Create sequences with repeated values
 - [iterate] - Generate an infinite sequence by repeatedly applying a function
-- [comp] - Function composition
-- [partial] - Partial function application
-- [juxt] - Apply multiple functions to same arguments
 - [->>] - Threading macros for clean data transformations
 - [->] - Threading macros for clean data transformations
 - [group-by] - Group collection elements by function result
 - [frequencies] - Count occurrences in a collection
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
 
-## Core boolean connectors
-- [and] - returns the first falsy value or the last value if all are truthy
-- [or] - returns the first truthy value or the last falsy value
-- [not] - returns true if the argument is falsy, false otherwise
-
 ## Predicates
-- [some] - the first truthy result of applying predicate to collection
-- [every?] - is a predicate true for all items in a collection?
 - [some?] - is the argument not nil?
 - [nil?] - is the argument nil?
 - [zero?] - is number equals zero?
@@ -82,22 +122,13 @@ Tested on Java 21, Clojure 1.12
 - [odd?] - is number odd?
 - [true?] - is argument true?
 - [false?] - is argument false?
-- [contains?] - does collection contain key/value?
-
-## Access a collection element
-- [second] - the second element
-- [last] - the last element
-- [peek] - the first/last element (respecting the collection natural access pattern)
 
 ## Select elements from a collection
 - [filter-kv] - filter for map
 - [remove] - elements not satisfying a predicate
-- [take] - first n elements
 - [take-while] - take while predicate is true
 - [take-last] - last n elements
-- [drop] - all but first n elements
 - [drop-while] - drop while predicate is true
 - [drop-last] - all but last n elements
 - [butlast] - all but the last element
 - [next] - all but the first element (or nil)
-- [keep] - non-nil results of applying a function to elements
