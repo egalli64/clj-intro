@@ -14,7 +14,7 @@ Tested on Java 21, Clojure 1.12
 - [cons](cons.clj) - construct: prepend to a seq 
 - [conj](conj.clj) - conjunct: add to collection in a natural way
 - [into](into.clj) - add multiple items from one collection to another
-- [concat] - join sequences
+- [concat](concat.clj) - a seq by joining sequences
 
 - [map](map.clj) - transform items in a collection
 - [reduce](reduce.clj) - accumulate values from a collection
