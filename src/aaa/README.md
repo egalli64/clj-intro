@@ -7,7 +7,8 @@ Tested on Java 21, Clojure 1.12
 
 ### Definitions
 - [def](def.clj) - bind symbol to value
-- [defn](defn.clj) - bind symbol to function
+- [fn](fn.clj) - create a function
+- [defn](defn.clj) - combine def and fn
 - [let] - local binding and scope
 
 ### Arithmetic
