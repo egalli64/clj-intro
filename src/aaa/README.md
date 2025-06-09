@@ -9,7 +9,7 @@ Tested on Java 21, Clojure 1.12
 - [def](def.clj) - bind symbol to value
 - [fn](fn.clj) - create a function
 - [defn](defn.clj) - combine def and fn
-- [let] - local binding and scope
+- [let](let.clj) - local binding and scope
 
 ### Arithmetic
 - [+, -, *, /] - basic operations
