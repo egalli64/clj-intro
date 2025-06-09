@@ -12,8 +12,8 @@ Tested on Java 21, Clojure 1.12
 - [let](let.clj) - local binding and scope
 
 ### I/O and strings
-- [println print] - sending output to the console
-- [str] - generating a string
+- [println print](print-println.clj) - sending output to the console
+- [str](str.clj) - generating a string (concatenating)
 
 ### Arithmetic
 - [+, -, *, /] - basic operations
