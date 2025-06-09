@@ -11,6 +11,10 @@ Tested on Java 21, Clojure 1.12
 - [defn](defn.clj) - combine def and fn
 - [let](let.clj) - local binding and scope
 
+### I/O and strings
+- [println print] - sending output to the console
+- [str] - generating a string
+
 ### Arithmetic
 - [+, -, *, /] - basic operations
 - [max, min] - selecting a value
@@ -22,10 +26,6 @@ Tested on Java 21, Clojure 1.12
 
 ### Comparison
 - [=, not=, <, >, <=, >=]
-
-### I/O and strings
-- [println print] - sending output to the console 
-- [str] - generating a string
 
 ## Essential functions
 
