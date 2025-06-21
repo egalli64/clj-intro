@@ -16,3 +16,4 @@ Tested on Java 21, Clojure 1.12
 - [Card Games](card_games.clj) and [its test](card_games_test.clj)
 - [Two Fer](two_fer.clj) and [its test](two_fer_test.clj)
 - [Leap](leap.clj) and [its test](leap_test.clj)
+- [High Scores](high_scores.clj) and [its test](high_scores_test.clj)
