@@ -15,3 +15,4 @@ Tested on Java 21, Clojure 1.12
 - [Coordinate Transformation](coordinate_transformation.clj) and [its test](coordinate_transformation_test.clj)
 - [Card Games](card_games.clj) and [its test](card_games_test.clj)
 - [Two Fer](two_fer.clj) and [its test](two_fer_test.clj)
+- [Leap](leap.clj) and [its test](leap_test.clj)
