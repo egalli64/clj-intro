@@ -107,6 +107,13 @@ Tested on Java 21, Clojure 1.12
 - [sorted-map-by] - sorted map - with custom comparator
 - [zipmap] - from two sequences (keys and values)
 
+### Sequence reordering
+- [sort] - sort collection in natural order
+- [sort-by] - sort collection by applying function to elements
+- [shuffle] - randomize the order of elements
+- [reverse] - reverse the order of elements in a collection
+- [rseq] - efficiently reverse vectors and sorted maps
+
 ### Application functions
 - [juxt] - Apply multiple functions to same arguments
 - [complement]
