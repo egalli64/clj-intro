@@ -16,7 +16,7 @@ Tested on Java 21, Clojure 1.12
 - [str](str.clj) - generating a string (concatenating)
 
 ### Arithmetic
-- [+, -, *, /] - basic operations
+- [+, -, *, /](arithmetic.clj) - basic operations
 - [max, min] - selecting a value
 
 ### Boolean connectors
