@@ -19,3 +19,4 @@ Tested on Java 21, Clojure 1.12
 - [High Scores](high_scores.clj) and [its test](high_scores_test.clj)
 - [Darts](darts.clj) and [its test](darts_test.clj)
 - [Reverse String](reverse_string.clj) and [its test](reverse_string_test.clj)
+- [RNA Transcription](rna_transcription.clj) and [its test](rna_transcription_test.clj)
