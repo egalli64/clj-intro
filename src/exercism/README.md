@@ -20,3 +20,4 @@ Tested on Java 21, Clojure 1.12
 - [Darts](darts.clj) and [its test](darts_test.clj)
 - [Reverse String](reverse_string.clj) and [its test](reverse_string_test.clj)
 - [RNA Transcription](rna_transcription.clj) and [its test](rna_transcription_test.clj)
+- [Resistor Color](resistor_color.clj) and [its test](resistor_color_test.clj)
