@@ -22,3 +22,4 @@ Tested on Java 21, Clojure 1.12
 - [RNA Transcription](rna_transcription.clj) and [its test](rna_transcription_test.clj)
 - [Resistor Color](resistor_color.clj) and [its test](resistor_color_test.clj)
 - [Hamming](hamming.clj) and [its test](hamming_test.clj)
+- [Resistor Color Duo](resistor_color_duo.clj) and [its test](resistor_color_duo_test.clj)
