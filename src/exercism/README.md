@@ -23,3 +23,4 @@ Tested on Java 21, Clojure 1.12
 - [Resistor Color](resistor_color.clj) and [its test](resistor_color_test.clj)
 - [Hamming](hamming.clj) and [its test](hamming_test.clj)
 - [Resistor Color Duo](resistor_color_duo.clj) and [its test](resistor_color_duo_test.clj)
+- [Space Age](space_age.clj) and [its test](space_age_test.clj)
