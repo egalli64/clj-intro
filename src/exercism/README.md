@@ -26,3 +26,4 @@ Tested on Java 21, Clojure 1.12
 - [Space Age](space_age.clj) and [its test](space_age_test.clj)
 - [ETL](etl.clj) and [its test](etl_test.clj)
 - [Triangle](triangle.clj) and [its test](triangle_test.clj)
+- [Raindrops](raindrops.clj) and [its test](raindrops_test.clj)
