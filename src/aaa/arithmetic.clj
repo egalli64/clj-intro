@@ -31,6 +31,12 @@
 
 ;; divide the first argument for all the other arguments
 ;; if only a single argument is passed, it divides 1
+;; notice that there is no truncation, / return a ratio (or an integer)
 (/ 42)
+(/ 42 7)
 (/ 1 6 7)
 (/ 1 2 3 7)
+
+;; divide truncating to integer (even among floating point numbers)
+(quot 15 4)
+(quot 13.5 4)
