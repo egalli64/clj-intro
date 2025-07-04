@@ -60,6 +60,11 @@ Tested on Java 21, Clojure 1.12
 - [count](count.clj) - number of items
 - [empty?](empty.clj) - is empty?
 
+### Bit
+- [bit-and bit-or bit-xor bit-not] - core operations
+- [bit-shift-left bit-shift-right] - shifting
+- [bit-test bit-set bit-clear bit-flip] - test and manipulation
+
 ## Commonly used functions
 
 ### Sequence combiners
