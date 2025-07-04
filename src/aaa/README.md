@@ -17,6 +17,7 @@ Tested on Java 21, Clojure 1.12
 
 ### Arithmetic
 - [+, -, *, /](arithmetic.clj) - basic operations
+- [inc, dec] - increase, decrease a value by 1
 - [max, min] - selecting a value
 
 ### Boolean connectors
