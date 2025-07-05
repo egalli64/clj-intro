@@ -24,7 +24,7 @@ Tested on Java 21, Clojure 1.12
 - [str](str.clj) - generating a string (concatenating)
 
 ### Arithmetic
-- [+, -, *, / and quot](arithmetic.clj) - basic operations
+- [+ - * / quot](arithmetic.clj) - basic operations
 - [inc, dec] - increase, decrease a value by 1
 - [max, min] - selecting a value
 
