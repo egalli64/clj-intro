@@ -32,3 +32,4 @@ Tested on Java 21, Clojure 1.12
 - [Strain](strain.clj) and [its test](strain_test.clj)
 - [Difference of Squares](difference_of_squares.clj) and [its test](difference_of_squares_test.clj)
 - [Eliud's Eggs](eliuds_eggs.clj) and [its test](eliuds_eggs_test.clj)
+- [Word Count](word_count.clj) and [its test](word_count_test.clj)
