@@ -7,7 +7,7 @@ Tested on Java 21, Clojure 1.12
 - [def](def.clj) - bind symbol to value
 - [fn](fn.clj) - create a function
 - [let](let.clj) - local binding and scope
-- [if]
+- [if](if.clj) - yield conditionally a value
 - [quote]
 - [do]
 
