@@ -8,7 +8,7 @@ Tested on Java 21, Clojure 1.12
 - [fn](fn.clj) - create a function
 - [let](let.clj) - local binding and scope
 - [if](if.clj) - yield conditionally a value
-- [quote]
+- [quote](quote.clj) - yield the following form "as is", without evaluating it
 - [do]
 
 ## Basic macros
