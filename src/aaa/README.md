@@ -3,13 +3,21 @@
 
 Tested on Java 21, Clojure 1.12
 
-## Basic functions
-
-### Definitions
+## Basic special forms
 - [def](def.clj) - bind symbol to value
 - [fn](fn.clj) - create a function
-- [defn](defn.clj) - combine def and fn
 - [let](let.clj) - local binding and scope
+- [if]
+- [quote]
+- [do]
+
+## Basic macros
+- [defn](defn.clj) - combine def and fn
+- [when] - combine if and do
+- [-> ->>] - Threading macros for clean data transformations
+- [cond]
+
+## Basic functions
 
 ### I/O and strings
 - [println print](print-println.clj) - sending output to the console
@@ -21,8 +29,8 @@ Tested on Java 21, Clojure 1.12
 - [max, min] - selecting a value
 
 ### Boolean connectors
-- [and] - returns the first falsy value or the last value if all are truthy
-- [or] - returns the first truthy value or the last falsy value
+- [and] - returns the first falsy value or the last value if all are truthy (macro)
+- [or] - returns the first truthy value or the last falsy value (macro)
 - [not] - returns true if the argument is falsy, false otherwise
 
 ### Comparison
@@ -103,6 +111,17 @@ Tested on Java 21, Clojure 1.12
 - [partial] - Partial function application
 - [comp] - Function composition
 
+## More special forms
+- [loop]
+- [recur]
+- [throw try]
+
+## More macros
+- [for]
+- [doseq]
+- [case]
+- [when-not]
+
 ## Other useful functions
 
 ### Constructors
@@ -129,8 +148,6 @@ Tested on Java 21, Clojure 1.12
 - [repeat] - Create sequences with repeated values
 - [repeatedly] - Create sequences with repeated values
 - [iterate] - Generate an infinite sequence by repeatedly applying a function
-- [->>] - Threading macros for clean data transformations
-- [->] - Threading macros for clean data transformations
 - [group-by] - Group collection elements by function result
 - [frequencies] - Count occurrences in a collection
 - [bounded-count] - Counts up to a limit without realizing the entire sequence
