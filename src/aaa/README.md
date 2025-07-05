@@ -9,7 +9,7 @@ Tested on Java 21, Clojure 1.12
 - [let](let.clj) - local binding and scope
 - [if](if.clj) - yield conditionally a value
 - [quote](quote.clj) - yield the following form "as is", without evaluating it
-- [do]
+- [do](do.clj) - evaluates expressions, yield the value of the last one
 
 ## Basic macros
 - [defn](defn.clj) - combine def and fn
