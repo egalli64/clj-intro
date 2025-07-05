@@ -25,8 +25,8 @@ Tested on Java 21, Clojure 1.12
 
 ### Arithmetic
 - [+ - * / quot](arithmetic.clj) - basic operations
-- [inc, dec] - increase, decrease a value by 1
-- [max, min] - selecting a value
+- [inc dec] - increase, decrease a value by 1
+- [max min] - selecting a value
 
 ### Boolean connectors
 - [and] - returns the first falsy value or the last value if all are truthy (macro)
@@ -68,20 +68,18 @@ Tested on Java 21, Clojure 1.12
 - [count](count.clj) - number of items
 - [empty?](empty.clj) - is empty?
 
-### Bit
+### Bitwise Operations
 - [bit-and bit-or bit-xor bit-not] - core operations
 - [bit-shift-left bit-shift-right] - shifting
 - [bit-test bit-set bit-clear bit-flip] - test and manipulation
 
 ## Commonly used functions
 
-### Sequence combiners
+### Sequence Transformation & Combination
 - [concat](concat.clj) - join sequences
-- [interleave]
-- [partition]
-
-### Transformers
-- [mapcat]
+- [interleave] - interleave elements from multiple sequences
+- [partition] - break sequence into parts
+- [mapcat] - map a function and concatenate results
 - [keep] - non-nil results of applying a function to elements
 - [take] - first n elements
 - [drop] - all but first n elements
@@ -108,19 +106,26 @@ Tested on Java 21, Clojure 1.12
 
 ### Application functions
 - [apply](apply.clj) - splat/spread/unpack a collection and apply a function to each item
-- [partial] - Partial function application
-- [comp] - Function composition
+- [partial] - partial function application
+- [comp] - function composition
+- [identity] - return its argument unchanged
 
 ## More special forms
 - [loop]
 - [recur]
 - [throw try]
+- [binding] - establish dynamic variable bindings
+- [set!] - mutate a Var's root binding (use with caution, generally discouraged for local state)
 
 ## More macros
 - [for]
 - [doseq]
 - [case]
 - [when-not]
+- [dotimes] - loop a fixed number of times for side effects
+- [doreduce] - loop efficiently with an accumulator (like a manual reduce)
+- [comment] - ignore the forms that follow it (useful for temporary disabling code)
+- [time] - evaluate an expression and prints the time it took
 
 ## Other useful functions
 
@@ -131,6 +136,8 @@ Tested on Java 21, Clojure 1.12
 - [sorted-map] - BST backed map
 - [sorted-map-by] - sorted map - with custom comparator
 - [zipmap] - from two sequences (keys and values)
+- [keyword] - return a keyword, interned for efficiency
+- [symbol] - return a symbol, interned for efficiency
 
 ### Sequence reordering
 - [sort] - sort collection in natural order
@@ -140,19 +147,22 @@ Tested on Java 21, Clojure 1.12
 - [rseq] - efficiently reverse vectors and sorted maps
 
 ### Application functions
-- [juxt] - Apply multiple functions to same arguments
+- [juxt] - apply multiple functions to same arguments
 - [complement]
+- [update] - update values in a map/vector
 
-- [update] - Update values in a map
-- [range] - Generate a sequence of numbers
-- [repeat] - Create sequences with repeated values
-- [repeatedly] - Create sequences with repeated values
-- [iterate] - Generate an infinite sequence by repeatedly applying a function
-- [group-by] - Group collection elements by function result
-- [frequencies] - Count occurrences in a collection
-- [bounded-count] - Counts up to a limit without realizing the entire sequence
+### Sequence generation
+- [range] - generate a sequence of numbers
+- [repeat] - create sequences with repeated values
+- [repeatedly] - create sequences with repeated values
+- [iterate] - generate an infinite sequence by repeatedly applying a function
 
-## Select elements from a collection
+### Aggregation & Grouping
+- [group-by] - group collection elements by function result
+- [frequencies] - count occurrences in a collection
+- [bounded-count] - counts up to a limit without realizing the entire sequence
+
+### Select elements from a collection
 - [filter-kv] - filter for map
 - [remove] - elements not satisfying a predicate
 - [take-while] - take while predicate is true
@@ -161,3 +171,17 @@ Tested on Java 21, Clojure 1.12
 - [drop-last] - all but last n elements
 - [butlast] - all but the last element
 - [next] - all but the first element (or nil)
+
+### Concurrency & References
+- [deref] - dereference an IRef (atom, ref, agent, promise) to get its current value
+- [atom] - create an atomic reference for mutable state
+- [swap!] - atomically update the value of an atom
+- [reset!] - set the value of an atom
+- [ref] - create a software transactional memory reference (for coordinated mutable state)
+- [agent] - create an agent for asynchronous, isolated state changes
+- [future] - create a future for asynchronous computation
+- [promise] - create a promise for a value that will be delivered later
+
+### REPL & Debugging Utilities
+- [doc] - print the documentation string for a var
+- [prn pr] - print to the console, with readably-printed output
