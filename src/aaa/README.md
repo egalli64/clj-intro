@@ -3,6 +3,35 @@
 
 Tested on Java 21, Clojure 1.12
 
+## Form Categories in Clojure
+
+### 1. Literal - fixed values that evaluate to themselves
+- [Number] - 42, 3.14
+- [String] - "hello"
+- [Keyword] - :name
+- [Boolean] - true, false
+- [Nil] - nil
+#### Collection literal (evaluates each element)
+- [Vector] - [1 2 3]
+- [Quoted list] - '(1 2 3) must be quoted to be a literal list 
+- [Map] - {:a 1, :b 2, :c 3}
+- [Set] - {:a :b :c}
+### 2. Symbol - name referring to a value (resolution depends on context)
+- [Global resolution (def)] - (def x 42)
+- [Local resolution (let)] - (let [x 42] ...)
+### 3. List form - code to be evaluated, enclosed in parentheses
+#### a. "Normal" form - function call, ex: (+ 1 2)  
+- first element resolved as function, the other ones evaluated as arguments
+#### b. Special form - handled directly by the compiler, ex: (if condition 1 -1)
+- [if, let, fn, do, ...] - fixed set defined by the language
+### c. Macro form - expanded before evaluation, first element resolves to a macro, returns a new form for evaluation
+- Example: (when condition 1) is expanded to (if condition (do 1))
+### 4. Reader-level element (handled by the reader, not form)
+- [;] - comment, ignored by the reader
+- [#_] - discard the next form
+- [' ` ~ ~@] — quoting and unquoting forms
+- [#(...)] — anonymous function, ex: #(+ % 1)
+
 ## Basic special forms
 - [def](def.clj) - bind symbol to value
 - [fn](fn.clj) - create a function
