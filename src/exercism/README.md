@@ -34,3 +34,4 @@ Tested on Java 21, Clojure 1.12
 - [Eliud's Eggs](eliuds_eggs.clj) and [its test](eliuds_eggs_test.clj)
 - [Word Count](word_count.clj) and [its test](word_count_test.clj)
 - [Grains](grains.clj) and [its test](grains_test.clj)
+- [Complex Numbers](complex_numbers.clj) and [its test](complex_numbers_test.clj)
