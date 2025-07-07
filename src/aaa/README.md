@@ -3,7 +3,7 @@
 
 Tested on Java 21, Clojure 1.12
 
-## Form Categories in Clojure
+## Form Categories
 
 ### 1. Literal - fixed values that evaluate to themselves
 - [Number] - 42, 3.14
@@ -56,6 +56,9 @@ Tested on Java 21, Clojure 1.12
 - [+ - * / quot](arithmetic.clj) - basic operations
 - [inc dec] - increase, decrease a value by 1
 - [max min] - selecting a value
+- [rem mod] - remainder and modulo
+- [abs] - absolute value
+- [Math/*] - Java Math interop (sqrt, pow, abs, sin, cos, log, ...)
 
 ### Boolean connectors
 - [and] - returns the first falsy value or the last value if all are truthy (macro)
@@ -96,6 +99,12 @@ Tested on Java 21, Clojure 1.12
 - [seq](seq.clj) - view a collection as a seq (nil if empty)
 - [count](count.clj) - number of items
 - [empty?](empty.clj) - is empty?
+
+### Advanced Arithmetic
+- [*' +'] - auto-promoting arithmetic (overflow-safe)
+- [rand rand-int] - random numbers
+- [ratio? integer? decimal?] - numeric type checking
+- [numerator denominator] - for working with ratios
 
 ### Bitwise Operations
 - [bit-and bit-or bit-xor bit-not] - core operations
