@@ -35,3 +35,4 @@ Tested on Java 21, Clojure 1.12
 - [Word Count](word_count.clj) and [its test](word_count_test.clj)
 - [Grains](grains.clj) and [its test](grains_test.clj)
 - [Complex Numbers](complex_numbers.clj) and [its test](complex_numbers_test.clj)
+- [Bank Account](bank_account.clj) and [its test](bank_account_test.clj)
