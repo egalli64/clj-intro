@@ -36,3 +36,4 @@ Tested on Java 21, Clojure 1.12
 - [Grains](grains.clj) and [its test](grains_test.clj)
 - [Complex Numbers](complex_numbers.clj) and [its test](complex_numbers_test.clj)
 - [Bank Account](bank_account.clj) and [its test](bank_account_test.clj)
+- [Collatz Conjecture](collatz_conjecture.clj) and [its test](collatz_conjecture_test.clj)
