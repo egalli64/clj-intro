@@ -38,3 +38,4 @@ Tested on Java 21, Clojure 1.12
 - [Bank Account](bank_account.clj) and [its test](bank_account_test.clj)
 - [Collatz Conjecture](collatz_conjecture.clj) and [its test](collatz_conjecture_test.clj)
 - [Anagram](anagram.clj) and [its test](anagram_test.clj)
+- [Series](series.clj) and [its test](series_test.clj)
