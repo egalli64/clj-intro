@@ -23,18 +23,18 @@ Tested on Java 21, Clojure 1.12
 #### a. "Normal" form - function call, ex: (+ 1 2)  
 - first element resolved as function, the other ones evaluated as arguments
 #### b. Special form - handled directly by the compiler, ex: (if condition 1 -1)
-- [if, let, fn, do, ...] - fixed set defined by the language
+- [if, let, fn, do, ...] - fixed set defined by the language (see below)
 ### c. Macro form - expanded before evaluation, first element resolves to a macro, returns a new form for evaluation
-- Example: (when condition 1) is expanded to (if condition (do 1))
+- Example (see below for more details): (when condition 1) is expanded to (if condition (do 1))
 ### 4. Reader-level element (handled by the reader, not form)
 - [;] - comment, ignored by the reader
 - [#_] - discard the next form
 - [' ` ~ ~@] — quoting and unquoting forms
-- [#(...)] — anonymous function, ex: #(+ % 1)
+- [#(...)] — anonymous function, ex: #(+ % 1) - see fn for comparison
 
 ## Basic special forms
 - [def](def.clj) - bind symbol to value
-- [fn](fn.clj) - create a function
+- [fn #()](fn.clj) - create a function
 - [let](let.clj) - local binding and scope
 - [if](if.clj) - yield conditionally a value
 - [quote](quote.clj) - yield the following form "as is", without evaluating it
