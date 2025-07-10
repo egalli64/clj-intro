@@ -50,7 +50,6 @@ Tested on Java 21, Clojure 1.12
 
 ### Console I/O
 - [println print](print-println.clj) - sending output to the console
-- [pr prn] – readable machine-format printing
 
 ### String
 - [str](str.clj) - generating a string (concatenating)
