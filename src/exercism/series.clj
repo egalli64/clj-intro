@@ -7,11 +7,9 @@
 (ns exercism.series)
 
 (defn slices "Returns all contiguous substrings of length n from the string s." [s n]
-  (when (empty? s) (throw (IllegalArgumentException. "series cannot be empty")))
-  (when (zero? n) (throw (IllegalArgumentException. "slice length cannot be zero")))
-  (when (neg? n) (throw (IllegalArgumentException. "slice length cannot be negative")))
-
   (let [len (count s)]
-    (when (> n len) (throw (IllegalArgumentException. "slice length cannot be greater than series length")))
-    (map #(subs s % (+ % n)) (range (- len (dec n)))))
-  )
+    (cond (empty? s) (throw (IllegalArgumentException. "series cannot be empty"))
+          (zero? n) (throw (IllegalArgumentException. "slice length cannot be zero"))
+          (neg? n) (throw (IllegalArgumentException. "slice length cannot be negative"))
+          (> n len) (throw (IllegalArgumentException. "slice length cannot be greater than series length"))
+          :else (map #(subs s % (+ % n)) (range (- len (dec n)))))))
