@@ -13,7 +13,7 @@ Tested on Java 21, Clojure 1.12
 - [Nil] - nil
 #### Collection literal (evaluates each element)
 - [Vector] - [1 2 3]
-- [Quoted list] - '(1 2 3) must be quoted to be a literal list 
+- [Quoted list] - '(1 2 3) must be quoted to be treated as a literal list 
 - [Map] - {:a 1, :b 2, :c 3}
 - [Set] - {:a :b :c}
 ### 2. Symbol - name referring to a value (resolution depends on context)
@@ -48,9 +48,13 @@ Tested on Java 21, Clojure 1.12
 
 ## Basic functions
 
-### I/O and strings
+### Console I/O
 - [println print](print-println.clj) - sending output to the console
+- [pr prn] – readable machine-format printing
+
+### String
 - [str](str.clj) - generating a string (concatenating)
+- [subs] - extract a substring by index range
 
 ### Arithmetic
 - [+ - * / quot](arithmetic.clj) - basic operations
@@ -99,6 +103,14 @@ Tested on Java 21, Clojure 1.12
 - [seq](seq.clj) - view a collection as a seq (nil if empty)
 - [count](count.clj) - number of items
 - [empty?](empty.clj) - is empty?
+
+### The clojure.string namespace
+- [trim] - remove whitespace from both ends
+- [split] - split a string into substrings
+- [join] - join collection into a string
+- [upper-case lower-case] - change case
+- [includes?] - check for substring presence
+- [replace] - replace substrings
 
 ### Advanced Arithmetic
 - [*' +'] - auto-promoting arithmetic (overflow-safe)
