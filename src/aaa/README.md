@@ -7,7 +7,7 @@ Tested on Java 21, Clojure 1.12
 
 ### 1. Literal - fixed values that evaluate to themselves
 - [Number](literal_number.clj) - integer, bigint, rational, floating point, bigdec
-- [String] - "hello"
+- [String](literal_string.clj) - "hello"
 - [Keyword] - :name
 - [Boolean] - true, false
 - [Nil] - nil
@@ -29,7 +29,7 @@ Tested on Java 21, Clojure 1.12
 ### 4. Reader-level element (handled by the reader, not form)
 - [;] - comment, ignored by the reader
 - [#_] - discard the next form
-- [' ` ~ ~@] — quoting and unquoting forms
+- [' ` ~ ~@] — quote and unquote forms
 - [#(...)] — anonymous function, ex: #(+ % 1) - see fn for comparison
 
 ## Basic special forms
@@ -38,22 +38,23 @@ Tested on Java 21, Clojure 1.12
 - [let](let.clj) - local binding and scope
 - [if](if.clj) - yield conditionally a value
 - [quote](quote.clj) - yield the following form "as is", without evaluating it
-- [do](do.clj) - evaluates expressions, yield the value of the last one
+- [do](do.clj) - evaluate expressions, yield the value of the last one
 
 ## Basic macros
 - [defn](defn.clj) - combine def and fn
 - [when] - combine if and do
-- [-> ->>] - Threading macros for clean data transformations
+- [-> ->>] - threading macros for clean data transformations
 - [cond]
 
 ## Basic functions
 
 ### Console I/O
-- [println print](print-println.clj) - sending output to the console
+- [println print](print-println.clj) - send output to the console
 
 ### String
-- [str](str.clj) - generating a string (concatenating)
+- [str](str.clj) - generate a string (by concatenation)
 - [subs] - extract a substring by index range
+- [format] - generate a string (by formatting)
 
 ### Arithmetic
 - [+ - * / quot](arithmetic.clj) - basic operations
