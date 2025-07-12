@@ -6,7 +6,7 @@ Tested on Java 21, Clojure 1.12
 ## Form Categories
 
 ### 1. Literal - fixed values that evaluate to themselves
-- [Number] - 42, 3.14
+- [Number](literal_number.clj) - integer, bigint, rational, floating point, bigdec
 - [String] - "hello"
 - [Keyword] - :name
 - [Boolean] - true, false
