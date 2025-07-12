@@ -40,3 +40,4 @@ Tested on Java 21, Clojure 1.12
 - [Anagram](anagram.clj) and [its test](anagram_test.clj)
 - [Series](series.clj) and [its test](series_test.clj)
 - [Grade School](grade_school.clj) and [its test](grade_school.clj)
+- [Pangram](pangram.clj) and [its test](pangram_test.clj)
