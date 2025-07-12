@@ -69,7 +69,7 @@ Tested on Java 21, Clojure 1.12
 - [not] - returns true if the argument is falsy, false otherwise
 
 ### Comparison
-- [=, not=, <, >, <=, >=]
+- [= == not= < > <= >=]
 
 ## Essential functions
 
@@ -114,7 +114,7 @@ Tested on Java 21, Clojure 1.12
 ### Advanced Arithmetic
 - [*' +'] - auto-promoting arithmetic (overflow-safe)
 - [rand rand-int] - random numbers
-- [ratio? integer? decimal?] - numeric type checking
+- [ratio? rational? integer? decimal?] - numeric type checking
 - [numerator denominator] - for working with ratios
 
 ### Bitwise Operations
