@@ -17,7 +17,8 @@
   (update school grade
           (fn [grade-class]
             (if grade-class
-              (if (some #(= % name) grade-class) grade-class (conj grade-class name)) [name]))))
+              (if (some #(= % name) grade-class) grade-class (conj grade-class name))
+              [name]))))
 
 
 ;; convert the passed school in a sorted-map grade -> vector of students
