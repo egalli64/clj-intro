@@ -5,32 +5,35 @@ Tested on Java 21, Clojure 1.12
 
 ## Form Categories
 
-### 1. Literal - fixed values that evaluate to themselves
+### 1. Literals - fixed values that evaluate to themselves
 - [Number](literal_number.clj) - integer, bigint, rational, floating point, bigdec
 - [String](literal_string.clj) - "hello"
+- [Character] - \a \space
 - [Keyword](literal_keyword.clj) - :name
 - [Boolean](literal_boolean.clj) - true, false
 - [Nil](literal_nil.clj) - nil
-#### Collection literal (evaluates each element)
+#### Collection literals (evaluates each element)
 - [Vector] - [1 2 3]
 - [Quoted list] - '(1 2 3) must be quoted to be treated as a literal list 
 - [Map] - {:a 1, :b 2, :c 3}
 - [Set] - {:a :b :c}
-### 2. Symbol - name referring to a value (resolution depends on context)
+### 2. Symbols - name referring to a value (resolution depends on context)
 - [Global resolution (def)] - (def x 42)
 - [Local resolution (let)] - (let [x 42] ...)
-### 3. List form - code to be evaluated, enclosed in parentheses
-#### a. "Normal" form - function call, ex: (+ 1 2)  
+### 3. List forms - code to be evaluated, enclosed in parentheses
+#### a. "Normal" forms - function call, ex: (+ 1 2)  
 - first element resolved as function, the other ones evaluated as arguments
-#### b. Special form - handled directly by the compiler, ex: (if condition 1 -1)
+#### b. Special forms - handled directly by the compiler, ex: (if condition 1 -1)
 - [if, let, fn, do, ...] - fixed set defined by the language (see below)
-### c. Macro form - expanded before evaluation, first element resolves to a macro, returns a new form for evaluation
+### c. Macro forms - expanded before evaluation, first element resolves to a macro, returns a new form for evaluation
 - Example (see below for more details): (when condition 1) is expanded to (if condition (do 1))
-### 4. Reader-level element (handled by the reader, not form)
-- [;] - comment, ignored by the reader
-- [#_] - discard the next form
-- [' ` ~ ~@] — quote and unquote forms
-- [#(...)] — anonymous function, ex: #(+ % 1) - see fn for comparison
+### 4. Reader-level elements (handled by the reader, not form)
+- [; comment] - ignored by the reader
+- [#_ comment reader macro] - discard the next form
+- [' quote ` quasi-quote ~ unquote ~@ unquote-splice] — quote and unquote forms
+- [Regular expressions] - (#"pattern")
+- [Anonymous functions] - ex: (#(+ %1 %2)) - see fn for comparison
+- [Var references] - (#'my-var)
 
 ## Basic special forms
 - [def](def.clj) - bind symbol to value
