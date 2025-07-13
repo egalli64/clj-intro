@@ -8,7 +8,7 @@ Tested on Java 21, Clojure 1.12
 ### 1. Literal - fixed values that evaluate to themselves
 - [Number](literal_number.clj) - integer, bigint, rational, floating point, bigdec
 - [String](literal_string.clj) - "hello"
-- [Keyword] - :name
+- [Keyword](literal_keyword.clj) - :name
 - [Boolean] - true, false
 - [Nil] - nil
 #### Collection literal (evaluates each element)
