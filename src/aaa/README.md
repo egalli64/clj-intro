@@ -103,6 +103,7 @@ Tested on Java 21, Clojure 1.12
 - [seq](seq.clj) - view a collection as a seq (nil if empty)
 - [count](count.clj) - number of items
 - [empty?](empty.clj) - is empty?
+- [not-empty] - is a collection not empty?
 
 ### The clojure.string namespace
 - [trim] - remove whitespace from both ends
@@ -138,15 +139,13 @@ Tested on Java 21, Clojure 1.12
 - [some] - the first truthy result of applying predicate to collection
 - [every?] - is a predicate true for all items in a collection?
 - [contains?] - does collection contain key/value?
-- [some?] - is the argument not nil?
+- [coll?] - is a collection?
 - [nil?] - is the argument nil?
 - [zero?] - is number equals zero?
 - [pos?] - is number positive?
 - [neg?] - is number negative?
 - [even?] - is number even?
 - [odd?] - is number odd?
-- [true?] - is argument true?
-- [false?] - is argument false?
 
 ### Accessors
 - [second] - the second element
@@ -231,6 +230,17 @@ Tested on Java 21, Clojure 1.12
 - [agent] - create an agent for asynchronous, isolated state changes
 - [future] - create a future for asynchronous computation
 - [promise] - create a promise for a value that will be delivered later
+
+### Value state predicates
+- [some?] - is the argument not nil?
+- [true?] - is argument true?
+- [false?] - is argument false?
+
+### Type/Implementation predicates
+- [identical?] - check reference equality
+- [realized?] - check if lazy sequence/delay is evaluated
+- [bound?] - check if var has bound value
+- [thread-bound?] - check if var is thread-locally bound
 
 ### REPL & Debugging Utilities
 - [doc] - print the documentation string for a var
