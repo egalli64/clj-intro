@@ -9,7 +9,7 @@ Tested on Java 21, Clojure 1.12
 - [Number](literal_number.clj) - integer, bigint, rational, floating point, bigdec
 - [String](literal_string.clj) - "hello"
 - [Keyword](literal_keyword.clj) - :name
-- [Boolean] - true, false
+- [Boolean](literal_boolean.clj) - true, false
 - [Nil] - nil
 #### Collection literal (evaluates each element)
 - [Vector] - [1 2 3]
