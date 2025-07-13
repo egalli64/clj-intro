@@ -231,6 +231,10 @@ Tested on Java 21, Clojure 1.12
 - [future] - create a future for asynchronous computation
 - [promise] - create a promise for a value that will be delivered later
 
+### Type inspection
+- [type] - type of the object
+- [class] - Java class of the object
+
 ### Value state predicates
 - [some?] - is the argument not nil?
 - [true?] - is argument true?
