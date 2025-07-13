@@ -10,7 +10,7 @@ Tested on Java 21, Clojure 1.12
 - [String](literal_string.clj) - "hello"
 - [Keyword](literal_keyword.clj) - :name
 - [Boolean](literal_boolean.clj) - true, false
-- [Nil] - nil
+- [Nil](literal_nil.clj) - nil
 #### Collection literal (evaluates each element)
 - [Vector] - [1 2 3]
 - [Quoted list] - '(1 2 3) must be quoted to be treated as a literal list 
