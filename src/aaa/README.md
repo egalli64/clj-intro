@@ -7,16 +7,17 @@ Tested on Java 21, Clojure 1.12
 
 ### 1. Literals - fixed values that evaluate to themselves
 - [Number](literal_number.clj) - integer, bigint, rational, floating point, bigdec
-- [String](literal_string.clj) - "hello"
+- [String](literal_string.clj) - (actually, a seqable) "hello"
 - [Character](literal_character.clj) - \a \space
 - [Keyword](literal_keyword.clj) - :name
 - [Boolean](literal_boolean.clj) - true, false
 - [Nil](literal_nil.clj) - nil
 #### Collection literals (evaluates each element)
-- [Vector] - [1 2 3]
+- [Vector](lit_coll_vector.clj) - [1 2 3]
 - [Quoted list] - '(1 2 3) must be quoted to be treated as a literal list 
 - [Map] - {:a 1, :b 2, :c 3}
 - [Set] - {:a :b :c}
+- [Queue] - #queue [1 2 3]
 ### 2. Symbols - name referring to a value (resolution depends on context)
 - [Global resolution (def)] - (def x 42)
 - [Local resolution (let)] - (let [x 42] ...)
