@@ -8,7 +8,7 @@ Tested on Java 21, Clojure 1.12
 ### 1. Literals - fixed values that evaluate to themselves
 - [Number](literal_number.clj) - integer, bigint, rational, floating point, bigdec
 - [String](literal_string.clj) - "hello"
-- [Character] - \a \space
+- [Character](literal_character.clj) - \a \space
 - [Keyword](literal_keyword.clj) - :name
 - [Boolean](literal_boolean.clj) - true, false
 - [Nil](literal_nil.clj) - nil
