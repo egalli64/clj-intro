@@ -41,3 +41,4 @@ Tested on Java 21, Clojure 1.12
 - [Series](series.clj) and [its test](series_test.clj)
 - [Grade School](grade_school.clj) and [its test](grade_school.clj)
 - [Pangram](pangram.clj) and [its test](pangram_test.clj)
+- [Square Root](square_root.clj) and [its test](square_root_test.clj)
