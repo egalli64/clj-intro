@@ -14,7 +14,7 @@ Tested on Java 21, Clojure 1.12
 - [Nil](literal_nil.clj) - nil
 #### Collection literals (evaluates each element)
 - [Vector](lit_coll_vector.clj) - [1 2 3]
-- [Quoted list] - '(1 2 3) must be quoted to be treated as a literal list 
+- [Quoted list](lit_coll_list.clj) - '(1 2 3) must be quoted to be treated as a literal list 
 - [Map] - {:a 1, :b 2, :c 3}
 - [Set] - {:a :b :c}
 - [Queue] - #queue [1 2 3]
