@@ -201,8 +201,9 @@ Tested on Java 21, Clojure 1.12
 
 ### Application functions
 - [juxt] - apply multiple functions to same arguments
-- [complement]
-- [update] - update values in a map/vector
+- [complement] - transform a function to return its logical opposite
+- [update] - apply a function to transform values in a map/vector
+- [constantly] - create a function that ignores its arguments and always returns the same value
 
 ### Sequence generation
 - [range] - generate a sequence of numbers
@@ -241,6 +242,8 @@ Tested on Java 21, Clojure 1.12
 
 ### Value state predicates
 - [some?] - is the argument not nil?
+- [not-every?] - not all items satisfy the predicate
+- [any? not-any?] - always true / no items satisfy the predicate
 - [true?] - is argument true?
 - [false?] - is argument false?
 
