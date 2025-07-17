@@ -16,7 +16,7 @@ Tested on Java 21, Clojure 1.12
 - [Vector](lit_coll_vector.clj) - [1 2 3]
 - [Quoted list](lit_coll_list.clj) - '(1 2 3) must be quoted to be treated as a literal list 
 - [Map] - {:a 1, :b 2, :c 3}
-- [Set] - {:a :b :c}
+- [Set] - #{:a :b :c}
 - [Queue] - #queue [1 2 3]
 ### 2. Symbols - name referring to a value (resolution depends on context)
 - [Global resolution (def)] - (def x 42)
@@ -217,8 +217,10 @@ Tested on Java 21, Clojure 1.12
 - [bounded-count] - counts up to a limit without realizing the entire sequence
 
 ### Select elements from a collection
+- [remove] - remove elements not satisfying a predicate
+- [distinct] - remove duplicate elements while preserving order
+- [dedupe] - remove consecutive duplicates only
 - [filter-kv] - filter for map
-- [remove] - elements not satisfying a predicate
 - [take-while] - take while predicate is true
 - [take-last] - last n elements
 - [drop-while] - drop while predicate is true
