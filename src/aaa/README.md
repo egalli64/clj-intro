@@ -15,7 +15,7 @@ Tested on Java 21, Clojure 1.12
 #### Collection literals (evaluates each element)
 - [Vector](lit_coll_vector.clj) - [1 2 3]
 - [Quoted list](lit_coll_list.clj) - '(1 2 3) must be quoted to be treated as a literal list 
-- [Map] - {:a 1, :b 2, :c 3}
+- [Map](lit_coll_map.clj) - {:a 1, :b 2, :c 3}
 - [Set] - #{:a :b :c}
 - [Queue] - #queue [1 2 3]
 ### 2. Symbols - name referring to a value (resolution depends on context)
@@ -78,7 +78,7 @@ Tested on Java 21, Clojure 1.12
 
 ## Essential functions
 
-### Constructors
+### Constructors for collections
 - [list] - singly linked list
 - [vector] - indexed sequence (based on trie ADT)
 - [hash-set] - hashtable (Hash Array Mapped Trie) backed set
