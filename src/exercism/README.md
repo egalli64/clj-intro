@@ -44,3 +44,4 @@ Tested on Java 21, Clojure 1.12
 - [Square Root](square_root.clj) and [its test](square_root_test.clj)
 - [Nucleotide Count](nucleotide_count.clj) and [its test](nucleotide_count_test.clj)
 - [Scrabble Score](scrabble_score.clj) and [its test](scrabble_score_test.clj)
+- [Isogram](isogram.clj) and [its test](isogram_test.clj)
