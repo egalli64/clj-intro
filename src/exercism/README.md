@@ -45,3 +45,4 @@ Tested on Java 21, Clojure 1.12
 - [Nucleotide Count](nucleotide_count.clj) and [its test](nucleotide_count_test.clj)
 - [Scrabble Score](scrabble_score.clj) and [its test](scrabble_score_test.clj)
 - [Isogram](isogram.clj) and [its test](isogram_test.clj)
+- [Sum of Multiples](sum_of_multiples.clj) and [its test](sum_of_multiples_test.clj)
