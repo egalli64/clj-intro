@@ -30,7 +30,7 @@ Tested on Java 21, Clojure 1.12
 - Example (see below for more details): (when condition 1) is expanded to (if condition (do 1))
 ### 4. Reader-level elements (handled by the reader, not form)
 - [; comment] - ignored by the reader
-- [#_ comment reader macro] - discard the next form
+- [#_ 'discard' reader macro] - comment out the next form
 - [' quote ` quasi-quote ~ unquote ~@ unquote-splice] — quote and unquote forms
 - [Regular expressions] - (#"pattern")
 - [Anonymous functions] - ex: (#(+ %1 %2)) - see fn for comparison
@@ -116,6 +116,10 @@ Tested on Java 21, Clojure 1.12
 - [upper-case lower-case] - change case
 - [includes?] - check for substring presence
 - [replace] - replace substrings
+
+### The clojure.set namespace
+- [union intersection difference] - fundamental set operations
+- [subset? superset?] - check relation between sets
 
 ### Advanced Arithmetic
 - [*' +'] - auto-promoting arithmetic (overflow-safe)
