@@ -16,7 +16,7 @@ Tested on Java 21, Clojure 1.12
 - [Vector](lit_coll_vector.clj) - [1 2 3]
 - [Quoted list](lit_coll_list.clj) - '(1 2 3) must be quoted to be treated as a literal list 
 - [Map](lit_coll_map.clj) - {:a 1, :b 2, :c 3}
-- [Set] - #{:a :b :c}
+- [Set](lit_coll_set.clj) - #{:a :b :c}
 - [Queue] - #queue [1 2 3]
 ### 2. Symbols - name referring to a value (resolution depends on context)
 - [Global resolution (def)] - (def x 42)
