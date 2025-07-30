@@ -48,3 +48,4 @@ Tested on Java 21, Clojure 1.12
 - [Sum of Multiples](sum_of_multiples.clj) and [its test](sum_of_multiples_test.clj)
 - [Pascal's Triangle](pascals_triangle.clj) and [its test](pascals_triangle_test.clj)
 - [Armstrong Numbers](armstrong_numbers.clj) and [its test](armstrong_numbers_test.clj)
+- [Proverb](proverb.clj) and [its test](proverb_test.clj)
