@@ -110,7 +110,7 @@ Tested on Java 21, Clojure 1.12
 
 ### The clojure.string namespace
 - [trim] - remove whitespace from both ends
-- [split] - split a string into substrings
+- [split](split.clj) - split a string into substrings
 - [join] - join collection into a string
 - [upper-case lower-case] - change case
 - [includes?] - check for substring presence
