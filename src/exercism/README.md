@@ -49,3 +49,4 @@ Tested on Java 21, Clojure 1.12
 - [Pascal's Triangle](pascals_triangle.clj) and [its test](pascals_triangle_test.clj)
 - [Armstrong Numbers](armstrong_numbers.clj) and [its test](armstrong_numbers_test.clj)
 - [Proverb](proverb.clj) and [its test](proverb_test.clj)
+- [Acronym](acronym.clj) and [its test](acronym_test.clj)
