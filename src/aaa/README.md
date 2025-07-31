@@ -18,7 +18,7 @@ Tested on Java 21, Clojure 1.12
 - [Map](lit_coll_map.clj) - {:a 1, :b 2, :c 3}
 - [Set](lit_coll_set.clj) - #{:a :b :c}
 ### 2. Symbols - name referring to a value (resolution depends on context)
-- [Global resolution (def)] - (def x 42)
+- [Global resolution](def.clj) - (def x 42)
 - [Local resolution (let)] - (let [x 42] ...)
 ### 3. List forms - code to be evaluated, enclosed in parentheses
 #### a. "Normal" forms - function call, ex: (+ 1 2)  
