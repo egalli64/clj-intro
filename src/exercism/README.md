@@ -50,3 +50,4 @@ Tested on Java 21, Clojure 1.12
 - [Armstrong Numbers](armstrong_numbers.clj) and [its test](armstrong_numbers_test.clj)
 - [Proverb](proverb.clj) and [its test](proverb_test.clj)
 - [Acronym](acronym.clj) and [its test](acronym_test.clj)
+- [Protein Translation](protein_translation.clj) and [its test](protein_translation_test.clj)
