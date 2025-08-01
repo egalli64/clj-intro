@@ -136,7 +136,7 @@ Tested on Java 21, Clojure 1.12
 ### Sequence Transformation & Combination
 - [concat](concat.clj) - join sequences
 - [interleave] - interleave elements from multiple sequences
-- [partition] - break sequence into parts
+- [partition partition-all] - break sequence into parts
 - [mapcat] - map a function and concatenate results
 - [keep] - non-nil results of applying a function to elements
 - [take] - first n elements
