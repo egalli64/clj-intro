@@ -135,6 +135,7 @@ Tested on Java 21, Clojure 1.12
 
 ### Sequence Transformation & Combination
 - [concat](concat.clj) - join sequences
+- [flatten](flatten.clj) - recursively flatten nested sequences into a single sequence
 - [interleave] - interleave elements from multiple sequences
 - [partition partition-all] - break sequence into parts
 - [mapcat] - map a function and concatenate results
