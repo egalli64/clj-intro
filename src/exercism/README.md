@@ -52,3 +52,4 @@ Tested on Java 21, Clojure 1.12
 - [Acronym](acronym.clj) and [its test](acronym_test.clj)
 - [Protein Translation](protein_translation.clj) and [its test](protein_translation_test.clj)
 - [Matrix](matrix.clj) and [its test](matrix_test.clj)
+- [Flatten Array](flatten_array.clj) and [its test](flatten_array_test.clj)
