@@ -219,17 +219,17 @@ Tested on Java 21, Clojure 1.12
 - [frequencies] - count occurrences in a collection
 - [bounded-count] - counts up to a limit without realizing the entire sequence
 
-### Select elements from a collection
-- [remove] - remove elements not satisfying a predicate
+### Select elements from a seqable
+- [remove](remove.clj) - remove elements not satisfying a predicate
 - [distinct] - remove duplicate elements while preserving order
 - [dedupe] - remove consecutive duplicates only
 - [filter-kv] - filter for map
 - [take-while] - take while predicate is true
-- [take-last] - last n elements
+- [take-last] - last n elements (force traversal!)
 - [drop-while] - drop while predicate is true
-- [drop-last] - all but last n elements
+- [drop-last] - all but last n elements (force traversal!)
 - [butlast] - all but the last element
-- [next] - all but the first element (or nil)
+- [next] - all but the first seq element (or nil)
 
 ### Concurrency & References
 - [deref] - dereference an IRef (atom, ref, agent, promise) to get its current value
