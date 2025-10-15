@@ -1,5 +1,5 @@
 # clj-intro - Introduction to Clojure
-Tested on Java 21, Clojure 1.12
+Tested on Java 25, Clojure 1.12
 
 # Getting Clojure
 Russ Olsen (2018) The Pragmatic Programmer

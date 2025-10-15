@@ -1,6 +1,6 @@
 # clj-intro - Introduction to Clojure
 
-Tested on Java 21, Clojure 1.12
+Tested on Java 25, Clojure 1.12
 
 # [Exercism Clojure Track](https://exercism.org/tracks/clojure)
 
