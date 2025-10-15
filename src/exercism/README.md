@@ -53,3 +53,4 @@ Tested on Java 25, Clojure 1.12
 - [Protein Translation](protein_translation.clj) and [its test](protein_translation_test.clj)
 - [Matrix](matrix.clj) and [its test](matrix_test.clj)
 - [Flatten Array](flatten_array.clj) and [its test](flatten_array_test.clj)
+- [Perfect Numbers](perfect_numbers.clj) and [its test](perfect_numbers_test.clj)
