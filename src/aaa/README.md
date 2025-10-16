@@ -59,6 +59,11 @@ Tested on Java 25, Clojure 1.12
 - [subs] - extract a substring by index range
 - [format] - generate a string (by formatting)
 
+### Parse a string
+- [parse-long parse-double parse-boolean parse-uuid] - Safe, return nil on failure 
+#### Coerce numeric values between types
+- [int long float double bigint bigdec] - Unsafe, could throw an exception
+
 ### Arithmetic
 - [+ - * / quot](arithmetic.clj) - basic operations
 - [inc dec] - increase, decrease a value by 1
