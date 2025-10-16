@@ -54,3 +54,4 @@ Tested on Java 25, Clojure 1.12
 - [Matrix](matrix.clj) and [its test](matrix_test.clj)
 - [Flatten Array](flatten_array.clj) and [its test](flatten_array_test.clj)
 - [Perfect Numbers](perfect_numbers.clj) and [its test](perfect_numbers_test.clj)
+- [Gigasecond](gigasecond.clj) and [its test](gigasecond_test.clj)
