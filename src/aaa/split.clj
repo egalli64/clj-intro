@@ -5,12 +5,17 @@
 
 ;; defined in the clojure.string namespace
 (require '[clojure.string :as str])
+(import java.time.LocalDate)
 
 ;; split on a space
 (= (str/split "a b c" #" ") ["a" "b" "c"])
 
 ;; split on spaces
 (= (str/split "a  b\t\n c" #"\s+") ["a" "b" "c"])
+
+(let [today (str (LocalDate/now))]
+  ;; split a date, in the format "YYYY-MM-DD", on '-'
+  (println today "->" (str/split today #"-")))
 
 ;; split to single char strings
 (= (str/split "abc" #"") ["a" "b" "c"])
