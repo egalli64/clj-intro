@@ -55,3 +55,4 @@ Tested on Java 25, Clojure 1.12
 - [Flatten Array](flatten_array.clj) and [its test](flatten_array_test.clj)
 - [Perfect Numbers](perfect_numbers.clj) and [its test](perfect_numbers_test.clj)
 - [Gigasecond](gigasecond.clj) and [its test](gigasecond_test.clj)
+- [Largest Series Product](largest_series_product.clj) and [its test](largest_series_product_test.clj)
