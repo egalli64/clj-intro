@@ -46,8 +46,8 @@ Tested on Java 25, Clojure 1.12
 ## Basic macros
 - [defn](defn.clj) - combine def and fn
 - [when] - combine if and do
+- [cond](cond.clj) - multi-branch "if-else if" logic
 - [-> ->>] - threading macros for clean data transformations
-- [cond]
 
 ## Basic functions
 
