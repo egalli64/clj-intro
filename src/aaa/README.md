@@ -113,17 +113,24 @@ Tested on Java 25, Clojure 1.12
 - [empty?](empty.clj) - is empty?
 - [not-empty] - is a collection not empty?
 
-### The clojure.string namespace
-- [trim] - remove whitespace from both ends
-- [split](split.clj) - split a string into substrings
-- [join] - join collection into a string
-- [upper-case lower-case] - change case
-- [includes?] - check for substring presence
-- [replace] - replace substrings
-
 ### The clojure.set namespace
 - [union intersection difference] - fundamental set operations
 - [subset? superset?] - check relation between sets
+
+### Regular expressions 
+- [re-find] - find the first occurrence of the pattern in the string
+- [re-matches] - match the entire string against the pattern 
+- [re-seq] - find all the matches in a lazy seq
+- [re-pattern] - compile a string in a pattern
+- [re-matcher + re-groups] - low level matching
+
+### The clojure.string namespace
+- [trim] - remove whitespace from both ends (w/ regex)
+- [split](split.clj) - split a string into substrings (w/ regex)
+- [join] - join collection into a string
+- [upper-case lower-case] - change case
+- [includes?] - check for substring presence
+- [replace] - replace substrings (w/ regex)
 
 ### Advanced Arithmetic
 - [*' +'] - auto-promoting arithmetic (overflow-safe)
