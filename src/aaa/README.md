@@ -89,6 +89,17 @@ Tested on Java 25, Clojure 1.12
 - [hash-map] - HAMT-backed map
 - [into](into.clj) - create a new collection with all items from the passed ones
 
+### Map-related functions
+- [get] – retrieve value by key
+- [assoc](assoc-map.clj) - upsert entry in a map 
+- [dissoc] – remove one or more keys
+- [contains?] – check if key is present
+- [keys] – get the seq of all keys
+- [vals] – get the seq of all values
+- [merge] – combine maps (later entries overwrite earlier ones)
+- [select-keys] – filter by a seq of keys
+- [update] – transform a value at a key
+
 ### Transformers
 - [map](map.clj) - transform items in a collection
 - [filter](filter.clj) - elements satisfying a predicate
@@ -98,14 +109,12 @@ Tested on Java 25, Clojure 1.12
 - [first] - the first element
 - [rest] - all but the first element (or empty seq)
 - [nth] - the element at index
-- [get] - value by key/index
+- [get] - retrieve value by index (or key, in case of map)
 
 ### Modifiers
 - [cons](cons.clj) - construct: prepend to a seq
 - [conj](conj.clj) - conjunct: add to collection in a natural way
-- [assoc on map](assoc-map.clj) - upsert entry in a map
 - [assoc on vector](assoc-vector.clj) - upsert item in a vector
-- [dissoc on map] - remove keys from a map
 
 ### Inspectors
 - [seq](seq.clj) - view a collection as a seq (nil if empty)
@@ -158,7 +167,7 @@ Tested on Java 25, Clojure 1.12
 ### Predicates
 - [some] - the first truthy result of applying predicate to collection
 - [every?] - is a predicate true for all items in a collection?
-- [contains?] - does collection contain key/value?
+- [contains?] - check if an item is in a set (or the index is valid in a vector)
 - [coll?] - is a collection?
 - [nil?] - is the argument nil?
 - [zero?] - is number equals zero?
@@ -218,7 +227,7 @@ Tested on Java 25, Clojure 1.12
 ### Application functions
 - [juxt] - apply multiple functions to same arguments
 - [complement] - transform a function to return its logical opposite
-- [update] - apply a function to transform values in a map/vector
+- [update] - apply a function to transform values in a vector (or a map)
 - [constantly] - create a function that ignores its arguments and always returns the same value
 
 ### Sequence generation
