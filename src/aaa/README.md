@@ -89,17 +89,6 @@ Tested on Java 25, Clojure 1.12
 - [hash-map] - HAMT-backed map
 - [into](into.clj) - create a new collection with all items from the passed ones
 
-### Map-related functions
-- [get] – retrieve value by key
-- [assoc](assoc-map.clj) - upsert entry in a map 
-- [dissoc] – remove one or more keys
-- [contains?] – check if key is present
-- [keys] – get the seq of all keys
-- [vals] – get the seq of all values
-- [merge] – combine maps (later entries overwrite earlier ones)
-- [select-keys] – filter by a seq of keys
-- [update] – transform a value at a key
-
 ### Transformers
 - [map](map.clj) - transform items in a collection
 - [filter](filter.clj) - elements satisfying a predicate
@@ -109,7 +98,7 @@ Tested on Java 25, Clojure 1.12
 - [first] - the first element
 - [rest] - all but the first element (or empty seq)
 - [nth] - the element at index
-- [get] - retrieve value by index (or key, in case of map)
+- [get](get.clj) - retrieve value by index (on vector and string) / by key (on map and set)
 
 ### Modifiers
 - [cons](cons.clj) - construct: prepend to a seq
@@ -121,6 +110,16 @@ Tested on Java 25, Clojure 1.12
 - [count](count.clj) - number of items
 - [empty?](empty.clj) - is empty?
 - [not-empty] - is a collection not empty?
+
+### Map-related functions
+- [assoc](assoc-map.clj) - upsert entry in a map
+- [dissoc] – remove one or more keys
+- [contains?] – check if key is present
+- [keys] – get the seq of all keys
+- [vals] – get the seq of all values
+- [merge] – combine maps (later entries overwrite earlier ones)
+- [select-keys] – filter by a seq of keys
+- [update] – transform a value at a key
 
 ### The clojure.set namespace
 - [union intersection difference] - fundamental set operations
