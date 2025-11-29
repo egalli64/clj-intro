@@ -57,7 +57,7 @@ Tested on Java 25, Clojure 1.12
 ### String
 - [str](str.clj) - generate a string (by concatenation)
 - [subs] - extract a substring by index range
-- [format] - generate a string (by formatting)
+- [format](format.clj) - generate a string (by formatting)
 
 ### Parse a string
 - [parse-long parse-double parse-boolean parse-uuid] - Safe, return nil on failure 
