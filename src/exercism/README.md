@@ -59,3 +59,4 @@ Tested on Java 25, Clojure 1.12
 - [Sublist](sublist.clj) and [its test](sublist_test.clj)
 - [Bob](bob.clj) and [its test](bob_test.clj)
 - [Beer Song](beer_song.clj) and [its test](beer_song_test.clj)
+- [Clock](clock.clj) and [its test](clock_test.clj)
