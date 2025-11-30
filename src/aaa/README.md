@@ -37,7 +37,7 @@ Tested on Java 25, Clojure 1.12
 
 ## Basic special forms
 - [def](def.clj) - bind symbol to value
-- [fn #()](fn.clj) - create a function
+- [fn #()](fn.clj) - create a function (returns a function object)
 - [let](let.clj) - local binding and scope
 - [if](if.clj) - yield conditionally a value
 - [quote](quote.clj) - yield the following form "as is", without evaluating it
@@ -115,11 +115,13 @@ Tested on Java 25, Clojure 1.12
 - [assoc](assoc-map.clj) - upsert entry in a map
 - [dissoc] – remove one or more keys
 - [contains?] – check if key is present
+- [find] - retrieve map entry by key, or nil
 - [keys] – get the seq of all keys
 - [vals] – get the seq of all values
 - [merge] – combine maps (later entries overwrite earlier ones)
 - [select-keys] – filter by a seq of keys
 - [update] – transform a value at a key
+- [reduce-kv] - reduce a map by applying function to accumulator, key, and value
 
 ### The clojure.set namespace
 - [union intersection difference] - fundamental set operations
@@ -145,6 +147,7 @@ Tested on Java 25, Clojure 1.12
 - [rand rand-int] - random numbers
 - [ratio? rational? integer? decimal?] - numeric type checking
 - [numerator denominator] - for working with ratios
+- [rationalize] - converts floating-point number to a ratio
 
 ### Bitwise Operations
 - [bit-and bit-or bit-xor bit-not] - core operations
@@ -160,6 +163,8 @@ Tested on Java 25, Clojure 1.12
 - [partition partition-all] - break sequence into parts
 - [mapcat] - map a function and concatenate results
 - [keep] - non-nil results of applying a function to elements
+- [map-indexed] - apply function to index and element (f index element)
+- [keep-indexed] - apply function to index and element, returning non-nil/false results
 - [take] - first n elements
 - [drop] - all but first n elements
 
@@ -261,6 +266,7 @@ Tested on Java 25, Clojure 1.12
 - [agent] - create an agent for asynchronous, isolated state changes
 - [future] - create a future for asynchronous computation
 - [promise] - create a promise for a value that will be delivered later
+- [send] - send an action to an agent for isolated, asynchronous update
 
 ### Type inspection
 - [type] - type of the object
