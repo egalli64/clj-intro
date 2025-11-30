@@ -3,7 +3,7 @@
 ;;
 ;; Exercism Clojure Track https://exercism.org/tracks/clojure
 ;;
-;; Clock: https://exercism.org/tracks/clojure/clock/beer-song/
+;; Clock: https://exercism.org/tracks/clojure/exercises/clock/
 (ns exercism.clock)
 
 (def DAY_MINUTES (* 24 60))
