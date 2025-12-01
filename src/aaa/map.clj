@@ -5,7 +5,8 @@
 ;; generate a lazy seq applying a function to each item in the collection
 (map #(+ % 1) [1 2 3 4])                                    ; (2 3 4 5)
 
-(map clojure.string/capitalize ["bob" "tom"])               ; ("Bob" "Tom")
+(require '[clojure.string :as str])
+(map str/capitalize ["bob" "tom"])               ; ("Bob" "Tom")
 
 ;; map more collections
 (map + [1 2 3] [4 5 6])                                     ; (5 7 9)
