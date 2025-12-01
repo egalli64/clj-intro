@@ -5,13 +5,12 @@
 ;; It's the Java String
 (type "Hello")
 
-;; However it can be seen as a seq
+;; However, a string is a Seqable
+(seqable? "Hello?")
+;; meaning, it can be seen as a seq
 (seq "Hello")
 ;; Specifically, a StringSeq
 (type (seq "Hello"))
-;; A string is a Seqable
-(seqable? "Hello?")
-
 ;; So, for instance, we can call the function first() on a string
 (first "Hello")
 
@@ -32,6 +31,7 @@
 
 ;;
 ;; See the clojure.string namespace for many commonly used string functions
+(require '[clojure.string :as str])
 
-(clojure.string/upper-case "Hello")
-(clojure.string/lower-case "Hello")
+(str/upper-case "Hello")
+(str/lower-case "Hello")
