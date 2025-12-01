@@ -61,3 +61,4 @@ Tested on Java 25, Clojure 1.12
 - [Beer Song](beer_song.clj) and [its test](beer_song_test.clj)
 - [Clock](clock.clj) and [its test](clock_test.clj)
 - [Secret Handshake](secret_handshake.clj) and [its test](secret_handshake_test.clj)
+- [Rotational Cipher](rotational_cipher.clj) and [its test](rotational_cipher_test.clj)
