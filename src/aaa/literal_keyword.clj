@@ -23,6 +23,7 @@
 ;; special syntax to put a keyword in the current namespace
 (println ::id)
 
-;; assuming we are in the :user namespace
-(let [id-1 ::id, id-2 :user/id]
-  (identical? id-1 id-2))
+(if (= (ns-name *ns*) 'user)
+  ;; here the keyword namespace is the Clojure namespace
+  (let [id-1 ::id, id-2 :user/id] (identical? id-1 id-2))
+  (println "I expected you were in the user namespace"))
