@@ -14,9 +14,10 @@ Tested on Java 25, Clojure 1.12
     - [Rational](literal_rational.clj) - ratio
 - [String](literal_string.clj) - (actually, a seqable) "hello"
 - [Character](literal_character.clj) - \a \space
-- [Keyword](literal_keyword.clj) - :name
 - [Boolean](literal_boolean.clj) - true, false
 - [Nil](literal_nil.clj) - nil
+- [Symbol] - a literal name/identifier, like 'user
+- [Keyword](literal_keyword.clj) - :name
 
 #### Collection literals (evaluates each element)
 
