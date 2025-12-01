@@ -9,9 +9,9 @@ Tested on Java 25, Clojure 1.12
 ### 1. Literals - fixed values that evaluate to themselves
 
 - Numbers
-  - [Integer](literal_integer.clj) - integer, bigint, radix notation (2r<binary-digits>)
-  - [Real numbers](literal_real.clj) - floating point, bigdec
-  - [Rational](literal_rational.clj) - ratio
+    - [Integer](literal_integer.clj) - integer, bigint, radix notation (2r<binary-digits>)
+    - [Real numbers](literal_real.clj) - floating point, bigdec
+    - [Rational](literal_rational.clj) - ratio
 - [String](literal_string.clj) - (actually, a seqable) "hello"
 - [Character](literal_character.clj) - \a \space
 - [Keyword](literal_keyword.clj) - :name
@@ -68,6 +68,13 @@ Tested on Java 25, Clojure 1.12
 - [when] - combine if and do
 - [cond](cond.clj) - multi-branch "if-else if" logic
 - [-> ->>] - threading macros for clean data transformations
+
+## Namespace Management
+
+- [require] - load and link to other namespaces
+- [use] - load and map public vars from another namespace (discouraged)
+- [in-ns] - set the current namespace (often used in REPL)
+- [the macro ns] - idiomatic way to declare a namespace at the top of a file
 
 ## Basic functions
 
