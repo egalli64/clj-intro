@@ -16,7 +16,7 @@ Tested on Java 25, Clojure 1.12
 - [Character](literal_character.clj) - \a \space
 - [Boolean](literal_boolean.clj) - true, false
 - [Nil](literal_nil.clj) - nil
-- [Symbol] - a literal name/identifier, like 'user
+- [Symbol](literal_symbol.clj) - a literal name/identifier, like 'user
 - [Keyword](literal_keyword.clj) - :name
 
 #### Collection literals (evaluates each element)
