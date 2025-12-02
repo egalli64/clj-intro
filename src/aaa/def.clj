@@ -1,12 +1,13 @@
 ;; clj-intro - Introduction to Clojure
 ;; https://github.com/egalli64/clj-intro
 ;; (def symbol value)
+;; place a symbol in the current namespace
 
-;; define an unbound var in the current namespace
+;; define an unbound var - if it is already defined, nothing really happens
 (def x)
 (println x)
 
-;; the var y is bound to the value 42
+;; the var y is bound to the value 42 in the current namespace
 (def y 42)
 (println y)
 

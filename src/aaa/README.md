@@ -16,7 +16,7 @@ Tested on Java 25, Clojure 1.12
 - [Character](literal_character.clj) - \a \space
 - [Boolean](literal_boolean.clj) - true, false
 - [Nil](literal_nil.clj) - nil
-- [Symbol](literal_symbol.clj) - a literal name/identifier, like 'user
+- [Symbol](literal_symbol.clj) - a literal name/identifier referring to a value, 'x
 - [Keyword](literal_keyword.clj) - :name
 
 #### Collection literals (evaluates each element)
@@ -26,7 +26,7 @@ Tested on Java 25, Clojure 1.12
 - [Map](lit_coll_map.clj) - {:a 1, :b 2, :c 3}
 - [Set](lit_coll_set.clj) - #{:a :b :c}
 
-### 2. Symbols - name referring to a value (resolution depends on context)
+### 2. Placing symbols in a scope - name referring to a value
 
 - [Global resolution](def.clj) - (def x 42)
 - [Local resolution](let.clj) - (let [x 42] ...)
