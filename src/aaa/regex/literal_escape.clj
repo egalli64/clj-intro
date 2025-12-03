@@ -5,30 +5,24 @@
 
 # \. \*
 (let [pattern #"a\.b\*"]
-  (println (type pattern))
   (re-find pattern "a.b*"))
 
 # \+ \?
 (let [pattern #"a\+b\?"]
-  (println (type pattern))
   (re-find pattern "a+b?"))
 
 # \^ \$
 (let [pattern #"a\^b\$"]
-  (println (type pattern))
   (re-find pattern "a^b$"))
 
 # \( \)
 (let [pattern #"a\(b\)"]
-  (println (type pattern))
   (re-find pattern "a(b)"))
 
 # \[ \]
 (let [pattern #"a\[b\]"]
-  (println (type pattern))
   (re-find pattern "a[b]"))
 
 # \{ \}
 (let [pattern #"a\{b\}"]
-  (println (type pattern))
   (re-find pattern "a{b}"))
