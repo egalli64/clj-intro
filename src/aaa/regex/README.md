@@ -15,3 +15,4 @@ Tested on Java 25, Clojure 1.12
 
 ## Grouping
 - [Capturing groups](group_capture.clj) - #"(...)"
+- [Non-capturing groups](group_non_capture.clj) - #"(?:...)"
