@@ -7,7 +7,10 @@ Tested on Java 25, Clojure 1.12
 ## Pattern literal syntax
 - [Basic syntax](literal_syntax.clj) - #"pattern"
 - [Special characters](literal_escape.clj) - Use escape on: . * + ? ^ $ \ | ( ) [ ] { }
-- [Character class](literal_set.clj) - Use square brackets: [abc]
+- [Character class](literal_set.clj) - Use square brackets: [abc], char not in the set: [^abc]
+
+## Anchors
+- [Start/end of line](anchor_line.clj) - Start ^, end $ - multiline mode (?m)
 
 ## Quantifiers
 - [Basic quantifiers](quantifiers_basic.clj) - Zero or more *, one or more +, zero or one ?
