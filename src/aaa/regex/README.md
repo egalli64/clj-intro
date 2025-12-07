@@ -5,18 +5,23 @@
 Tested on Java 25, Clojure 1.12
 
 ## Pattern literal syntax
+
 - [Basic syntax](literal_syntax.clj) - #"pattern"
 - [Special characters](literal_escape.clj) - Use escape on: . * + ? ^ $ \ | ( ) [ ] { }
 - [Character class](literal_set.clj) - Use square brackets: [abc], char not in the set: [^abc]
 
 ## Anchors
+
 - [Start/end of line](anchor_line.clj) - Start ^, end $ - multiline mode (?m)
+- [Start/end of input](anchor_input.clj) - Start \A, end \z \Z
 
 ## Quantifiers
+
 - [Basic quantifiers](quantifiers_basic.clj) - Zero or more *, one or more +, zero or one ?
 - [Interval quantifiers](quantifiers_interval.clj) - The interval is defined by brackets, like {n,m}
 
 ## Grouping
+
 - [Capturing groups](group_capture.clj) - #"(...)"
 - [Non-capturing groups](group_non_capture.clj) - #"(?:...)"
 - [Alternation operator](alternation.clj) - #"...|..."
