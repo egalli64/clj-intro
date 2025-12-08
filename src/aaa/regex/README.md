@@ -7,13 +7,14 @@ Tested on Java 25, Clojure 1.12
 ## Pattern literal syntax
 
 - [Basic syntax](literal_syntax.clj) - #"pattern"
-- [Special characters](literal_escape.clj) - Use escape on: . * + ? ^ $ \ | ( ) [ ] { }
-- [Character class](literal_set.clj) - Use square brackets: [abc], char not in the set: [^abc]
+- [Special characters](literal_escape.clj) - . * + ? ^ $ \ | ( ) [ ] { } are escaped by backslash \
+- [Character class](literal_set.clj) - [...], negated [^...]
 
 ## Anchors
 
 - [Start/end of line](anchor_line.clj) - Start ^, end $ - multiline mode (?m)
 - [Start/end of input](anchor_input.clj) - Start \A, end \z \Z
+- [Word boundary](anchor_word.clj) - \b, negated \B
 
 ## Quantifiers
 
