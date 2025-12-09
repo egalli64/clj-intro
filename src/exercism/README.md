@@ -62,3 +62,4 @@ Tested on Java 25, Clojure 1.12
 - [Clock](clock.clj) and [its test](clock_test.clj)
 - [Secret Handshake](secret_handshake.clj) and [its test](secret_handshake_test.clj)
 - [Rotational Cipher](rotational_cipher.clj) and [its test](rotational_cipher_test.clj)
+- [Prime Factors](prime_factors.clj) and [its test](prime_factors_test.clj)
